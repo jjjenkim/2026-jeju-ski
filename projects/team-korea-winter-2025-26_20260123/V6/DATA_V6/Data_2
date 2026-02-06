@@ -1,0 +1,156 @@
+import requests
+from bs4 import BeautifulSoup
+import json
+import time
+import random
+import os
+import re
+
+# =========================================================
+# ⚙️ 설정
+# =========================================================
+INPUT_FILE = "athlete_urls.txt"
+OUTPUT_JSON = "team_korea_data.json"
+
+# ✅ 1. 종목 사전 (이 단어가 있으면 종목으로 인식)
+VALID_DISCIPLINES = [
+    "Moguls", "Dual Moguls", "Dual Moguls Team", "Aerials", "Aerials Team",
+    "Ski Cross", "Ski Cross Team", "Freeski Halfpipe", "Freeski Slopestyle",
+    "Freeski Big Air", "Snowboard Cross", "Snowboard Cross Team",
+    "Giant Slalom", "Slalom", "Super G", "Downhill", "Alpine Combined",
+    "Parallel Giant Slalom", "Parallel Slalom", "Parallel Giant Slalom Team"
+]
+
+# ✅ 2. 등급 사전 (이 단어가 있으면 등급으로 인식)
+VALID_CATEGORIES = [
+    "WC", "WSC", "FIS", "NC", "EC", "YOG", "WJC", "AC", "OPN", "NAC", "SAC", "ANC", "FEC"
+]
+
+def parse_row_text(cols):
+    """5단계 필터링 로직 구현부"""
+    data = {
+        "date": "-", "place": "-", "discipline": "Unknown", 
+        "category": "-", "rank": 0
+    }
+    
+    # 해당 줄의 모든 텍스트 가져오기
+    all_texts = [col.get_text(strip=True) for col in cols]
+    if not all_texts: return None
+
+    # [Rule 1] 날짜: 첫 번째 칸 고정
+    data['date'] = all_texts[0]
+
+    # 텍스트 전수 조사
+    for text in all_texts:
+        clean_text = text.strip()
+        
+        # [Rule 2] 종목 찾기
+        for disc in VALID_DISCIPLINES:
+            if disc.lower() == clean_text.lower():
+                data['discipline'] = disc
+                break
+        
+        # [Rule 3] 등급 찾기
+        if clean_text in VALID_CATEGORIES:
+            data['category'] = clean_text
+
+    # [Rule 4] 장소 찾기 (소거법: 날짜, 종목, 등급, 순위 아닌 것 중 가장 긴 텍스트)
+    candidates = []
+    for text in all_texts:
+        t = text.strip()
+        if (t != data['date'] and 
+            t != data['discipline'] and 
+            t != data['category'] and 
+            not t.isdigit() and 
+            len(t) > 2): # 너무 짧은 잡음 제외
+            candidates.append(t)
+    
+    if candidates:
+        data['place'] = candidates[0] # 보통 앞에 나오는게 장소
+
+    # [Rule 5] 순위: 마지막 칸의 첫 번째 숫자
+    try:
+        score_box = cols[-1].find_all("div", recursive=False)
+        rank_text = score_box[0].get_text(strip=True) if score_box else "0"
+        
+        if rank_text.isdigit():
+            data['rank'] = int(rank_text)
+        else:
+            return None # 순위 없으면(DNF, DNS) 데이터에서 제외
+    except:
+        return None
+
+    return data
+
+def get_photo_url(soup):
+    """사진 URL 추출"""
+    img_div = soup.find("div", class_="avatar__image")
+    if img_div and 'style' in img_div.attrs:
+        match = re.search(r"url\('([^']+)'\)", img_div['style'])
+        if match: return match.group(1)
+    return "https://via.placeholder.com/150?text=No+Image"
+
+def main():
+    if not os.path.exists(INPUT_FILE):
+        print(f"🚨 파일 없음: {INPUT_FILE}")
+        return
+
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
+        urls = [line.strip() for line in f if line.strip()]
+
+    print(f"🔥 데이터 정밀 추출 시작 (대상: {len(urls)}명)")
+    extracted_data = []
+    
+    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+
+    for idx, url in enumerate(urls):
+        print(f"[{idx+1}/{len(urls)}] 처리 중... {url}")
+        try:
+            response = requests.get(url, headers=headers, timeout=10)
+            if response.status_code != 200: continue
+
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            # 프로필
+            name = soup.find("h1", class_="athlete-profile__name").get_text(" ", strip=True)
+            country_tag = soup.select_one(".athlete-profile__country .country__name")
+            country = country_tag.get_text(strip=True) if country_tag else "-"
+            photo = get_photo_url(soup)
+
+            # 기록 추출 (필터링 적용)
+            records = []
+            rows = soup.find_all("a", class_="table-row")
+            for row in rows:
+                container = row.find("div", class_="container")
+                if not container: continue
+                
+                cols = container.find_all("div", recursive=False)
+                row_data = parse_row_text(cols) # 위에서 정의한 5단계 필터 함수 사용
+                
+                if row_data:
+                    records.append(row_data)
+            
+            records.reverse() # 과거 -> 현재 순 정렬
+
+            extracted_data.append({
+                "id": idx,
+                "name": name,
+                "country": country,
+                "photo": photo,
+                "records": records
+            })
+            
+            time.sleep(random.uniform(0.1, 0.3))
+
+        except Exception as e:
+            print(f"❌ 에러: {e}")
+
+    # JSON 저장
+    with open(OUTPUT_JSON, "w", encoding="utf-8") as f:
+        json.dump(extracted_data, f, ensure_ascii=False, indent=4)
+
+    print(f"\n✅ 완료. '{OUTPUT_JSON}' 파일이 생성되었습니다.")
+
+if __name__ == "__main__":
+    main()
+    

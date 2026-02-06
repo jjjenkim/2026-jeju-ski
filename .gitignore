@@ -1,0 +1,32 @@
+# General
+.DS_Store
+.npm-cache/
+.playwright-mcp/
+.agent/
+.git/
+
+# Standard Junk Folders (Recursive)
+node_modules/
+.venv/
+venv/
+venv_translate/
+__pycache__/
+dist/
+build/
+.next/
+.cache/
+
+# Files
+*.py[cod]
+*.log
+.env
+.env.*
+!.env.example
+
+# Projects with sub-git repos (ignore the repo status but not the files? 
+# or ignore the whole thing if it's meant to be independent)
+# For now, let's just make sure node_modules are gone everywhere.
+google-cloud-sdk/
+google-cloud-sdk/
+*.tar.gz
+*.tar.gz
