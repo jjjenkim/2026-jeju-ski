@@ -1,0 +1,508 @@
+{
+  "athlete": "조완희",
+  "profile_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=188938&type=result",
+  "scraped_at": "2026-01-20T07:26:58.407948",
+  "results_count": 50,
+  "results": [
+    {
+      "date": "18-01-2026",
+      "location": "Bansko",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "22",
+      "fis_points": "90.00",
+      "cup_points": "9.00"
+    },
+    {
+      "date": "18-01-2026",
+      "location": "Bansko",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "22",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "17-01-2026",
+      "location": "Bansko",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "37",
+      "fis_points": "19.40",
+      "cup_points": ""
+    },
+    {
+      "date": "17-01-2026",
+      "location": "Bansko",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "37",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-01-2026",
+      "location": "Bad Gastein",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Slalom",
+      "rank": "46",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-01-2026",
+      "location": "Bad Gastein",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Slalom",
+      "rank": "46",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "10-01-2026",
+      "location": "Scuol",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "31",
+      "fis_points": "28.00",
+      "cup_points": ""
+    },
+    {
+      "date": "10-01-2026",
+      "location": "Scuol",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "31",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "20-12-2025",
+      "location": "Davos",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Slalom",
+      "rank": "44",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "20-12-2025",
+      "location": "Davos",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Slalom",
+      "rank": "44",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-12-2025",
+      "location": "Carezza",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "50",
+      "fis_points": "15.50",
+      "cup_points": ""
+    },
+    {
+      "date": "18-12-2025",
+      "location": "Carezza",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "50",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-12-2025",
+      "location": "Cortina d'Ampezzo",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "DNF",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-12-2025",
+      "location": "Cortina d'Ampezzo",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "DNF",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "07-12-2025",
+      "location": "Mylin",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "21",
+      "fis_points": "100.00",
+      "cup_points": "10.00"
+    },
+    {
+      "date": "07-12-2025",
+      "location": "Mylin",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "21",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "06-12-2025",
+      "location": "Mylin",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "38",
+      "fis_points": "19.10",
+      "cup_points": ""
+    },
+    {
+      "date": "06-12-2025",
+      "location": "Mylin",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "38",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "05-03-2025",
+      "location": "High1resort",
+      "nation": "",
+      "category": "Asian Cup",
+      "discipline": "Parallel Slalom",
+      "rank": "2",
+      "fis_points": "144.00",
+      "cup_points": "80.00"
+    },
+    {
+      "date": "04-03-2025",
+      "location": "High1resort",
+      "nation": "",
+      "category": "Asian Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "1",
+      "fis_points": "180.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "02-02-2025",
+      "location": "Ratschings",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Slalom",
+      "rank": "12",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "02-02-2025",
+      "location": "Ratschings",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Parallel Slalom",
+      "rank": "13",
+      "fis_points": "52.00",
+      "cup_points": "20.00"
+    },
+    {
+      "date": "01-02-2025",
+      "location": "Ratschings",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Slalom",
+      "rank": "10",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "01-02-2025",
+      "location": "Ratschings",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Parallel Slalom",
+      "rank": "7",
+      "fis_points": "104.40",
+      "cup_points": "36.00"
+    },
+    {
+      "date": "26-01-2025",
+      "location": "Simonhöhe",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "1",
+      "fis_points": "320.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "25-01-2025",
+      "location": "Rogla",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "34",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "25-01-2025",
+      "location": "Rogla",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "34",
+      "fis_points": "22.00",
+      "cup_points": ""
+    },
+    {
+      "date": "19-01-2025",
+      "location": "Bansko",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "18",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "19-01-2025",
+      "location": "Bansko",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "18",
+      "fis_points": "130.00",
+      "cup_points": "13.00"
+    },
+    {
+      "date": "18-01-2025",
+      "location": "Bansko",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "28",
+      "fis_points": "40.00",
+      "cup_points": "3.00"
+    },
+    {
+      "date": "18-01-2025",
+      "location": "Bansko",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "28",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-01-2025",
+      "location": "Bad Gastein",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Slalom",
+      "rank": "DNF",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-01-2025",
+      "location": "Bad Gastein",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Slalom",
+      "rank": "DNF",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "11-01-2025",
+      "location": "Scuol",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "26",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "11-01-2025",
+      "location": "Scuol",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "26",
+      "fis_points": "50.00",
+      "cup_points": "5.00"
+    },
+    {
+      "date": "08-12-2024",
+      "location": "Yanqing (NASC)",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Slalom",
+      "rank": "DNF",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-12-2024",
+      "location": "Yanqing (NASC)",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Slalom",
+      "rank": "DNF",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "07-12-2024",
+      "location": "Yanqing (NASC)",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "28",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "07-12-2024",
+      "location": "Yanqing (NASC)",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "28",
+      "fis_points": "40.00",
+      "cup_points": "3.00"
+    },
+    {
+      "date": "01-12-2024",
+      "location": "Mylin",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Slalom",
+      "rank": "21",
+      "fis_points": "100.00",
+      "cup_points": "10.00"
+    },
+    {
+      "date": "01-12-2024",
+      "location": "Mylin",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Slalom",
+      "rank": "21",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "30-11-2024",
+      "location": "Mylin",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "8",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "30-11-2024",
+      "location": "Mylin",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "12",
+      "fis_points": "220.00",
+      "cup_points": "22.00"
+    },
+    {
+      "date": "19-03-2024",
+      "location": "Wanglong Ski Resrort",
+      "nation": "",
+      "category": "Asian Cup",
+      "discipline": "Slalom",
+      "rank": "5",
+      "fis_points": "90.00",
+      "cup_points": "45.00"
+    },
+    {
+      "date": "18-03-2024",
+      "location": "Wanglong Ski Resrort",
+      "nation": "",
+      "category": "Asian Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "3",
+      "fis_points": "120.00",
+      "cup_points": "60.00"
+    },
+    {
+      "date": "13-03-2024",
+      "location": "Cuiyunshan Galaxy Ski Resort",
+      "nation": "",
+      "category": "Asian Cup",
+      "discipline": "Parallel Slalom",
+      "rank": "6",
+      "fis_points": "80.00",
+      "cup_points": "40.00"
+    },
+    {
+      "date": "12-03-2024",
+      "location": "Cuiyunshan Galaxy Ski Resort",
+      "nation": "",
+      "category": "Asian Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "5",
+      "fis_points": "90.00",
+      "cup_points": "45.00"
+    },
+    {
+      "date": "05-03-2024",
+      "location": "High1resort",
+      "nation": "",
+      "category": "Asian Cup",
+      "discipline": "Parallel Slalom",
+      "rank": "2",
+      "fis_points": "160.00",
+      "cup_points": "80.00"
+    },
+    {
+      "date": "04-03-2024",
+      "location": "High1resort",
+      "nation": "",
+      "category": "Asian Cup",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "1",
+      "fis_points": "240.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "02-03-2024",
+      "location": "Akan",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Parallel Giant Slalom",
+      "rank": "2",
+      "fis_points": "144.00",
+      "cup_points": ""
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "athlete": "정종원",
+  "profile_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=136287&type=result",
+  "scraped_at": "2026-01-20T07:27:39.785998",
+  "results_count": 50,
+  "results": [
+    {
+      "date": "19-01-2026",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km C",
+      "rank": "8",
+      "fis_points": "235.81",
+      "cup_points": "32"
+    },
+    {
+      "date": "04-01-2026",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "15 km F",
+      "rank": "8",
+      "fis_points": "143.90",
+      "cup_points": "32"
+    },
+    {
+      "date": "03-01-2026",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km C",
+      "rank": "9",
+      "fis_points": "148.49",
+      "cup_points": "29"
+    },
+    {
+      "date": "19-12-2025",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km F",
+      "rank": "16",
+      "fis_points": "156.90",
+      "cup_points": "15"
+    },
+    {
+      "date": "18-12-2025",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km C",
+      "rank": "15",
+      "fis_points": "158.51",
+      "cup_points": "16"
+    },
+    {
+      "date": "07-12-2025",
+      "location": "Imatra, Ukonniemi stadion",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "10 km C",
+      "rank": "69",
+      "fis_points": "197.87",
+      "cup_points": ""
+    },
+    {
+      "date": "06-12-2025",
+      "location": "Imatra, Ukonniemi stadion",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "SP 1.4 km F Final",
+      "rank": "44",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "06-12-2025",
+      "location": "Imatra, Ukonniemi stadion",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "SP 1.4 km F Qual",
+      "rank": "53",
+      "fis_points": "314.91",
+      "cup_points": ""
+    },
+    {
+      "date": "07-09-2025",
+      "location": "Schuchinsk",
+      "nation": "",
+      "category": "Roller Ski Asian Cup",
+      "discipline": "20 km C Mst",
+      "rank": "39",
+      "fis_points": "209.43",
+      "cup_points": ""
+    },
+    {
+      "date": "06-09-2025",
+      "location": "Schuchinsk",
+      "nation": "",
+      "category": "Roller Ski Asian Cup",
+      "discipline": "SP 0.2 km F Final",
+      "rank": "10",
+      "fis_points": "",
+      "cup_points": "26"
+    },
+    {
+      "date": "06-09-2025",
+      "location": "Schuchinsk",
+      "nation": "",
+      "category": "Roller Ski Sprint Qualification Asia Cup",
+      "discipline": "SP 0.2 km F Qual",
+      "rank": "9",
+      "fis_points": "",
+      "cup_points": "2"
+    },
+    {
+      "date": "05-09-2025",
+      "location": "Schuchinsk",
+      "nation": "",
+      "category": "Roller Ski Asian Cup",
+      "discipline": "10 km F",
+      "rank": "20",
+      "fis_points": "121.04",
+      "cup_points": "11"
+    },
+    {
+      "date": "04-09-2025",
+      "location": "Schuchinsk",
+      "nation": "",
+      "category": "Roller Ski Asian Cup",
+      "discipline": "SP 1.2 km C Final",
+      "rank": "45",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "04-09-2025",
+      "location": "Schuchinsk",
+      "nation": "",
+      "category": "Roller Ski Sprint Qualification Asia Cup",
+      "discipline": "SP 1.2 km C Qual",
+      "rank": "45",
+      "fis_points": "283.69",
+      "cup_points": ""
+    },
+    {
+      "date": "06-08-2025",
+      "location": "Pyeongchang",
+      "nation": "",
+      "category": "Roller Ski Asian Cup",
+      "discipline": "15 km C Mst",
+      "rank": "9",
+      "fis_points": "104.42",
+      "cup_points": "29"
+    },
+    {
+      "date": "05-08-2025",
+      "location": "Pyeongchang",
+      "nation": "",
+      "category": "Roller Ski Asian Cup",
+      "discipline": "15 km F",
+      "rank": "4",
+      "fis_points": "105.48",
+      "cup_points": "50"
+    },
+    {
+      "date": "04-08-2025",
+      "location": "Pyeongchang",
+      "nation": "",
+      "category": "Roller Ski Asian Cup",
+      "discipline": "SP 1 km C Final",
+      "rank": "9",
+      "fis_points": "",
+      "cup_points": "29"
+    },
+    {
+      "date": "04-08-2025",
+      "location": "Pyeongchang",
+      "nation": "",
+      "category": "Roller Ski Sprint Qualification Asia Cup",
+      "discipline": "SP 1 km C Qual",
+      "rank": "8",
+      "fis_points": "384.09",
+      "cup_points": "3"
+    },
+    {
+      "date": "06-07-2025",
+      "location": "Kaeng Krachan Circuit",
+      "nation": "",
+      "category": "Roller Ski Sprint Qualification Asia Cup",
+      "discipline": "SP 0.2 km F Qual",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "05-07-2025",
+      "location": "Kaeng Krachan Circuit",
+      "nation": "",
+      "category": "Roller Ski Asian Cup",
+      "discipline": "16 km C Mst",
+      "rank": "7",
+      "fis_points": "153.95",
+      "cup_points": "36"
+    },
+    {
+      "date": "04-07-2025",
+      "location": "Kaeng Krachan Circuit",
+      "nation": "",
+      "category": "Roller Ski Asian Cup",
+      "discipline": "12 km F",
+      "rank": "2",
+      "fis_points": "106.71",
+      "cup_points": "80"
+    },
+    {
+      "date": "03-07-2025",
+      "location": "Kaeng Krachan Circuit",
+      "nation": "",
+      "category": "Roller Ski Asian Cup",
+      "discipline": "SP 1.2 km C Final",
+      "rank": "7",
+      "fis_points": "",
+      "cup_points": "36"
+    },
+    {
+      "date": "03-07-2025",
+      "location": "Kaeng Krachan Circuit",
+      "nation": "",
+      "category": "Roller Ski Sprint Qualification Asia Cup",
+      "discipline": "SP 1.2 km C Qual",
+      "rank": "7",
+      "fis_points": "365.71",
+      "cup_points": "4"
+    },
+    {
+      "date": "03-03-2025",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "30 km F Mst",
+      "rank": "DNF",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "02-03-2025",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "15 km C Mst",
+      "rank": "4",
+      "fis_points": "143.15",
+      "cup_points": ""
+    },
+    {
+      "date": "12-02-2025",
+      "location": "Harbin",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Rel 4x7.5 km M",
+      "rank": "4",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "10-02-2025",
+      "location": "Harbin",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "10 km F",
+      "rank": "12",
+      "fis_points": "111.93",
+      "cup_points": ""
+    },
+    {
+      "date": "25-01-2025",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km F",
+      "rank": "2",
+      "fis_points": "139.47",
+      "cup_points": "80"
+    },
+    {
+      "date": "24-01-2025",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km C",
+      "rank": "5",
+      "fis_points": "141.74",
+      "cup_points": "45"
+    },
+    {
+      "date": "09-01-2025",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "SP 1.2 km F Final",
+      "rank": "2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "09-01-2025",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "SP 1.2 km F Qual",
+      "rank": "3",
+      "fis_points": "404.90",
+      "cup_points": ""
+    },
+    {
+      "date": "08-01-2025",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "up to 30 kilometers",
+      "rank": "2",
+      "fis_points": "101.42",
+      "cup_points": ""
+    },
+    {
+      "date": "07-01-2025",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "15 km C",
+      "rank": "3",
+      "fis_points": "99.40",
+      "cup_points": ""
+    },
+    {
+      "date": "17-12-2024",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km F",
+      "rank": "8",
+      "fis_points": "94.99",
+      "cup_points": "32"
+    },
+    {
+      "date": "16-12-2024",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km C",
+      "rank": "18",
+      "fis_points": "122.64",
+      "cup_points": "13"
+    },
+    {
+      "date": "06-12-2024",
+      "location": "Lillehammer",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "10 km F",
+      "rank": "83",
+      "fis_points": "181.20",
+      "cup_points": ""
+    },
+    {
+      "date": "24-11-2024",
+      "location": "Bruksvallarna",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "10 km F",
+      "rank": "137",
+      "fis_points": "138.58",
+      "cup_points": ""
+    },
+    {
+      "date": "23-11-2024",
+      "location": "Bruksvallarna",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "10 km C",
+      "rank": "156",
+      "fis_points": "172.25",
+      "cup_points": ""
+    },
+    {
+      "date": "15-09-2024",
+      "location": "Kijimadaira",
+      "nation": "",
+      "category": "Roller Ski",
+      "discipline": "10 km C",
+      "rank": "41",
+      "fis_points": "107.56",
+      "cup_points": ""
+    },
+    {
+      "date": "14-09-2024",
+      "location": "Kijimadaira",
+      "nation": "",
+      "category": "Roller Ski",
+      "discipline": "10 km F",
+      "rank": "14",
+      "fis_points": "94.12",
+      "cup_points": ""
+    },
+    {
+      "date": "06-08-2024",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Roller Ski",
+      "discipline": "SP 1 km C Final",
+      "rank": "3",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "06-08-2024",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Roller Ski",
+      "discipline": "SP 1 km C Qual",
+      "rank": "4",
+      "fis_points": "395.52",
+      "cup_points": ""
+    },
+    {
+      "date": "05-08-2024",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Roller Ski",
+      "discipline": "15 km C Mst",
+      "rank": "4",
+      "fis_points": "82.51",
+      "cup_points": ""
+    },
+    {
+      "date": "05-03-2024",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "30 km F Mst",
+      "rank": "5",
+      "fis_points": "134.12",
+      "cup_points": ""
+    },
+    {
+      "date": "04-03-2024",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "15 km C Mst",
+      "rank": "5",
+      "fis_points": "135.48",
+      "cup_points": ""
+    },
+    {
+      "date": "16-02-2024",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km F",
+      "rank": "5",
+      "fis_points": "110.72",
+      "cup_points": "45"
+    },
+    {
+      "date": "15-02-2024",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km C",
+      "rank": "7",
+      "fis_points": "90.64",
+      "cup_points": "36"
+    },
+    {
+      "date": "04-02-2024",
+      "location": "Shiramine",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "10 km F",
+      "rank": "14",
+      "fis_points": "85.16",
+      "cup_points": "18"
+    },
+    {
+      "date": "01-02-2024",
+      "location": "Hakuba",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "10 km C Mst",
+      "rank": "DNF",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-01-2024",
+      "location": "Alpensia Cross-Country Center",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "SP 1.2 km C Final",
+      "rank": "10",
+      "fis_points": "",
+      "cup_points": ""
+    }
+  ]
+}

@@ -1,0 +1,905 @@
+{
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=235622&type=result": {
+    "timestamp": "2026-01-23T22:12:03.656305",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=235622&type=result",
+      "fis_code": "235622",
+      "sector": "FS",
+      "name_en": "SEUNGHUN                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=239278&type=result": {
+    "timestamp": "2026-01-23T22:12:07.282542",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=239278&type=result",
+      "fis_code": "239278",
+      "sector": "FS",
+      "name_en": "Heesung                MOON",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=233691&type=result": {
+    "timestamp": "2026-01-23T22:12:10.092495",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=233691&type=result",
+      "fis_code": "233691",
+      "sector": "FS",
+      "name_en": "Yeongseop                SHIN",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=203633&type=result": {
+    "timestamp": "2026-01-23T22:12:12.837017",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=203633&type=result",
+      "fis_code": "203633",
+      "sector": "FS",
+      "name_en": "Yujin                JANG",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=235623&type=result": {
+    "timestamp": "2026-01-23T22:12:15.730888",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=235623&type=result",
+      "fis_code": "235623",
+      "sector": "FS",
+      "name_en": "Daeun                KIM",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=229480&type=result": {
+    "timestamp": "2026-01-23T22:12:18.890150",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=229480&type=result",
+      "fis_code": "229480",
+      "sector": "FS",
+      "name_en": "Daeyoon                JUNG",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=252896&type=result": {
+    "timestamp": "2026-01-23T22:12:21.624215",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=252896&type=result",
+      "fis_code": "252896",
+      "sector": "FS",
+      "name_en": "Yoonseung                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=258758&type=result": {
+    "timestamp": "2026-01-23T22:12:25.115552",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=258758&type=result",
+      "fis_code": "258758",
+      "sector": "FS",
+      "name_en": "Shin-Ee                YUN",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=163744&type=result": {
+    "timestamp": "2026-01-23T22:12:28.708668",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=163744&type=result",
+      "fis_code": "163744",
+      "sector": "SB",
+      "name_en": "Sangho                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=111837&type=result": {
+    "timestamp": "2026-01-23T22:12:32.371597",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=111837&type=result",
+      "fis_code": "111837",
+      "sector": "SB",
+      "name_en": "Sangkyum                KIM",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=188938&type=result": {
+    "timestamp": "2026-01-23T22:12:35.847044",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=188938&type=result",
+      "fis_code": "188938",
+      "sector": "SB",
+      "name_en": "Wanhee                CHO",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=220950&type=result": {
+    "timestamp": "2026-01-23T22:12:38.709321",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=220950&type=result",
+      "fis_code": "220950",
+      "sector": "SB",
+      "name_en": "Junho                MA",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=188936&type=result": {
+    "timestamp": "2026-01-23T22:12:41.569389",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=188936&type=result",
+      "fis_code": "188936",
+      "sector": "SB",
+      "name_en": "Seungyeong                HONG",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=156415&type=result": {
+    "timestamp": "2026-01-23T22:12:45.155934",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=156415&type=result",
+      "fis_code": "156415",
+      "sector": "SB",
+      "name_en": "Haerim                JEONG",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=229485&type=result": {
+    "timestamp": "2026-01-23T22:12:48.750746",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=229485&type=result",
+      "fis_code": "229485",
+      "sector": "SB",
+      "name_en": "Subeen                WOO",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=239112&type=result": {
+    "timestamp": "2026-01-23T22:12:52.317616",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=239112&type=result",
+      "fis_code": "239112",
+      "sector": "SB",
+      "name_en": "Chaeun                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261333&type=result": {
+    "timestamp": "2026-01-23T22:12:55.816476",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261333&type=result",
+      "fis_code": "261333",
+      "sector": "SB",
+      "name_en": "Jio                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261977&type=result": {
+    "timestamp": "2026-01-23T22:12:58.788223",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261977&type=result",
+      "fis_code": "261977",
+      "sector": "SB",
+      "name_en": "Geonhui                KIM",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=264594&type=result": {
+    "timestamp": "2026-01-23T22:13:02.264052",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=264594&type=result",
+      "fis_code": "264594",
+      "sector": "SB",
+      "name_en": "Gaon                CHOI",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=212759&type=result": {
+    "timestamp": "2026-01-23T22:13:05.747360",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=212759&type=result",
+      "fis_code": "212759",
+      "sector": "SB",
+      "name_en": "Nayoon                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=239111&type=result": {
+    "timestamp": "2026-01-23T22:13:09.234316",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=239111&type=result",
+      "fis_code": "239111",
+      "sector": "SB",
+      "name_en": "Dongheon                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261339&type=result": {
+    "timestamp": "2026-01-23T22:13:11.888606",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261339&type=result",
+      "fis_code": "261339",
+      "sector": "SB",
+      "name_en": "Seungeun                YU",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=10064&type=result": {
+    "timestamp": "2026-01-23T22:13:14.612986",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=10064&type=result",
+      "fis_code": "10064",
+      "sector": "JP",
+      "name_en": "Heung Chul                CHOI",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=270266&type=result": {
+    "timestamp": "2026-01-23T22:13:17.298598",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=270266&type=result",
+      "fis_code": "270266",
+      "sector": "JP",
+      "name_en": "Sunwoong                JANG",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=229479&type=result": {
+    "timestamp": "2026-01-23T22:13:20.185857",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=229479&type=result",
+      "fis_code": "229479",
+      "sector": "CC",
+      "name_en": "JOONSEO                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=188923&type=result": {
+    "timestamp": "2026-01-23T22:13:23.760668",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=188923&type=result",
+      "fis_code": "188923",
+      "sector": "CC",
+      "name_en": "JI YEONG                BYUN",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=229490&type=result": {
+    "timestamp": "2026-01-23T22:13:27.249629",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=229490&type=result",
+      "fis_code": "229490",
+      "sector": "CC",
+      "name_en": "JINBOK                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=136287&type=result": {
+    "timestamp": "2026-01-23T22:13:30.784901",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=136287&type=result",
+      "fis_code": "136287",
+      "sector": "CC",
+      "name_en": "Jongwon                JEONG",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=154934&type=result": {
+    "timestamp": "2026-01-23T22:13:34.345060",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=154934&type=result",
+      "fis_code": "154934",
+      "sector": "CC",
+      "name_en": "GEONYONG                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=221223&type=result": {
+    "timestamp": "2026-01-23T22:13:37.097130",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=221223&type=result",
+      "fis_code": "221223",
+      "sector": "CC",
+      "name_en": "Eui Jin                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=162284&type=result": {
+    "timestamp": "2026-01-23T22:13:39.845765",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=162284&type=result",
+      "fis_code": "162284",
+      "sector": "CC",
+      "name_en": "Dasom                HAN",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=212563&type=result": {
+    "timestamp": "2026-01-23T22:13:43.402263",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=212563&type=result",
+      "fis_code": "212563",
+      "sector": "CC",
+      "name_en": "JI YE                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=195562&type=result": {
+    "timestamp": "2026-01-23T22:13:46.993825",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=195562&type=result",
+      "fis_code": "195562",
+      "sector": "CC",
+      "name_en": "Sangmi                JE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=93945&type=result": {
+    "timestamp": "2026-01-23T22:13:50.701868",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=93945&type=result",
+      "fis_code": "93945",
+      "sector": "AL",
+      "name_en": "Donghyun                JUNG",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154866&type=result": {
+    "timestamp": "2026-01-23T22:13:54.335934",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154866&type=result",
+      "fis_code": "154866",
+      "sector": "AL",
+      "name_en": "Jeyun                PARK",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163737&type=result": {
+    "timestamp": "2026-01-23T22:13:57.151235",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163737&type=result",
+      "fis_code": "163737",
+      "sector": "AL",
+      "name_en": "Dongkwan                HONG",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163740&type=result": {
+    "timestamp": "2026-01-23T22:14:00.069120",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163740&type=result",
+      "fis_code": "163740",
+      "sector": "AL",
+      "name_en": "Dong Woo                KIM",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189170&type=result": {
+    "timestamp": "2026-01-23T22:14:03.076783",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189170&type=result",
+      "fis_code": "189170",
+      "sector": "AL",
+      "name_en": "Minsik                JUNG",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=188824&type=result": {
+    "timestamp": "2026-01-23T22:14:05.956248",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=188824&type=result",
+      "fis_code": "188824",
+      "sector": "AL",
+      "name_en": "HANHEE                LEE",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203604&type=result": {
+    "timestamp": "2026-01-23T22:14:09.522790",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203604&type=result",
+      "fis_code": "203604",
+      "sector": "AL",
+      "name_en": "Jeongwoo                SHIN",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=177571&type=result": {
+    "timestamp": "2026-01-23T22:14:13.069344",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=177571&type=result",
+      "fis_code": "177571",
+      "sector": "AL",
+      "name_en": "Sohui                GIM",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=263315&type=result": {
+    "timestamp": "2026-01-23T22:14:16.186509",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=263315&type=result",
+      "fis_code": "263315",
+      "sector": "AL",
+      "name_en": "Taehee                CHOI",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  },
+  "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=261321&type=result": {
+    "timestamp": "2026-01-23T22:14:18.964295",
+    "data": {
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=261321&type=result",
+      "fis_code": "261321",
+      "sector": "AL",
+      "name_en": "Seoyun                PARK",
+      "birth_date": null,
+      "gender": "M",
+      "nation": "KOR",
+      "current_rank": null,
+      "best_rank": null,
+      "season_starts": 0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": []
+    }
+  }
+}

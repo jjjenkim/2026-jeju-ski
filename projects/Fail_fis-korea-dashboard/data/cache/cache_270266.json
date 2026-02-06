@@ -1,0 +1,468 @@
+{
+  "athlete": "장선웅",
+  "profile_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=270266&type=result",
+  "scraped_at": "2026-01-20T07:27:30.149092",
+  "results_count": 46,
+  "results": [
+    {
+      "date": "14-01-2026",
+      "location": "Zhangjiakou",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS140",
+      "rank": "25",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-01-2026",
+      "location": "Zhangjiakou",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS140",
+      "rank": "23",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "11-01-2026",
+      "location": "Sapporo Okuraymama",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS137",
+      "rank": "47",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "10-01-2026",
+      "location": "Sapporo Okuraymama",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS137",
+      "rank": "NPS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-12-2025",
+      "location": "Ruka",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS142",
+      "rank": "39",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-12-2025",
+      "location": "Ruka",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS142",
+      "rank": "39",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "07-12-2025",
+      "location": "Kandersteg",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS106",
+      "rank": "50",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "06-12-2025",
+      "location": "Kandersteg",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS106",
+      "rank": "42",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "28-09-2025",
+      "location": "Hinterzarten",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Normal Hill HS109",
+      "rank": "41",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "27-09-2025",
+      "location": "Hinterzarten",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Normal Hill HS109",
+      "rank": "NPS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-09-2025",
+      "location": "Einsiedeln",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Large Hill HS117",
+      "rank": "19",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "07-09-2025",
+      "location": "Ljubno ob Savinji",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS94",
+      "rank": "33",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "06-09-2025",
+      "location": "Ljubno ob Savinji",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS94",
+      "rank": "23",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "31-08-2025",
+      "location": "SZCZYRK-SkaliteRK",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS104",
+      "rank": "56",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "30-08-2025",
+      "location": "SZCZYRK-SkaliteRK",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS104",
+      "rank": "45",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "09-02-2025",
+      "location": "Eisenerz",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS109",
+      "rank": "26",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-02-2025",
+      "location": "Eisenerz",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS109",
+      "rank": "35",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "02-02-2025",
+      "location": "SZCZYRK-SkaliteRK",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS104",
+      "rank": "17",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "01-02-2025",
+      "location": "SZCZYRK-SkaliteRK",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS104",
+      "rank": "22",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "26-01-2025",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS137",
+      "rank": "40",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "26-01-2025",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS137",
+      "rank": "31",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "25-01-2025",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS137",
+      "rank": "NPS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-12-2024",
+      "location": "Zhangjiakou National Ski Jumping Ceter",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Normal Hill HS106",
+      "rank": "40",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "07-12-2024",
+      "location": "Zhangjiakou National Ski Jumping Ceter",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Normal Hill HS106",
+      "rank": "38",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "06-10-2024",
+      "location": "Otepaa",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS97",
+      "rank": "13",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "05-10-2024",
+      "location": "Otepaa",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS97",
+      "rank": "14",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "04-10-2024",
+      "location": "Otepaa",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS97",
+      "rank": "8",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "29-09-2024",
+      "location": "Einsiedeln",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Large Hill HS117",
+      "rank": "26",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "28-09-2024",
+      "location": "Einsiedeln",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Large Hill HS117",
+      "rank": "26",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "22-09-2024",
+      "location": "Stams",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS115",
+      "rank": "50",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "21-09-2024",
+      "location": "Stams",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS115",
+      "rank": "43",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "03-03-2024",
+      "location": "Oberhof",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS100",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "02-03-2024",
+      "location": "Oberhof",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS100",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-02-2024",
+      "location": "Planica",
+      "nation": "",
+      "category": "FIS Junior World Ski Championships",
+      "discipline": "Normal Hill HS102",
+      "rank": "44",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "20-01-2024",
+      "location": "Gangwon",
+      "nation": "",
+      "category": "Youth Olympic Winter Games",
+      "discipline": "Normal Hill HS109",
+      "rank": "23",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "16-12-2023",
+      "location": "Notodden",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS98",
+      "rank": "28",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "15-12-2023",
+      "location": "Notodden",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS98",
+      "rank": "57",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "10-12-2023",
+      "location": "Kandersteg",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS106",
+      "rank": "44",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "09-12-2023",
+      "location": "Kandersteg",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS106",
+      "rank": "25",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "17-09-2023",
+      "location": "Einsiedeln",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Large Hill HS117",
+      "rank": "56",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "16-09-2023",
+      "location": "Einsiedeln",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Large Hill HS117",
+      "rank": "49",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "02-02-2023",
+      "location": "Whistler",
+      "nation": "",
+      "category": "FIS Junior World Ski Championships",
+      "discipline": "Normal Hill HS104",
+      "rank": "40",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "21-08-2022",
+      "location": "Szczyrk",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS107",
+      "rank": "73",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "20-08-2022",
+      "location": "Szczyrk",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS107",
+      "rank": "NPS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-08-2022",
+      "location": "Frenstat pod Radhostem",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS106",
+      "rank": "55",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "12-08-2022",
+      "location": "Frenstat pod Radhostem",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS106",
+      "rank": "55",
+      "fis_points": "",
+      "cup_points": ""
+    }
+  ]
+}

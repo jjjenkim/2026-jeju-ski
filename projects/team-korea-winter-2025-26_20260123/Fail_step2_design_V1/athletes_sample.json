@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "last_updated": "2026-01-23T00:00:00Z",
+    "total_athletes": 43,
+    "sports": 7,
+    "teams": 2,
+    "note": "실제 데이터는 '🔄데이터수집.command'를 실행하여 수집하세요."
+  },
+  "statistics": {
+    "total_athletes": 43,
+    "by_sport": {
+      "alpine_skiing": 5,
+      "ski_cross": 3,
+      "freestyle_moguls": 8,
+      "freestyle_park": 10,
+      "snowboard_park": 12,
+      "snowboard_cross": 3,
+      "snowboard_alpine": 2
+    },
+    "by_team": {
+      "알파인스키": 5,
+      "크로스컨트리": 0,
+      "스키점프": 0,
+      "스노보드": 17,
+      "프리스타일": 21
+    },
+    "by_gender": {
+      "M": 28,
+      "F": 15
+    },
+    "age_distribution": {
+      "teens": 5,
+      "twenties": 30,
+      "thirties": 8
+    },
+    "total_medals": {
+      "gold": 3,
+      "silver": 5,
+      "bronze": 8
+    }
+  },
+  "athletes": [
+    {
+      "id": "KOR001",
+      "name_ko": "김철수",
+      "name_en": "CHULSOO Kim",
+      "birth_date": "1998-03-15",
+      "age": 27,
+      "gender": "M",
+      "sport": "freestyle_moguls",
+      "sport_display": "Freestyle - Moguls",
+      "team": "프리스타일",
+      "fis_code": "123456",
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete.html?sectorcode=FS&competitorid=123456",
+      "current_rank": 25,
+      "best_rank": 18,
+      "season_starts": 12,
+      "medals": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 2
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-15",
+          "event": "FIS World Cup - Calgary",
+          "rank": 3,
+          "points": 80
+        },
+        {
+          "date": "2026-01-10",
+          "event": "FIS World Cup - Deer Valley",
+          "rank": 5,
+          "points": 45
+        }
+      ]
+    },
+    {
+      "id": "KOR002",
+      "name_ko": "이영희",
+      "name_en": "YOUNGHEE Lee",
+      "birth_date": "2000-07-22",
+      "age": 25,
+      "gender": "F",
+      "sport": "snowboard_park",
+      "sport_display": "Snowboard - Park & Pipe",
+      "team": "스노보드",
+      "fis_code": "234567",
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete.html?sectorcode=SB&competitorid=234567",
+      "current_rank": 15,
+      "best_rank": 12,
+      "season_starts": 15,
+      "medals": {
+        "gold": 1,
+        "silver": 0,
+        "bronze": 1
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-18",
+          "event": "FIS World Cup - Laax",
+          "rank": 1,
+          "points": 100
+        },
+        {
+          "date": "2026-01-12",
+          "event": "FIS World Cup - Copper Mountain",
+          "rank": 8,
+          "points": 26
+        }
+      ]
+    },
+    {
+      "id": "KOR003",
+      "name_ko": "박민수",
+      "name_en": "MINSU Park",
+      "birth_date": "1995-11-08",
+      "age": 30,
+      "gender": "M",
+      "sport": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "345678",
+      "fis_url": "https://www.fis-ski.com/DB/general/athlete.html?sectorcode=AL&competitorid=345678",
+      "current_rank": 45,
+      "best_rank": 38,
+      "season_starts": 10,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 1
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-20",
+          "event": "FIS World Cup - Kitzbühel",
+          "rank": 12,
+          "points": 22
+        }
+      ]
+    }
+  ],
+  "_template_note": "위 3명은 예시 데이터입니다. 실제 43명 데이터는 데이터 수집 후 자동으로 채워집니다."
+}

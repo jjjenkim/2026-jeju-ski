@@ -1,0 +1,508 @@
+{
+  "athlete": "문희성",
+  "profile_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=239278&type=result",
+  "scraped_at": "2026-01-20T07:26:36.567213",
+  "results_count": 50,
+  "results": [
+    {
+      "date": "20-12-2025",
+      "location": "Copper",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-12-2025",
+      "location": "Copper",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-12-2025",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "37",
+      "fis_points": "7.10",
+      "cup_points": ""
+    },
+    {
+      "date": "11-12-2025",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "19",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "30-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "World Championships",
+      "discipline": "Freeski Halfpipe",
+      "rank": "21",
+      "fis_points": "13.70",
+      "cup_points": ""
+    },
+    {
+      "date": "28-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "21",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-02-2025",
+      "location": "Phoenix Pyeongchang",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Freeski Halfpipe",
+      "rank": "8",
+      "fis_points": "3.70",
+      "cup_points": ""
+    },
+    {
+      "date": "15-02-2025",
+      "location": "Calgary",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-02-2025",
+      "location": "Calgary",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-02-2025",
+      "location": "Yabuli Ski Resort",
+      "nation": "",
+      "category": "Asian Winter Games",
+      "discipline": "Freeski Halfpipe",
+      "rank": "3",
+      "fis_points": "119.40",
+      "cup_points": ""
+    },
+    {
+      "date": "02-02-2025",
+      "location": "Aspen",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "31-01-2025",
+      "location": "Aspen",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "21-12-2024",
+      "location": "Copper",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "36",
+      "fis_points": "36.90",
+      "cup_points": ""
+    },
+    {
+      "date": "19-12-2024",
+      "location": "Copper",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "19",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "07-12-2024",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "38",
+      "fis_points": "24.70",
+      "cup_points": ""
+    },
+    {
+      "date": "05-12-2024",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "20",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "09-09-2024",
+      "location": "Cardrona",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "28",
+      "fis_points": "73.40",
+      "cup_points": "3.00"
+    },
+    {
+      "date": "06-09-2024",
+      "location": "Cardrona",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "16",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "24-02-2024",
+      "location": "Welli Hilli",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Freeski Halfpipe",
+      "rank": "1",
+      "fis_points": "70.00",
+      "cup_points": ""
+    },
+    {
+      "date": "17-02-2024",
+      "location": "Calgary",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "26",
+      "fis_points": "73.00",
+      "cup_points": "5.00"
+    },
+    {
+      "date": "16-02-2024",
+      "location": "Calgary",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "16",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "15-02-2024",
+      "location": "Calgary",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "15-02-2024",
+      "location": "Calgary",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "31-01-2024",
+      "location": "Gangwon/Welli Hilli",
+      "nation": "",
+      "category": "Youth Olympic Winter Games",
+      "discipline": "Freeski Halfpipe",
+      "rank": "10",
+      "fis_points": "30.10",
+      "cup_points": ""
+    },
+    {
+      "date": "15-12-2023",
+      "location": "Copper Mountain",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "26",
+      "fis_points": "73.00",
+      "cup_points": "5.00"
+    },
+    {
+      "date": "13-12-2023",
+      "location": "Copper Mountain",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "15",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "09-12-2023",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "24",
+      "fis_points": "31.20",
+      "cup_points": "7.00"
+    },
+    {
+      "date": "07-12-2023",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Freeski Halfpipe",
+      "rank": "24",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-03-2023",
+      "location": "Laax",
+      "nation": "",
+      "category": "European Cup Premium",
+      "discipline": "Freeski Halfpipe",
+      "rank": "5",
+      "fis_points": "68.30",
+      "cup_points": "90.00"
+    },
+    {
+      "date": "24-02-2023",
+      "location": "Yongpyong",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Freeski Big Air",
+      "rank": "9",
+      "fis_points": "8.10",
+      "cup_points": ""
+    },
+    {
+      "date": "23-02-2023",
+      "location": "Yongpyong",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Freeski Slopestyle",
+      "rank": "10",
+      "fis_points": "4.40",
+      "cup_points": ""
+    },
+    {
+      "date": "14-02-2023",
+      "location": "Pheonix PyeongChang",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Freeski Halfpipe",
+      "rank": "5",
+      "fis_points": "17.60",
+      "cup_points": ""
+    },
+    {
+      "date": "13-02-2023",
+      "location": "Pheonix PyeongChang",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Halfpipe",
+      "rank": "3",
+      "fis_points": "31.70",
+      "cup_points": ""
+    },
+    {
+      "date": "31-01-2023",
+      "location": "Yongpyong",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Slopestyle",
+      "rank": "4",
+      "fis_points": "25.60",
+      "cup_points": ""
+    },
+    {
+      "date": "30-01-2023",
+      "location": "Yongpyong",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Big Air",
+      "rank": "6",
+      "fis_points": "14.20",
+      "cup_points": ""
+    },
+    {
+      "date": "01-09-2022",
+      "location": "Cardrona",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Freeski Halfpipe",
+      "rank": "19",
+      "fis_points": "0.20",
+      "cup_points": "12.00"
+    },
+    {
+      "date": "08-03-2022",
+      "location": "Leysin",
+      "nation": "",
+      "category": "FIS Junior World Ski Championships",
+      "discipline": "Freeski Halfpipe",
+      "rank": "19",
+      "fis_points": "7.10",
+      "cup_points": ""
+    },
+    {
+      "date": "25-02-2022",
+      "location": "Yongpyong resort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Moguls",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "15-02-2022",
+      "location": "Yongpyong Resort",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Freeski Big Air",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "11-02-2022",
+      "location": "Pheonix PyeongChang",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Freeski Halfpipe",
+      "rank": "2",
+      "fis_points": "39.00",
+      "cup_points": ""
+    },
+    {
+      "date": "10-02-2022",
+      "location": "Pheonix PyeongChang",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Halfpipe",
+      "rank": "2",
+      "fis_points": "39.60",
+      "cup_points": ""
+    },
+    {
+      "date": "08-02-2022",
+      "location": "Yongpyong Resort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Big Air",
+      "rank": "6",
+      "fis_points": "12.30",
+      "cup_points": ""
+    },
+    {
+      "date": "08-02-2022",
+      "location": "Yongpyong Resort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Slopestyle",
+      "rank": "4",
+      "fis_points": "23.70",
+      "cup_points": ""
+    },
+    {
+      "date": "10-02-2021",
+      "location": "Phoenix Pyeongchang",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Freeski Halfpipe",
+      "rank": "4",
+      "fis_points": "22.09",
+      "cup_points": ""
+    },
+    {
+      "date": "09-02-2021",
+      "location": "Phoenix Pyeongchang",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Halfpipe",
+      "rank": "5",
+      "fis_points": "15.46",
+      "cup_points": ""
+    },
+    {
+      "date": "01-02-2021",
+      "location": "Phoenix Pyeongchang",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Slopestyle",
+      "rank": "5",
+      "fis_points": "1.55",
+      "cup_points": ""
+    },
+    {
+      "date": "27-01-2021",
+      "location": "Phoenix Pyeongchang",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Halfpipe",
+      "rank": "2",
+      "fis_points": "14.83",
+      "cup_points": ""
+    },
+    {
+      "date": "26-01-2021",
+      "location": "Phoenix Pyeongchang",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Big Air",
+      "rank": "5",
+      "fis_points": "4.97",
+      "cup_points": ""
+    },
+    {
+      "date": "25-01-2021",
+      "location": "Phoenix Pyeongchang",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Freeski Slopestyle",
+      "rank": "5",
+      "fis_points": "2.48",
+      "cup_points": ""
+    },
+    {
+      "date": "18-02-2020",
+      "location": "Pyeongchang",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Freeski Halfpipe",
+      "rank": "6",
+      "fis_points": "20.00",
+      "cup_points": ""
+    }
+  ]
+}

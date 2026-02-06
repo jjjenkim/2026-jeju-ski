@@ -1,0 +1,508 @@
+{
+  "athlete": "우수빈",
+  "profile_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=229485&type=result",
+  "scraped_at": "2026-01-20T07:27:07.106164",
+  "results_count": 50,
+  "results": [
+    {
+      "date": "18-01-2026",
+      "location": "Dongbeiya",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "35",
+      "fis_points": "20.00",
+      "cup_points": ""
+    },
+    {
+      "date": "18-01-2026",
+      "location": "Dongbeiya",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "35",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "17-01-2026",
+      "location": "Dongbeiya",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "36",
+      "fis_points": "19.70",
+      "cup_points": ""
+    },
+    {
+      "date": "16-01-2026",
+      "location": "Dongbeiya",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "36",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-12-2025",
+      "location": "Cervinia",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "36",
+      "fis_points": "19.70",
+      "cup_points": ""
+    },
+    {
+      "date": "12-12-2025",
+      "location": "Cervinia",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "36",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "27-11-2025",
+      "location": "Pitztal",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "30",
+      "fis_points": "11.52",
+      "cup_points": "3.00"
+    },
+    {
+      "date": "21-09-2025",
+      "location": "Cerro Castor, Ushuaia",
+      "nation": "",
+      "category": "South American Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "7",
+      "fis_points": "86.40",
+      "cup_points": "36.00"
+    },
+    {
+      "date": "20-09-2025",
+      "location": "Cerro Castor, Ushuaia",
+      "nation": "",
+      "category": "South American Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "17",
+      "fis_points": "50.40",
+      "cup_points": "16.00"
+    },
+    {
+      "date": "12-04-2025",
+      "location": "Mt St. Anne",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "17",
+      "fis_points": "40.60",
+      "cup_points": "16.00"
+    },
+    {
+      "date": "11-04-2025",
+      "location": "Mt St. Anne",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "12",
+      "fis_points": "63.80",
+      "cup_points": "22.00"
+    },
+    {
+      "date": "06-04-2025",
+      "location": "Mt. St. Anne",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "20",
+      "fis_points": "110.00",
+      "cup_points": "13.00"
+    },
+    {
+      "date": "05-04-2025",
+      "location": "Mt. St. Anne",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "21",
+      "fis_points": "100.00",
+      "cup_points": "12.00"
+    },
+    {
+      "date": "05-04-2025",
+      "location": "Mt. St. Anne",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "21",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "28-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "World Championships",
+      "discipline": "Snowboard Cross",
+      "rank": "27",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "27-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "27",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "21-03-2025",
+      "location": "Montafon",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "37",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "20-03-2025",
+      "location": "Montafon",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "37",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-03-2025",
+      "location": "Lenk",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "35",
+      "fis_points": "5.20",
+      "cup_points": ""
+    },
+    {
+      "date": "13-03-2025",
+      "location": "Lenk",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "23",
+      "fis_points": "20.80",
+      "cup_points": "10.00"
+    },
+    {
+      "date": "09-03-2025",
+      "location": "Gudauri",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "25",
+      "fis_points": "",
+      "cup_points": "8.00"
+    },
+    {
+      "date": "08-03-2025",
+      "location": "Gudauri",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "28",
+      "fis_points": "",
+      "cup_points": "5.00"
+    },
+    {
+      "date": "07-03-2025",
+      "location": "Gudauri",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "28",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "01-03-2025",
+      "location": "Gore Mountain Ski Area",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "7",
+      "fis_points": "72.00",
+      "cup_points": "36.00"
+    },
+    {
+      "date": "28-02-2025",
+      "location": "Gore Mountain Ski Area",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "19",
+      "fis_points": "24.00",
+      "cup_points": "14.00"
+    },
+    {
+      "date": "02-02-2025",
+      "location": "Beidahu",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "24",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "02-02-2025",
+      "location": "Beidahu",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "24",
+      "fis_points": "",
+      "cup_points": "9.00"
+    },
+    {
+      "date": "01-02-2025",
+      "location": "Beidahu",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "24",
+      "fis_points": "",
+      "cup_points": "9.00"
+    },
+    {
+      "date": "31-01-2025",
+      "location": "Beidahu",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "24",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-01-2025",
+      "location": "Bardonecchia",
+      "nation": "",
+      "category": "Universiade",
+      "discipline": "Snowboard Cross",
+      "rank": "10",
+      "fis_points": "62.40",
+      "cup_points": ""
+    },
+    {
+      "date": "05-01-2025",
+      "location": "Phoenix Pyeongchang",
+      "nation": "",
+      "category": "Asian Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "1",
+      "fis_points": "160.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "14-12-2024",
+      "location": "Cervinia",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "33",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-12-2024",
+      "location": "Cervinia",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "33",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-08-2024",
+      "location": "Mt Hotham",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "15",
+      "fis_points": "57.60",
+      "cup_points": "18.00"
+    },
+    {
+      "date": "15-08-2024",
+      "location": "Mt Hotham",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "24",
+      "fis_points": "25.20",
+      "cup_points": "9.00"
+    },
+    {
+      "date": "19-02-2024",
+      "location": "Pheonix PyeongChang",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Snowboard Cross",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "04-02-2024",
+      "location": "Gudauri",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "22",
+      "fis_points": "",
+      "cup_points": "11.00"
+    },
+    {
+      "date": "03-02-2024",
+      "location": "Gudauri",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "22",
+      "fis_points": "",
+      "cup_points": "11.00"
+    },
+    {
+      "date": "02-02-2024",
+      "location": "Gudauri",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "22",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "17-12-2023",
+      "location": "Cervinia",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross Team",
+      "rank": "16",
+      "fis_points": "",
+      "cup_points": "17.00"
+    },
+    {
+      "date": "16-12-2023",
+      "location": "Cervinia",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "29",
+      "fis_points": "36.00",
+      "cup_points": "4.00"
+    },
+    {
+      "date": "03-12-2023",
+      "location": "Les Deux Alpes",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Snowboard Cross",
+      "rank": "35",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "03-12-2023",
+      "location": "Les Deux Alpes",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "35",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "02-12-2023",
+      "location": "Les Deux Alpes",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross Team",
+      "rank": "16",
+      "fis_points": "",
+      "cup_points": "17.00"
+    },
+    {
+      "date": "26-03-2023",
+      "location": "Mt. St. Anne",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "13",
+      "fis_points": "200.00",
+      "cup_points": "20.00"
+    },
+    {
+      "date": "21-03-2023",
+      "location": "Mt. Orignal",
+      "nation": "",
+      "category": "Junior",
+      "discipline": "Snowboard Cross",
+      "rank": "1",
+      "fis_points": "100.00",
+      "cup_points": ""
+    },
+    {
+      "date": "20-03-2023",
+      "location": "Mt. Orignal",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "6",
+      "fis_points": "64.00",
+      "cup_points": "40.00"
+    },
+    {
+      "date": "17-03-2023",
+      "location": "Horseshoe Resort",
+      "nation": "",
+      "category": "National Junior Championships",
+      "discipline": "Snowboard Cross",
+      "rank": "1",
+      "fis_points": "110.00",
+      "cup_points": ""
+    },
+    {
+      "date": "16-03-2023",
+      "location": "Horseshoe Resort",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "1",
+      "fis_points": "160.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "15-03-2023",
+      "location": "Horseshoe Resort",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Snowboard Cross",
+      "rank": "1",
+      "fis_points": "160.00",
+      "cup_points": "100.00"
+    }
+  ]
+}

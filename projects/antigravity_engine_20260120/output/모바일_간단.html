@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>25/26 스키 대회</title>
+      <style>
+            * {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+            }
+
+            body {
+                  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+                  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+                  color: #fff;
+                  padding: 15px;
+                  min-height: 100vh;
+            }
+
+            .header {
+                  text-align: center;
+                  margin-bottom: 20px;
+            }
+
+            .header h1 {
+                  font-size: 1.5rem;
+                  margin-bottom: 5px;
+            }
+
+            .legend {
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 8px;
+                  justify-content: center;
+                  margin-bottom: 20px;
+                  font-size: 0.75rem;
+            }
+
+            .legend-item {
+                  display: flex;
+                  align-items: center;
+                  gap: 5px;
+                  padding: 5px 10px;
+                  background: rgba(255, 255, 255, 0.1);
+                  border-radius: 10px;
+            }
+
+            .legend-dot {
+                  width: 8px;
+                  height: 8px;
+                  border-radius: 50%;
+            }
+
+            .month-card {
+                  background: rgba(255, 255, 255, 0.05);
+                  border-radius: 12px;
+                  padding: 15px;
+                  margin-bottom: 15px;
+                  border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .month-title {
+                  font-size: 1.2rem;
+                  font-weight: bold;
+                  text-align: center;
+                  margin-bottom: 15px;
+                  padding-bottom: 10px;
+                  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .calendar {
+                  display: grid;
+                  grid-template-columns: repeat(7, 1fr);
+                  gap: 3px;
+                  margin-bottom: 15px;
+            }
+
+            .day-header {
+                  text-align: center;
+                  font-size: 0.7rem;
+                  padding: 5px;
+                  color: rgba(255, 255, 255, 0.6);
+                  font-weight: 600;
+            }
+
+            .day-cell {
+                  aspect-ratio: 1;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background: rgba(255, 255, 255, 0.05);
+                  border-radius: 6px;
+                  font-size: 0.8rem;
+                  font-weight: 600;
+                  position: relative;
+                  min-height: 35px;
+            }
+
+            .day-cell.empty {
+                  background: transparent;
+            }
+
+            .day-cell.has-event {
+                  border: 2px solid rgba(255, 255, 255, 0.3);
+            }
+
+            /* 종목별 배경색 */
+            .alpine {
+                  background: linear-gradient(135deg, rgba(102, 126, 234, 0.3), rgba(118, 75, 162, 0.3));
+            }
+
+            .xc {
+                  background: linear-gradient(135deg, rgba(240, 147, 251, 0.3), rgba(245, 87, 108, 0.3));
+            }
+
+            .snowboard {
+                  background: linear-gradient(135deg, rgba(79, 172, 254, 0.3), rgba(0, 242, 254, 0.3));
+            }
+
+            .freestyle {
+                  background: linear-gradient(135deg, rgba(67, 233, 123, 0.3), rgba(56, 249, 215, 0.3));
+            }
+
+            .skijump {
+                  background: linear-gradient(135deg, rgba(250, 112, 154, 0.3), rgba(254, 225, 64, 0.3));
+            }
+
+            .multi {
+                  background: linear-gradient(135deg, rgba(102, 126, 234, 0.2), rgba(245, 87, 108, 0.2), rgba(0, 242, 254, 0.2));
+            }
+
+            .event-dots {
+                  position: absolute;
+                  bottom: 2px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  display: flex;
+                  gap: 2px;
+            }
+
+            .event-dot {
+                  width: 4px;
+                  height: 4px;
+                  border-radius: 50%;
+            }
+
+            .dot-alpine {
+                  background: #667eea;
+            }
+
+            .dot-xc {
+                  background: #f5576c;
+            }
+
+            .dot-snowboard {
+                  background: #00f2fe;
+            }
+
+            .dot-freestyle {
+                  background: #38f9d7;
+            }
+
+            .dot-skijump {
+                  background: #fee140;
+            }
+
+            .events-list {
+                  margin-top: 15px;
+                  padding-top: 15px;
+                  border-top: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .events-title {
+                  font-size: 0.9rem;
+                  font-weight: 600;
+                  margin-bottom: 10px;
+                  color: rgba(255, 255, 255, 0.8);
+            }
+
+            .event-item {
+                  background: rgba(255, 255, 255, 0.08);
+                  border-radius: 8px;
+                  padding: 8px;
+                  margin-bottom: 6px;
+                  border-left: 3px solid;
+                  font-size: 0.75rem;
+            }
+
+            .event-date {
+                  color: rgba(255, 255, 255, 0.6);
+                  font-size: 0.7rem;
+                  margin-bottom: 3px;
+            }
+
+            .event-name {
+                  font-weight: 600;
+                  margin-bottom: 3px;
+            }
+
+            .event-badge {
+                  display: inline-block;
+                  padding: 2px 6px;
+                  border-radius: 8px;
+                  font-size: 0.65rem;
+                  color: #fff;
+            }
+
+            .badge-alpine {
+                  background: #667eea;
+            }
+
+            .badge-xc {
+                  background: #f5576c;
+            }
+
+            .badge-snowboard {
+                  background: #00f2fe;
+            }
+
+            .badge-freestyle {
+                  background: #38f9d7;
+            }
+
+            .badge-skijump {
+                  background: #fee140;
+                  color: #000;
+            }
+
+            .border-alpine {
+                  border-color: #667eea;
+            }
+
+            .border-xc {
+                  border-color: #f5576c;
+            }
+
+            .border-snowboard {
+                  border-color: #00f2fe;
+            }
+
+            .border-freestyle {
+                  border-color: #38f9d7;
+            }
+
+            .border-skijump {
+                  border-color: #fee140;
+            }
+      </style>
+</head>
+
+<body>
+      <div class="header">
+            <h1>🏂 25/26 시즌 스키 대회</h1>
+            <p>2025년 12월 - 2026년 3월</p>
+      </div>
+
+      <div class="legend">
+            <div class="legend-item">
+                  <div class="legend-dot" style="background: #667eea;"></div>
+                  <span>알파인</span>
+            </div>
+            <div class="legend-item">
+                  <div class="legend-dot" style="background: #f5576c;"></div>
+                  <span>크로스컨트리</span>
+            </div>
+            <div class="legend-item">
+                  <div class="legend-dot" style="background: #00f2fe;"></div>
+                  <span>스노보드</span>
+            </div>
+            <div class="legend-item">
+                  <div class="legend-dot" style="background: #38f9d7;"></div>
+                  <span>프리스타일</span>
+            </div>
+            <div class="legend-item">
+                  <div class="legend-dot" style="background: #fee140;"></div>
+                  <span>스키점프</span>
+            </div>
+      </div>
+
+      <div id="calendar"></div>
+
+      <script>
+            console.log('Script started');
+
+            const categoryMap = {
+                  '알파인': 'alpine',
+                  '크로스컨트리': 'xc',
+                  '스노보드': 'snowboard',
+                  '프리스타일': 'freestyle',
+                  '스키점프': 'skijump'
+            };
+
+            const events = [
+                  { date: '2025-12-19', category: '크로스컨트리', name: 'FEC (알펜시아) C F' },
+                  { date: '2025-12-20', category: '크로스컨트리', name: 'FEC (알펜시아) C F' },
+                  { date: '2025-12-28', category: '알파인', name: '대관령 FIS (용평) SL' },
+                  { date: '2025-12-29', category: '알파인', name: '대관령 FIS (용평) SL' },
+                  { date: '2026-01-10', category: '알파인', name: '서원대회전FIS (알펜시아) GS SL' },
+                  { date: '2026-01-10', category: '크로스컨트리', name: '학생종별 (알펜시아) C F R' },
+                  { date: '2026-01-13', category: '스노보드', name: '회장배 (휘닉스) SBX SX' },
+                  { date: '2026-01-15', category: '스노보드', name: '종별 (휘닉스) MO' },
+                  { date: '2026-01-15', category: '프리스타일', name: '종별 (휘닉스) MO' },
+                  { date: '2026-01-22', category: '알파인', name: '선수권NC (용평) GS SL' },
+                  { date: '2026-01-23', category: '알파인', name: '선수권NC (용평) GS SL' },
+                  { date: '2026-01-23', category: '스키점프', name: '종별선수권 (알펜시아)' },
+                  { date: '2026-02-03', category: '스노보드', name: '종별 (휘닉스) HP' },
+                  { date: '2026-02-03', category: '프리스타일', name: '종별 (휘닉스) HP' },
+                  { date: '2026-02-09', category: '알파인', name: '회장배FIS (용평) GS SL' },
+                  { date: '2026-02-09', category: '스노보드', name: '회장배FIS (휘닉스) SS BA' },
+                  { date: '2026-02-24', category: '스노보드', name: '체전 (휘닉스) HP' },
+                  { date: '2026-02-24', category: '프리스타일', name: '체전 (휘닉스) MO' },
+                  { date: '2026-02-25', category: '알파인', name: '동계체전 (용평) GS AC' },
+                  { date: '2026-03-02', category: '알파인', name: '지산컵 (지산) GS SL' },
+                  { date: '2026-03-04', category: '알파인', name: '종별선수권 FIS (용평) GS GS' },
+                  { date: '2026-03-10', category: '알파인', name: '평창컵 FIS (용평) GS SL' }
+            ];
+
+            console.log('Events loaded:', events.length);
+
+            const months = [
+                  { name: '2025년 12월', year: 2025, month: 12 },
+                  { name: '2026년 1월', year: 2026, month: 1 },
+                  { name: '2026년 2월', year: 2026, month: 2 },
+                  { name: '2026년 3월', year: 2026, month: 3 }
+            ];
+
+            const dayNames = ['일', '월', '화', '수', '목', '금', '토'];
+
+            function getDaysInMonth(year, month) {
+                  return new Date(year, month, 0).getDate();
+            }
+
+            function getFirstDay(year, month) {
+                  return new Date(year, month - 1, 1).getDay();
+            }
+
+            const container = document.getElementById('calendar');
+            console.log('Container found:', container);
+
+            months.forEach(function (monthData) {
+                  console.log('Rendering month:', monthData.name);
+
+                  const card = document.createElement('div');
+                  card.className = 'month-card';
+
+                  const title = document.createElement('div');
+                  title.className = 'month-title';
+                  title.textContent = monthData.name;
+                  card.appendChild(title);
+
+                  const cal = document.createElement('div');
+                  cal.className = 'calendar';
+
+                  // Day headers
+                  dayNames.forEach(function (day) {
+                        const header = document.createElement('div');
+                        header.className = 'day-header';
+                        header.textContent = day;
+                        cal.appendChild(header);
+                  });
+
+                  // Empty cells
+                  const firstDay = getFirstDay(monthData.year, monthData.month);
+                  for (let i = 0; i < firstDay; i++) {
+                        const empty = document.createElement('div');
+                        empty.className = 'day-cell empty';
+                        cal.appendChild(empty);
+                  }
+
+                  // Day cells
+                  const daysInMonth = getDaysInMonth(monthData.year, monthData.month);
+                  for (let day = 1; day <= daysInMonth; day++) {
+                        const dateStr = monthData.year + '-' +
+                              String(monthData.month).padStart(2, '0') + '-' +
+                              String(day).padStart(2, '0');
+
+                        const dayEvents = events.filter(function (e) {
+                              return e.date === dateStr;
+                        });
+
+                        const cell = document.createElement('div');
+                        cell.className = 'day-cell';
+                        cell.textContent = day;
+
+                        if (dayEvents.length > 0) {
+                              cell.classList.add('has-event');
+
+                              const categories = [];
+                              dayEvents.forEach(function (e) {
+                                    if (categories.indexOf(e.category) === -1) {
+                                          categories.push(e.category);
+                                    }
+                              });
+
+                              if (categories.length === 1) {
+                                    cell.classList.add(categoryMap[categories[0]]);
+                              } else if (categories.length > 1) {
+                                    cell.classList.add('multi');
+                              }
+
+                              const dots = document.createElement('div');
+                              dots.className = 'event-dots';
+                              categories.slice(0, 3).forEach(function (cat) {
+                                    const dot = document.createElement('div');
+                                    dot.className = 'event-dot dot-' + categoryMap[cat];
+                                    dots.appendChild(dot);
+                              });
+                              cell.appendChild(dots);
+                        }
+
+                        cal.appendChild(cell);
+                  }
+
+                  card.appendChild(cal);
+
+                  // Events list
+                  const monthKey = monthData.year + '-' + String(monthData.month).padStart(2, '0');
+                  const monthEvents = events.filter(function (e) {
+                        return e.date.indexOf(monthKey) === 0;
+                  });
+
+                  if (monthEvents.length > 0) {
+                        const eventsSection = document.createElement('div');
+                        eventsSection.className = 'events-list';
+
+                        const eventsTitle = document.createElement('div');
+                        eventsTitle.className = 'events-title';
+                        eventsTitle.textContent = '📅 이달의 대회 (' + monthEvents.length + '개)';
+                        eventsSection.appendChild(eventsTitle);
+
+                        monthEvents.slice(0, 5).forEach(function (evt) {
+                              const item = document.createElement('div');
+                              item.className = 'event-item border-' + categoryMap[evt.category];
+
+                              const dateDiv = document.createElement('div');
+                              dateDiv.className = 'event-date';
+                              dateDiv.textContent = evt.date;
+                              item.appendChild(dateDiv);
+
+                              const nameDiv = document.createElement('div');
+                              nameDiv.className = 'event-name';
+                              nameDiv.textContent = evt.name;
+                              item.appendChild(nameDiv);
+
+                              const badge = document.createElement('span');
+                              badge.className = 'event-badge badge-' + categoryMap[evt.category];
+                              badge.textContent = evt.category;
+                              item.appendChild(badge);
+
+                              eventsSection.appendChild(item);
+                        });
+
+                        if (monthEvents.length > 5) {
+                              const more = document.createElement('div');
+                              more.style.textAlign = 'center';
+                              more.style.padding = '8px';
+                              more.style.fontSize = '0.75rem';
+                              more.style.color = 'rgba(255,255,255,0.5)';
+                              more.textContent = '외 ' + (monthEvents.length - 5) + '개 대회 더 보기';
+                              eventsSection.appendChild(more);
+                        }
+
+                        card.appendChild(eventsSection);
+                  }
+
+                  container.appendChild(card);
+            });
+
+            console.log('Calendar rendered');
+      </script>
+</body>
+
+</html>

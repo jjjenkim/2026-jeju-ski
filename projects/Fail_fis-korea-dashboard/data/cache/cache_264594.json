@@ -1,0 +1,258 @@
+{
+  "athlete": "최가온",
+  "profile_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=264594&type=result",
+  "scraped_at": "2026-01-20T07:27:17.300566",
+  "results_count": 25,
+  "results": [
+    {
+      "date": "17-01-2026",
+      "location": "Laax",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "1000.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "15-01-2026",
+      "location": "Laax",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "19-12-2025",
+      "location": "Copper",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "1000.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "17-12-2025",
+      "location": "Copper",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "12-12-2025",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "800.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "10-12-2025",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "29-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "World Championships",
+      "discipline": "Halfpipe",
+      "rank": "12",
+      "fis_points": "191.90",
+      "cup_points": ""
+    },
+    {
+      "date": "27-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "01-02-2025",
+      "location": "Aspen",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "2",
+      "fis_points": "826.60",
+      "cup_points": "80.00"
+    },
+    {
+      "date": "30-01-2025",
+      "location": "Aspen",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "3",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-01-2025",
+      "location": "Laax",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "3",
+      "fis_points": "687.70",
+      "cup_points": "60.00"
+    },
+    {
+      "date": "17-01-2025",
+      "location": "Laax",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "20-01-2024",
+      "location": "Laax",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "6",
+      "fis_points": "404.60",
+      "cup_points": "40.00"
+    },
+    {
+      "date": "16-12-2023",
+      "location": "Copper Mountain",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "800.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "14-12-2023",
+      "location": "Copper Mountain",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "29-03-2023",
+      "location": "Copper Mountain",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "16-02-2023",
+      "location": "Mammoth Mountain",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "60.00",
+      "cup_points": ""
+    },
+    {
+      "date": "01-09-2022",
+      "location": "Cardrona",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "120.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "08-03-2022",
+      "location": "Leysin",
+      "nation": "",
+      "category": "FIS Junior World Championships",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "240.00",
+      "cup_points": ""
+    },
+    {
+      "date": "28-02-2022",
+      "location": "Copper Mountain Resort",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "120.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "27-02-2022",
+      "location": "Copper Mountain Resort",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "120.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "14-02-2022",
+      "location": "Aspen / Buttermilk",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "120.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "28-01-2022",
+      "location": "Mammoth Mountain Ski Resort",
+      "nation": "",
+      "category": "Nor-Am Cup",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "120.00",
+      "cup_points": "100.00"
+    },
+    {
+      "date": "21-01-2022",
+      "location": "Mammoth Mountain Ski Resort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "80.00",
+      "cup_points": ""
+    },
+    {
+      "date": "19-01-2022",
+      "location": "Mammoth Mountain Ski Resort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slopestyle",
+      "rank": "2",
+      "fis_points": "41.00",
+      "cup_points": ""
+    }
+  ]
+}

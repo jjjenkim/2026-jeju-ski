@@ -1,0 +1,5184 @@
+{
+  "metadata": {
+    "version": "4.0",
+    "engine": "StrictAlignment"
+  },
+  "statistics": {
+    "by_sport": {
+      "freeski": 5,
+      "moguls": 3,
+      "snowboard_alpine": 6,
+      "snowboard_cross": 1,
+      "snowboard_park": 7,
+      "ski_jumping": 2,
+      "cross_country": 9,
+      "alpine_skiing": 10
+    },
+    "by_team": {
+      "프리스타일": 8,
+      "스노보드": 14,
+      "스키점프": 2,
+      "크로스컨트리": 9,
+      "알파인": 10
+    },
+    "by_gender": {
+      "M": 29,
+      "F": 14
+    },
+    "age_distribution": {
+      "teens": 6,
+      "twenties": 25,
+      "thirties": 12
+    },
+    "total_athletes": 43,
+    "total_medals": {
+      "gold": 14,
+      "silver": 3,
+      "bronze": 1
+    },
+    "last_updated": "2026-01-27T11:36:33.832020"
+  },
+  "athletes": [
+    {
+      "id": "KOR001",
+      "name_ko": "이승훈",
+      "name_en": "이승훈 (KOR)",
+      "birth_date": "2005-01-01",
+      "birth_year": 2005,
+      "age": 21,
+      "gender": "M",
+      "sport": "freeski",
+      "sport_key": "freeski",
+      "sport_display": "Freestyle - Park & Pipe",
+      "team": "프리스타일",
+      "fis_code": "235622",
+      "sector": "FS",
+      "detail_discipline_code": "MO",
+      "detail_discipline": "Moguls (MO)",
+      "current_rank": 39,
+      "total_points": 231.6,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-19",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 39,
+          "points": 40.03
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "FS",
+          "rank": 43,
+          "points": 34.03
+        },
+        {
+          "date": "2025-12-24",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "FS",
+          "rank": 33,
+          "points": 48.99
+        },
+        {
+          "date": "2025-12-13",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "FS",
+          "rank": 46,
+          "points": 29.44
+        },
+        {
+          "date": "2025-11-29",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "FS",
+          "rank": 46,
+          "points": 32.98
+        },
+        {
+          "date": "2025-11-15",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "FS",
+          "rank": 37,
+          "points": 46.14
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 32,
+          "snowboard": 31
+        },
+        {
+          "name": "NOV",
+          "alpine": 45,
+          "snowboard": 54
+        },
+        {
+          "name": "DEC",
+          "alpine": 54,
+          "snowboard": 43
+        },
+        {
+          "name": "JAN",
+          "alpine": 53,
+          "snowboard": 74
+        },
+        {
+          "name": "FEB",
+          "alpine": 64,
+          "snowboard": 82
+        },
+        {
+          "name": "MAR",
+          "alpine": 74,
+          "snowboard": 98
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 75,
+          "stamina": 75,
+          "strategy": 79,
+          "mental": 79,
+          "experience": 64
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR002",
+      "name_ko": "문희성",
+      "name_en": "문희성 (KOR)",
+      "birth_date": "2006-01-01",
+      "birth_year": 2006,
+      "age": 20,
+      "gender": "M",
+      "sport": "freeski",
+      "sport_key": "freeski",
+      "sport_display": "Freestyle - Park & Pipe",
+      "team": "프리스타일",
+      "fis_code": "239278",
+      "sector": "FS",
+      "detail_discipline_code": "MO",
+      "detail_discipline": "Moguls (MO)",
+      "current_rank": 13,
+      "total_points": 443.5,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-15",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "FS",
+          "rank": 13,
+          "points": 81.77
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "FS",
+          "rank": 17,
+          "points": 75.43
+        },
+        {
+          "date": "2025-12-22",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "FS",
+          "rank": 16,
+          "points": 77.99
+        },
+        {
+          "date": "2025-12-13",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "FS",
+          "rank": 20,
+          "points": 68.21
+        },
+        {
+          "date": "2025-11-28",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "FS",
+          "rank": 22,
+          "points": 68.6
+        },
+        {
+          "date": "2025-11-15",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "FS",
+          "rank": 19,
+          "points": 71.53
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 22,
+          "snowboard": 30
+        },
+        {
+          "name": "NOV",
+          "alpine": 45,
+          "snowboard": 40
+        },
+        {
+          "name": "DEC",
+          "alpine": 60,
+          "snowboard": 47
+        },
+        {
+          "name": "JAN",
+          "alpine": 59,
+          "snowboard": 78
+        },
+        {
+          "name": "FEB",
+          "alpine": 74,
+          "snowboard": 74
+        },
+        {
+          "name": "MAR",
+          "alpine": 88,
+          "snowboard": 98
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 90,
+          "stamina": 88,
+          "strategy": 90,
+          "mental": 89,
+          "experience": 63
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR003",
+      "name_ko": "신영섭",
+      "name_en": "신영섭 (KOR)",
+      "birth_date": "2005-01-01",
+      "birth_year": 2005,
+      "age": 21,
+      "gender": "M",
+      "sport": "freeski",
+      "sport_key": "freeski",
+      "sport_display": "Freestyle - Park & Pipe",
+      "team": "프리스타일",
+      "fis_code": "233691",
+      "sector": "FS",
+      "detail_discipline_code": "MO",
+      "detail_discipline": "Moguls (MO)",
+      "current_rank": 33,
+      "total_points": 278.9,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-17",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "FS",
+          "rank": 33,
+          "points": 51.46
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "FS",
+          "rank": 37,
+          "points": 45.61
+        },
+        {
+          "date": "2025-12-26",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "FS",
+          "rank": 42,
+          "points": 37.98
+        },
+        {
+          "date": "2025-12-13",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "FS",
+          "rank": 31,
+          "points": 53.48
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "FS",
+          "rank": 39,
+          "points": 42.24
+        },
+        {
+          "date": "2025-11-18",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "FS",
+          "rank": 35,
+          "points": 48.18
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 34,
+          "snowboard": 33
+        },
+        {
+          "name": "NOV",
+          "alpine": 30,
+          "snowboard": 39
+        },
+        {
+          "name": "DEC",
+          "alpine": 46,
+          "snowboard": 41
+        },
+        {
+          "name": "JAN",
+          "alpine": 72,
+          "snowboard": 55
+        },
+        {
+          "name": "FEB",
+          "alpine": 73,
+          "snowboard": 56
+        },
+        {
+          "name": "MAR",
+          "alpine": 83,
+          "snowboard": 78
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 78,
+          "stamina": 71,
+          "strategy": 85,
+          "mental": 83,
+          "experience": 67
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR004",
+      "name_ko": "장유진",
+      "name_en": "장유진 (KOR)",
+      "birth_date": "2001-01-01",
+      "birth_year": 2001,
+      "age": 25,
+      "gender": "F",
+      "sport": "freeski",
+      "sport_key": "freeski",
+      "sport_display": "Freestyle - Park & Pipe",
+      "team": "프리스타일",
+      "fis_code": "203633",
+      "sector": "FS",
+      "detail_discipline_code": "MO",
+      "detail_discipline": "Moguls (MO)",
+      "current_rank": 1,
+      "total_points": 456.0,
+      "medals": {
+        "gold": 2,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-05",
+          "event": "FIS World Cup Podium",
+          "location": "Calgary, CAN",
+          "discipline": "FS",
+          "rank": 1,
+          "points": 97.04
+        },
+        {
+          "date": "2025-12-23",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 5,
+          "points": 91.38
+        },
+        {
+          "date": "2025-12-11",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 11,
+          "points": 83.0
+        },
+        {
+          "date": "2025-12-02",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "FS",
+          "rank": 9,
+          "points": 87.32
+        },
+        {
+          "date": "2025-11-20",
+          "event": "FIS World Cup Podium",
+          "location": "Deer Valley, USA",
+          "discipline": "FS",
+          "rank": 1,
+          "points": 97.29
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 25,
+          "snowboard": 45
+        },
+        {
+          "name": "NOV",
+          "alpine": 35,
+          "snowboard": 42
+        },
+        {
+          "name": "DEC",
+          "alpine": 42,
+          "snowboard": 45
+        },
+        {
+          "name": "JAN",
+          "alpine": 58,
+          "snowboard": 65
+        },
+        {
+          "name": "FEB",
+          "alpine": 79,
+          "snowboard": 82
+        },
+        {
+          "name": "MAR",
+          "alpine": 91,
+          "snowboard": 63
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 90,
+          "stamina": 96,
+          "strategy": 94,
+          "mental": 99,
+          "experience": 77
+        },
+        "medal_projection": {
+          "gold": 0.94,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR005",
+      "name_ko": "김다은",
+      "name_en": "김다은 (KOR)",
+      "birth_date": "2005-01-01",
+      "birth_year": 2005,
+      "age": 21,
+      "gender": "F",
+      "sport": "freeski",
+      "sport_key": "freeski",
+      "sport_display": "Freestyle - Park & Pipe",
+      "team": "프리스타일",
+      "fis_code": "235623",
+      "sector": "FS",
+      "detail_discipline_code": "MO",
+      "detail_discipline": "Moguls (MO)",
+      "current_rank": 23,
+      "total_points": 441.8,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-16",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "FS",
+          "rank": 23,
+          "points": 65.33
+        },
+        {
+          "date": "2026-01-07",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 22,
+          "points": 66.09
+        },
+        {
+          "date": "2025-12-24",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "FS",
+          "rank": 20,
+          "points": 69.61
+        },
+        {
+          "date": "2025-12-11",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 13,
+          "points": 82.36
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "FS",
+          "rank": 14,
+          "points": 77.7
+        },
+        {
+          "date": "2025-11-19",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 12,
+          "points": 80.72
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 31,
+          "snowboard": 35
+        },
+        {
+          "name": "NOV",
+          "alpine": 32,
+          "snowboard": 48
+        },
+        {
+          "name": "DEC",
+          "alpine": 49,
+          "snowboard": 50
+        },
+        {
+          "name": "JAN",
+          "alpine": 72,
+          "snowboard": 72
+        },
+        {
+          "name": "FEB",
+          "alpine": 86,
+          "snowboard": 64
+        },
+        {
+          "name": "MAR",
+          "alpine": 70,
+          "snowboard": 56
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 87,
+          "stamina": 81,
+          "strategy": 83,
+          "mental": 91,
+          "experience": 66
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR006",
+      "name_ko": "정대윤",
+      "name_en": "정대윤 (KOR)",
+      "birth_date": "2005-01-01",
+      "birth_year": 2005,
+      "age": 21,
+      "gender": "M",
+      "sport": "moguls",
+      "sport_key": "moguls",
+      "sport_display": "Freestyle - Moguls",
+      "team": "프리스타일",
+      "fis_code": "229480",
+      "sector": "FS",
+      "detail_discipline_code": "MO",
+      "detail_discipline": "Moguls (MO)",
+      "current_rank": 16,
+      "total_points": 446.2,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-14",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "FS",
+          "rank": 16,
+          "points": 74.45
+        },
+        {
+          "date": "2026-01-04",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "FS",
+          "rank": 17,
+          "points": 74.03
+        },
+        {
+          "date": "2025-12-23",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 15,
+          "points": 76.1
+        },
+        {
+          "date": "2025-12-10",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "FS",
+          "rank": 22,
+          "points": 67.76
+        },
+        {
+          "date": "2025-11-27",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "FS",
+          "rank": 13,
+          "points": 81.58
+        },
+        {
+          "date": "2025-11-20",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "FS",
+          "rank": 19,
+          "points": 72.27
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 26,
+          "snowboard": 40
+        },
+        {
+          "name": "NOV",
+          "alpine": 46,
+          "snowboard": 44
+        },
+        {
+          "name": "DEC",
+          "alpine": 55,
+          "snowboard": 44
+        },
+        {
+          "name": "JAN",
+          "alpine": 69,
+          "snowboard": 79
+        },
+        {
+          "name": "FEB",
+          "alpine": 87,
+          "snowboard": 68
+        },
+        {
+          "name": "MAR",
+          "alpine": 74,
+          "snowboard": 73
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 85,
+          "stamina": 82,
+          "strategy": 89,
+          "mental": 88,
+          "experience": 64
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR007",
+      "name_ko": "이윤승",
+      "name_en": "이윤승 (KOR)",
+      "birth_date": "2006-01-01",
+      "birth_year": 2006,
+      "age": 20,
+      "gender": "M",
+      "sport": "moguls",
+      "sport_key": "moguls",
+      "sport_display": "Freestyle - Moguls",
+      "team": "프리스타일",
+      "fis_code": "252896",
+      "sector": "FS",
+      "detail_discipline_code": "MO",
+      "detail_discipline": "Moguls (MO)",
+      "current_rank": 31,
+      "total_points": 294.9,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-04",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "FS",
+          "rank": 31,
+          "points": 53.78
+        },
+        {
+          "date": "2025-12-21",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 23,
+          "points": 64.24
+        },
+        {
+          "date": "2025-12-10",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "FS",
+          "rank": 30,
+          "points": 56.68
+        },
+        {
+          "date": "2025-11-29",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 19,
+          "points": 72.12
+        },
+        {
+          "date": "2025-11-20",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "FS",
+          "rank": 34,
+          "points": 48.04
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 25,
+          "snowboard": 34
+        },
+        {
+          "name": "NOV",
+          "alpine": 36,
+          "snowboard": 53
+        },
+        {
+          "name": "DEC",
+          "alpine": 51,
+          "snowboard": 54
+        },
+        {
+          "name": "JAN",
+          "alpine": 61,
+          "snowboard": 70
+        },
+        {
+          "name": "FEB",
+          "alpine": 80,
+          "snowboard": 58
+        },
+        {
+          "name": "MAR",
+          "alpine": 75,
+          "snowboard": 75
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 84,
+          "stamina": 70,
+          "strategy": 80,
+          "mental": 82,
+          "experience": 64
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR008",
+      "name_ko": "윤신이",
+      "name_en": "윤신이 (KOR)",
+      "birth_date": "2007-01-01",
+      "birth_year": 2007,
+      "age": 19,
+      "gender": "F",
+      "sport": "moguls",
+      "sport_key": "moguls",
+      "sport_display": "Freestyle - Moguls",
+      "team": "프리스타일",
+      "fis_code": "258758",
+      "sector": "FS",
+      "detail_discipline_code": "MO",
+      "detail_discipline": "Moguls (MO)",
+      "current_rank": 25,
+      "total_points": 398.8,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-27",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 25,
+          "points": 64.25
+        },
+        {
+          "date": "2026-01-19",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "FS",
+          "rank": 26,
+          "points": 59.87
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "FS",
+          "rank": 25,
+          "points": 64.5
+        },
+        {
+          "date": "2025-12-23",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "FS",
+          "rank": 26,
+          "points": 62.32
+        },
+        {
+          "date": "2025-12-09",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "FS",
+          "rank": 31,
+          "points": 54.09
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "FS",
+          "rank": 34,
+          "points": 47.32
+        },
+        {
+          "date": "2025-11-17",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "FS",
+          "rank": 35,
+          "points": 46.44
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 38,
+          "snowboard": 35
+        },
+        {
+          "name": "NOV",
+          "alpine": 34,
+          "snowboard": 45
+        },
+        {
+          "name": "DEC",
+          "alpine": 49,
+          "snowboard": 63
+        },
+        {
+          "name": "JAN",
+          "alpine": 65,
+          "snowboard": 70
+        },
+        {
+          "name": "FEB",
+          "alpine": 76,
+          "snowboard": 69
+        },
+        {
+          "name": "MAR",
+          "alpine": 70,
+          "snowboard": 89
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 82,
+          "stamina": 81,
+          "strategy": 83,
+          "mental": 89,
+          "experience": 58
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR009",
+      "name_ko": "이상호",
+      "name_en": "이상호 (KOR)",
+      "birth_date": "1995-01-01",
+      "birth_year": 1995,
+      "age": 31,
+      "gender": "M",
+      "sport": "snowboard_alpine",
+      "sport_key": "snowboard_alpine",
+      "sport_display": "Snowboard Alpine",
+      "team": "스노보드",
+      "fis_code": "163744",
+      "sector": "SB",
+      "detail_discipline_code": "PGS",
+      "detail_discipline": "Parallel GS (PGS)",
+      "current_rank": 1,
+      "total_points": 569.5,
+      "medals": {
+        "gold": 4,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-17",
+          "event": "FIS World Cup Podium",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 98.26
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 4,
+          "points": 94.09
+        },
+        {
+          "date": "2025-12-26",
+          "event": "FIS World Cup Podium",
+          "location": "Calgary, CAN",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 98.68
+        },
+        {
+          "date": "2025-12-11",
+          "event": "FIS World Cup Podium",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 96.68
+        },
+        {
+          "date": "2025-11-28",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "SB",
+          "rank": 10,
+          "points": 84.24
+        },
+        {
+          "date": "2025-11-19",
+          "event": "FIS World Cup Podium",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 97.58
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 23,
+          "snowboard": 34
+        },
+        {
+          "name": "NOV",
+          "alpine": 48,
+          "snowboard": 43
+        },
+        {
+          "name": "DEC",
+          "alpine": 46,
+          "snowboard": 48
+        },
+        {
+          "name": "JAN",
+          "alpine": 72,
+          "snowboard": 64
+        },
+        {
+          "name": "FEB",
+          "alpine": 60,
+          "snowboard": 65
+        },
+        {
+          "name": "MAR",
+          "alpine": 73,
+          "snowboard": 93
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 97,
+          "stamina": 94,
+          "strategy": 99,
+          "mental": 97,
+          "experience": 99
+        },
+        "medal_projection": {
+          "gold": 0.94,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR010",
+      "name_ko": "김상겸",
+      "name_en": "김상겸 (KOR)",
+      "birth_date": "1989-01-01",
+      "birth_year": 1989,
+      "age": 37,
+      "gender": "M",
+      "sport": "snowboard_alpine",
+      "sport_key": "snowboard_alpine",
+      "sport_display": "Snowboard Alpine",
+      "team": "스노보드",
+      "fis_code": "111837",
+      "sector": "SB",
+      "detail_discipline_code": "PGS",
+      "detail_discipline": "Parallel GS (PGS)",
+      "current_rank": 1,
+      "total_points": 573.5,
+      "medals": {
+        "gold": 3,
+        "silver": 1,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-19",
+          "event": "FIS World Cup Podium",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 98.63
+        },
+        {
+          "date": "2026-01-07",
+          "event": "FIS World Cup Podium",
+          "location": "Calgary, CAN",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 98.06
+        },
+        {
+          "date": "2025-12-24",
+          "event": "FIS World Cup Podium",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 98.62
+        },
+        {
+          "date": "2025-12-09",
+          "event": "FIS World Cup Podium",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 2,
+          "points": 96.55
+        },
+        {
+          "date": "2025-11-30",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 4,
+          "points": 94.21
+        },
+        {
+          "date": "2025-11-15",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 8,
+          "points": 87.46
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 25,
+          "snowboard": 36
+        },
+        {
+          "name": "NOV",
+          "alpine": 33,
+          "snowboard": 36
+        },
+        {
+          "name": "DEC",
+          "alpine": 51,
+          "snowboard": 41
+        },
+        {
+          "name": "JAN",
+          "alpine": 72,
+          "snowboard": 61
+        },
+        {
+          "name": "FEB",
+          "alpine": 70,
+          "snowboard": 85
+        },
+        {
+          "name": "MAR",
+          "alpine": 89,
+          "snowboard": 94
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 99,
+          "stamina": 90,
+          "strategy": 99,
+          "mental": 99,
+          "experience": 99
+        },
+        "medal_projection": {
+          "gold": 0.94,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR011",
+      "name_ko": "조완희",
+      "name_en": "조완희 (KOR)",
+      "birth_date": "1998-01-01",
+      "birth_year": 1998,
+      "age": 28,
+      "gender": "M",
+      "sport": "snowboard_alpine",
+      "sport_key": "snowboard_alpine",
+      "sport_display": "Snowboard Alpine",
+      "team": "스노보드",
+      "fis_code": "188938",
+      "sector": "SB",
+      "detail_discipline_code": "PGS",
+      "detail_discipline": "Parallel GS (PGS)",
+      "current_rank": 13,
+      "total_points": 512.5,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-27",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 13,
+          "points": 78.97
+        },
+        {
+          "date": "2026-01-14",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "SB",
+          "rank": 14,
+          "points": 79.16
+        },
+        {
+          "date": "2026-01-06",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 23,
+          "points": 65.71
+        },
+        {
+          "date": "2025-12-23",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "SB",
+          "rank": 17,
+          "points": 75.52
+        },
+        {
+          "date": "2025-12-09",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "SB",
+          "rank": 24,
+          "points": 64.26
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 22,
+          "points": 68.49
+        },
+        {
+          "date": "2025-11-17",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 12,
+          "points": 80.42
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 20,
+          "snowboard": 41
+        },
+        {
+          "name": "NOV",
+          "alpine": 44,
+          "snowboard": 36
+        },
+        {
+          "name": "DEC",
+          "alpine": 43,
+          "snowboard": 43
+        },
+        {
+          "name": "JAN",
+          "alpine": 71,
+          "snowboard": 54
+        },
+        {
+          "name": "FEB",
+          "alpine": 65,
+          "snowboard": 53
+        },
+        {
+          "name": "MAR",
+          "alpine": 83,
+          "snowboard": 56
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 84,
+          "stamina": 87,
+          "strategy": 90,
+          "mental": 87,
+          "experience": 84
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR012",
+      "name_ko": "마준호",
+      "name_en": "마준호 (KOR)",
+      "birth_date": "2002-01-01",
+      "birth_year": 2002,
+      "age": 24,
+      "gender": "M",
+      "sport": "snowboard_alpine",
+      "sport_key": "snowboard_alpine",
+      "sport_display": "Snowboard Alpine",
+      "team": "스노보드",
+      "fis_code": "220950",
+      "sector": "SB",
+      "detail_discipline_code": "PGS",
+      "detail_discipline": "Parallel GS (PGS)",
+      "current_rank": 25,
+      "total_points": 385.2,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-16",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "SB",
+          "rank": 25,
+          "points": 61.98
+        },
+        {
+          "date": "2026-01-02",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 32,
+          "points": 53.74
+        },
+        {
+          "date": "2025-12-21",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 21,
+          "points": 66.54
+        },
+        {
+          "date": "2025-12-10",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "SB",
+          "rank": 21,
+          "points": 68.4
+        },
+        {
+          "date": "2025-11-30",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "SB",
+          "rank": 23,
+          "points": 66.57
+        },
+        {
+          "date": "2025-11-20",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 20,
+          "points": 68.01
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 35,
+          "snowboard": 39
+        },
+        {
+          "name": "NOV",
+          "alpine": 36,
+          "snowboard": 39
+        },
+        {
+          "name": "DEC",
+          "alpine": 51,
+          "snowboard": 62
+        },
+        {
+          "name": "JAN",
+          "alpine": 54,
+          "snowboard": 51
+        },
+        {
+          "name": "FEB",
+          "alpine": 77,
+          "snowboard": 82
+        },
+        {
+          "name": "MAR",
+          "alpine": 87,
+          "snowboard": 75
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 85,
+          "stamina": 82,
+          "strategy": 87,
+          "mental": 85,
+          "experience": 78
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR013",
+      "name_ko": "홍승영",
+      "name_en": "홍승영 (KOR)",
+      "birth_date": "1998-01-01",
+      "birth_year": 1998,
+      "age": 28,
+      "gender": "M",
+      "sport": "snowboard_alpine",
+      "sport_key": "snowboard_alpine",
+      "sport_display": "Snowboard Alpine",
+      "team": "스노보드",
+      "fis_code": "188936",
+      "sector": "SB",
+      "detail_discipline_code": "PGS",
+      "detail_discipline": "Parallel GS (PGS)",
+      "current_rank": 27,
+      "total_points": 362.1,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-14",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "SB",
+          "rank": 27,
+          "points": 59.18
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 17,
+          "points": 72.8
+        },
+        {
+          "date": "2025-12-25",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "SB",
+          "rank": 29,
+          "points": 55.64
+        },
+        {
+          "date": "2025-12-13",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 30,
+          "points": 55.34
+        },
+        {
+          "date": "2025-12-02",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "SB",
+          "rank": 29,
+          "points": 56.52
+        },
+        {
+          "date": "2025-11-15",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 26,
+          "points": 62.67
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 25,
+          "snowboard": 41
+        },
+        {
+          "name": "NOV",
+          "alpine": 47,
+          "snowboard": 39
+        },
+        {
+          "name": "DEC",
+          "alpine": 57,
+          "snowboard": 60
+        },
+        {
+          "name": "JAN",
+          "alpine": 61,
+          "snowboard": 68
+        },
+        {
+          "name": "FEB",
+          "alpine": 60,
+          "snowboard": 57
+        },
+        {
+          "name": "MAR",
+          "alpine": 95,
+          "snowboard": 81
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 85,
+          "stamina": 75,
+          "strategy": 87,
+          "mental": 86,
+          "experience": 93
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR014",
+      "name_ko": "정해림",
+      "name_en": "정해림 (KOR)",
+      "birth_date": "1995-01-01",
+      "birth_year": 1995,
+      "age": 31,
+      "gender": "F",
+      "sport": "snowboard_alpine",
+      "sport_key": "snowboard_alpine",
+      "sport_display": "Snowboard Alpine",
+      "team": "스노보드",
+      "fis_code": "156415",
+      "sector": "SB",
+      "detail_discipline_code": "PGS",
+      "detail_discipline": "Parallel GS (PGS)",
+      "current_rank": 42,
+      "total_points": 216.9,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-02",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "SB",
+          "rank": 42,
+          "points": 37.91
+        },
+        {
+          "date": "2025-12-22",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 36,
+          "points": 45.48
+        },
+        {
+          "date": "2025-12-11",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 43,
+          "points": 35.21
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 28,
+          "points": 58.13
+        },
+        {
+          "date": "2025-11-17",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "SB",
+          "rank": 39,
+          "points": 40.17
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 40,
+          "snowboard": 37
+        },
+        {
+          "name": "NOV",
+          "alpine": 43,
+          "snowboard": 36
+        },
+        {
+          "name": "DEC",
+          "alpine": 54,
+          "snowboard": 52
+        },
+        {
+          "name": "JAN",
+          "alpine": 56,
+          "snowboard": 63
+        },
+        {
+          "name": "FEB",
+          "alpine": 89,
+          "snowboard": 74
+        },
+        {
+          "name": "MAR",
+          "alpine": 86,
+          "snowboard": 56
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 75,
+          "stamina": 72,
+          "strategy": 79,
+          "mental": 74,
+          "experience": 98
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR015",
+      "name_ko": "우수빈",
+      "name_en": "우수빈 (KOR)",
+      "birth_date": "2003-01-01",
+      "birth_year": 2003,
+      "age": 23,
+      "gender": "M",
+      "sport": "snowboard_cross",
+      "sport_key": "snowboard_cross",
+      "sport_display": "Snowboard Cross",
+      "team": "스노보드",
+      "fis_code": "229485",
+      "sector": "SB",
+      "detail_discipline_code": "SBX",
+      "detail_discipline": "Snowboard Cross (SBX)",
+      "current_rank": 36,
+      "total_points": 306.8,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-27",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "SB",
+          "rank": 36,
+          "points": 47.66
+        },
+        {
+          "date": "2026-01-18",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 43,
+          "points": 34.49
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "SB",
+          "rank": 33,
+          "points": 52.46
+        },
+        {
+          "date": "2025-12-26",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 38,
+          "points": 42.41
+        },
+        {
+          "date": "2025-12-09",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 38,
+          "points": 41.27
+        },
+        {
+          "date": "2025-11-27",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 42,
+          "points": 37.25
+        },
+        {
+          "date": "2025-11-20",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 32,
+          "points": 51.29
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 37,
+          "snowboard": 40
+        },
+        {
+          "name": "NOV",
+          "alpine": 49,
+          "snowboard": 46
+        },
+        {
+          "name": "DEC",
+          "alpine": 51,
+          "snowboard": 64
+        },
+        {
+          "name": "JAN",
+          "alpine": 70,
+          "snowboard": 58
+        },
+        {
+          "name": "FEB",
+          "alpine": 69,
+          "snowboard": 54
+        },
+        {
+          "name": "MAR",
+          "alpine": 72,
+          "snowboard": 73
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 74,
+          "stamina": 78,
+          "strategy": 77,
+          "mental": 76,
+          "experience": 71
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR016",
+      "name_ko": "이채운",
+      "name_en": "이채운 (KOR)",
+      "birth_date": "2006-01-01",
+      "birth_year": 2006,
+      "age": 20,
+      "gender": "M",
+      "sport": "snowboard_park",
+      "sport_key": "snowboard_park",
+      "sport_display": "Snowboard - Park & Pipe",
+      "team": "스노보드",
+      "fis_code": "239112",
+      "sector": "SB",
+      "detail_discipline_code": "SS",
+      "detail_discipline": "Slopestyle (SS)",
+      "current_rank": 4,
+      "total_points": 571.1,
+      "medals": {
+        "gold": 2,
+        "silver": 1,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-14",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 4,
+          "points": 95.4
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 4,
+          "points": 93.57
+        },
+        {
+          "date": "2025-12-21",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 9,
+          "points": 87.36
+        },
+        {
+          "date": "2025-12-13",
+          "event": "FIS World Cup Podium",
+          "location": "Deer Valley, USA",
+          "discipline": "SB",
+          "rank": 2,
+          "points": 96.5
+        },
+        {
+          "date": "2025-11-30",
+          "event": "FIS World Cup Podium",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 98.43
+        },
+        {
+          "date": "2025-11-17",
+          "event": "FIS World Cup Podium",
+          "location": "Deer Valley, USA",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 99.81
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 34,
+          "snowboard": 40
+        },
+        {
+          "name": "NOV",
+          "alpine": 45,
+          "snowboard": 48
+        },
+        {
+          "name": "DEC",
+          "alpine": 44,
+          "snowboard": 45
+        },
+        {
+          "name": "JAN",
+          "alpine": 72,
+          "snowboard": 55
+        },
+        {
+          "name": "FEB",
+          "alpine": 81,
+          "snowboard": 91
+        },
+        {
+          "name": "MAR",
+          "alpine": 83,
+          "snowboard": 99
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 93,
+          "stamina": 91,
+          "strategy": 92,
+          "mental": 92,
+          "experience": 65
+        },
+        "medal_projection": {
+          "gold": 0.91,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR017",
+      "name_ko": "이지오",
+      "name_en": "이지오 (KOR)",
+      "birth_date": "2008-01-01",
+      "birth_year": 2008,
+      "age": 18,
+      "gender": "M",
+      "sport": "snowboard_park",
+      "sport_key": "snowboard_park",
+      "sport_display": "Snowboard - Park & Pipe",
+      "team": "스노보드",
+      "fis_code": "261333",
+      "sector": "SB",
+      "detail_discipline_code": "SS",
+      "detail_discipline": "Slopestyle (SS)",
+      "current_rank": 44,
+      "total_points": 219.9,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-17",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 44,
+          "points": 32.26
+        },
+        {
+          "date": "2026-01-04",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "SB",
+          "rank": 47,
+          "points": 29.17
+        },
+        {
+          "date": "2025-12-23",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 38,
+          "points": 44.21
+        },
+        {
+          "date": "2025-12-10",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "SB",
+          "rank": 34,
+          "points": 48.37
+        },
+        {
+          "date": "2025-11-27",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "SB",
+          "rank": 47,
+          "points": 30.84
+        },
+        {
+          "date": "2025-11-18",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "SB",
+          "rank": 44,
+          "points": 35.02
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 25,
+          "snowboard": 40
+        },
+        {
+          "name": "NOV",
+          "alpine": 41,
+          "snowboard": 42
+        },
+        {
+          "name": "DEC",
+          "alpine": 60,
+          "snowboard": 44
+        },
+        {
+          "name": "JAN",
+          "alpine": 65,
+          "snowboard": 60
+        },
+        {
+          "name": "FEB",
+          "alpine": 85,
+          "snowboard": 84
+        },
+        {
+          "name": "MAR",
+          "alpine": 82,
+          "snowboard": 96
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 74,
+          "stamina": 69,
+          "strategy": 72,
+          "mental": 78,
+          "experience": 60
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR018",
+      "name_ko": "김건희",
+      "name_en": "김건희 (KOR)",
+      "birth_date": "2008-01-01",
+      "birth_year": 2008,
+      "age": 18,
+      "gender": "M",
+      "sport": "snowboard_park",
+      "sport_key": "snowboard_park",
+      "sport_display": "Snowboard - Park & Pipe",
+      "team": "스노보드",
+      "fis_code": "261977",
+      "sector": "SB",
+      "detail_discipline_code": "SS",
+      "detail_discipline": "Slopestyle (SS)",
+      "current_rank": 17,
+      "total_points": 471.2,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-16",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "SB",
+          "rank": 17,
+          "points": 74.4
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 17,
+          "points": 74.44
+        },
+        {
+          "date": "2025-12-26",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 10,
+          "points": 84.27
+        },
+        {
+          "date": "2025-12-10",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "SB",
+          "rank": 15,
+          "points": 75.86
+        },
+        {
+          "date": "2025-11-29",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 20,
+          "points": 71.9
+        },
+        {
+          "date": "2025-11-19",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "SB",
+          "rank": 6,
+          "points": 90.3
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 22,
+          "snowboard": 44
+        },
+        {
+          "name": "NOV",
+          "alpine": 40,
+          "snowboard": 51
+        },
+        {
+          "name": "DEC",
+          "alpine": 54,
+          "snowboard": 62
+        },
+        {
+          "name": "JAN",
+          "alpine": 54,
+          "snowboard": 69
+        },
+        {
+          "name": "FEB",
+          "alpine": 79,
+          "snowboard": 69
+        },
+        {
+          "name": "MAR",
+          "alpine": 82,
+          "snowboard": 60
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 91,
+          "stamina": 86,
+          "strategy": 86,
+          "mental": 88,
+          "experience": 54
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR019",
+      "name_ko": "최가온",
+      "name_en": "최가온 (KOR)",
+      "birth_date": "2008-01-01",
+      "birth_year": 2008,
+      "age": 18,
+      "gender": "F",
+      "sport": "snowboard_park",
+      "sport_key": "snowboard_park",
+      "sport_display": "Snowboard - Park & Pipe",
+      "team": "스노보드",
+      "fis_code": "264594",
+      "sector": "SB",
+      "detail_discipline_code": "BA",
+      "detail_discipline": "Big Air (BA)",
+      "current_rank": 1,
+      "total_points": 476.1,
+      "medals": {
+        "gold": 3,
+        "silver": 0,
+        "bronze": 1
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-06",
+          "event": "FIS World Cup Podium",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 99.86
+        },
+        {
+          "date": "2025-12-23",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "SB",
+          "rank": 10,
+          "points": 85.19
+        },
+        {
+          "date": "2025-12-13",
+          "event": "FIS World Cup Podium",
+          "location": "Laax, SUI",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 99.15
+        },
+        {
+          "date": "2025-11-30",
+          "event": "FIS World Cup Podium",
+          "location": "Deer Valley, USA",
+          "discipline": "SB",
+          "rank": 1,
+          "points": 97.89
+        },
+        {
+          "date": "2025-11-16",
+          "event": "FIS World Cup Podium",
+          "location": "Deer Valley, USA",
+          "discipline": "SB",
+          "rank": 3,
+          "points": 94.03
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 33,
+          "snowboard": 30
+        },
+        {
+          "name": "NOV",
+          "alpine": 30,
+          "snowboard": 52
+        },
+        {
+          "name": "DEC",
+          "alpine": 54,
+          "snowboard": 50
+        },
+        {
+          "name": "JAN",
+          "alpine": 57,
+          "snowboard": 79
+        },
+        {
+          "name": "FEB",
+          "alpine": 69,
+          "snowboard": 66
+        },
+        {
+          "name": "MAR",
+          "alpine": 75,
+          "snowboard": 93
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 93,
+          "stamina": 94,
+          "strategy": 99,
+          "mental": 93,
+          "experience": 59
+        },
+        "medal_projection": {
+          "gold": 0.94,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR020",
+      "name_ko": "이나윤",
+      "name_en": "이나윤 (KOR)",
+      "birth_date": "2003-01-01",
+      "birth_year": 2003,
+      "age": 23,
+      "gender": "F",
+      "sport": "snowboard_park",
+      "sport_key": "snowboard_park",
+      "sport_display": "Snowboard - Park & Pipe",
+      "team": "스노보드",
+      "fis_code": "212759",
+      "sector": "SB",
+      "detail_discipline_code": "SS",
+      "detail_discipline": "Slopestyle (SS)",
+      "current_rank": 5,
+      "total_points": 485.6,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-15",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "SB",
+          "rank": 5,
+          "points": 91.87
+        },
+        {
+          "date": "2026-01-04",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 16,
+          "points": 76.35
+        },
+        {
+          "date": "2025-12-26",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 11,
+          "points": 82.11
+        },
+        {
+          "date": "2025-12-12",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "SB",
+          "rank": 9,
+          "points": 85.04
+        },
+        {
+          "date": "2025-11-30",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "SB",
+          "rank": 16,
+          "points": 76.76
+        },
+        {
+          "date": "2025-11-20",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 18,
+          "points": 73.5
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 25,
+          "snowboard": 35
+        },
+        {
+          "name": "NOV",
+          "alpine": 36,
+          "snowboard": 48
+        },
+        {
+          "name": "DEC",
+          "alpine": 40,
+          "snowboard": 40
+        },
+        {
+          "name": "JAN",
+          "alpine": 66,
+          "snowboard": 70
+        },
+        {
+          "name": "FEB",
+          "alpine": 74,
+          "snowboard": 62
+        },
+        {
+          "name": "MAR",
+          "alpine": 91,
+          "snowboard": 81
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 96,
+          "stamina": 89,
+          "strategy": 92,
+          "mental": 98,
+          "experience": 71
+        },
+        "medal_projection": {
+          "gold": 0.9,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR021",
+      "name_ko": "이동헌",
+      "name_en": "이동헌 (KOR)",
+      "birth_date": "2006-01-01",
+      "birth_year": 2006,
+      "age": 20,
+      "gender": "M",
+      "sport": "snowboard_park",
+      "sport_key": "snowboard_park",
+      "sport_display": "Snowboard - Park & Pipe",
+      "team": "스노보드",
+      "fis_code": "239111",
+      "sector": "SB",
+      "detail_discipline_code": "HP",
+      "detail_discipline": "Halfpipe (HP)",
+      "current_rank": 40,
+      "total_points": 273.8,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-27",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "SB",
+          "rank": 40,
+          "points": 39.93
+        },
+        {
+          "date": "2026-01-15",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "SB",
+          "rank": 38,
+          "points": 43.14
+        },
+        {
+          "date": "2026-01-07",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 45,
+          "points": 31.41
+        },
+        {
+          "date": "2025-12-25",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "SB",
+          "rank": 40,
+          "points": 40.76
+        },
+        {
+          "date": "2025-12-10",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 45,
+          "points": 31.56
+        },
+        {
+          "date": "2025-11-29",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 34,
+          "points": 48.63
+        },
+        {
+          "date": "2025-11-18",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "SB",
+          "rank": 41,
+          "points": 38.41
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 40,
+          "snowboard": 38
+        },
+        {
+          "name": "NOV",
+          "alpine": 50,
+          "snowboard": 35
+        },
+        {
+          "name": "DEC",
+          "alpine": 41,
+          "snowboard": 43
+        },
+        {
+          "name": "JAN",
+          "alpine": 74,
+          "snowboard": 73
+        },
+        {
+          "name": "FEB",
+          "alpine": 65,
+          "snowboard": 92
+        },
+        {
+          "name": "MAR",
+          "alpine": 90,
+          "snowboard": 77
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 72,
+          "stamina": 69,
+          "strategy": 72,
+          "mental": 73,
+          "experience": 65
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR022",
+      "name_ko": "유승은",
+      "name_en": "유승은 (KOR)",
+      "birth_date": "2008-01-01",
+      "birth_year": 2008,
+      "age": 18,
+      "gender": "F",
+      "sport": "snowboard_park",
+      "sport_key": "snowboard_park",
+      "sport_display": "Snowboard - Park & Pipe",
+      "team": "스노보드",
+      "fis_code": "261339",
+      "sector": "SB",
+      "detail_discipline_code": "BA",
+      "detail_discipline": "Big Air (BA)",
+      "current_rank": 25,
+      "total_points": 287.8,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-18",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 25,
+          "points": 63.73
+        },
+        {
+          "date": "2026-01-05",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "SB",
+          "rank": 38,
+          "points": 41.62
+        },
+        {
+          "date": "2025-12-23",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 36,
+          "points": 44.13
+        },
+        {
+          "date": "2025-12-12",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "SB",
+          "rank": 31,
+          "points": 51.72
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "SB",
+          "rank": 36,
+          "points": 46.59
+        },
+        {
+          "date": "2025-11-20",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "SB",
+          "rank": 39,
+          "points": 39.99
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 23,
+          "snowboard": 40
+        },
+        {
+          "name": "NOV",
+          "alpine": 33,
+          "snowboard": 39
+        },
+        {
+          "name": "DEC",
+          "alpine": 47,
+          "snowboard": 51
+        },
+        {
+          "name": "JAN",
+          "alpine": 73,
+          "snowboard": 45
+        },
+        {
+          "name": "FEB",
+          "alpine": 73,
+          "snowboard": 87
+        },
+        {
+          "name": "MAR",
+          "alpine": 70,
+          "snowboard": 60
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 83,
+          "stamina": 83,
+          "strategy": 88,
+          "mental": 82,
+          "experience": 57
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR023",
+      "name_ko": "최흥철",
+      "name_en": "최흥철 (KOR)",
+      "birth_date": "1981-01-01",
+      "birth_year": 1981,
+      "age": 45,
+      "gender": "M",
+      "sport": "ski_jumping",
+      "sport_key": "ski_jumping",
+      "sport_display": "Ski Jumping",
+      "team": "스키점프",
+      "fis_code": "10064",
+      "sector": "JP",
+      "detail_discipline_code": "NH",
+      "detail_discipline": "NH",
+      "current_rank": 18,
+      "total_points": 389.2,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-18",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "JP",
+          "rank": 18,
+          "points": 73.58
+        },
+        {
+          "date": "2026-01-07",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "JP",
+          "rank": 31,
+          "points": 53.04
+        },
+        {
+          "date": "2025-12-22",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "JP",
+          "rank": 19,
+          "points": 73.41
+        },
+        {
+          "date": "2025-12-11",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "JP",
+          "rank": 22,
+          "points": 67.72
+        },
+        {
+          "date": "2025-12-02",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "JP",
+          "rank": 24,
+          "points": 65.69
+        },
+        {
+          "date": "2025-11-18",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "JP",
+          "rank": 30,
+          "points": 55.77
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 27,
+          "snowboard": 33
+        },
+        {
+          "name": "NOV",
+          "alpine": 33,
+          "snowboard": 49
+        },
+        {
+          "name": "DEC",
+          "alpine": 41,
+          "snowboard": 43
+        },
+        {
+          "name": "JAN",
+          "alpine": 53,
+          "snowboard": 47
+        },
+        {
+          "name": "FEB",
+          "alpine": 67,
+          "snowboard": 60
+        },
+        {
+          "name": "MAR",
+          "alpine": 93,
+          "snowboard": 56
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 87,
+          "stamina": 84,
+          "strategy": 87,
+          "mental": 92,
+          "experience": 99
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR024",
+      "name_ko": "장선웅",
+      "name_en": "장선웅 (KOR)",
+      "birth_date": "2007-01-01",
+      "birth_year": 2007,
+      "age": 19,
+      "gender": "M",
+      "sport": "ski_jumping",
+      "sport_key": "ski_jumping",
+      "sport_display": "Ski Jumping",
+      "team": "스키점프",
+      "fis_code": "270266",
+      "sector": "JP",
+      "detail_discipline_code": "NH",
+      "detail_discipline": "NH",
+      "current_rank": 32,
+      "total_points": 245.4,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-02",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "JP",
+          "rank": 32,
+          "points": 50.06
+        },
+        {
+          "date": "2025-12-25",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "JP",
+          "rank": 37,
+          "points": 43.07
+        },
+        {
+          "date": "2025-12-09",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "JP",
+          "rank": 33,
+          "points": 49.28
+        },
+        {
+          "date": "2025-11-28",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "JP",
+          "rank": 37,
+          "points": 42.78
+        },
+        {
+          "date": "2025-11-19",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "JP",
+          "rank": 26,
+          "points": 60.2
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 21,
+          "snowboard": 35
+        },
+        {
+          "name": "NOV",
+          "alpine": 45,
+          "snowboard": 44
+        },
+        {
+          "name": "DEC",
+          "alpine": 56,
+          "snowboard": 50
+        },
+        {
+          "name": "JAN",
+          "alpine": 50,
+          "snowboard": 54
+        },
+        {
+          "name": "FEB",
+          "alpine": 69,
+          "snowboard": 58
+        },
+        {
+          "name": "MAR",
+          "alpine": 82,
+          "snowboard": 92
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 81,
+          "stamina": 80,
+          "strategy": 86,
+          "mental": 85,
+          "experience": 64
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR025",
+      "name_ko": "이준서",
+      "name_en": "이준서 (KOR)",
+      "birth_date": "2003-01-01",
+      "birth_year": 2003,
+      "age": 23,
+      "gender": "M",
+      "sport": "cross_country",
+      "sport_key": "cross_country",
+      "sport_display": "Cross Country",
+      "team": "크로스컨트리",
+      "fis_code": "229479",
+      "sector": "CC",
+      "detail_discipline_code": "DIST",
+      "detail_discipline": "DIST",
+      "current_rank": 20,
+      "total_points": 460.5,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-17",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "CC",
+          "rank": 20,
+          "points": 68.28
+        },
+        {
+          "date": "2026-01-05",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 12,
+          "points": 83.16
+        },
+        {
+          "date": "2025-12-21",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "CC",
+          "rank": 18,
+          "points": 72.43
+        },
+        {
+          "date": "2025-12-12",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "CC",
+          "rank": 13,
+          "points": 80.69
+        },
+        {
+          "date": "2025-11-30",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 17,
+          "points": 73.54
+        },
+        {
+          "date": "2025-11-16",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "CC",
+          "rank": 13,
+          "points": 82.39
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 36,
+          "snowboard": 32
+        },
+        {
+          "name": "NOV",
+          "alpine": 33,
+          "snowboard": 45
+        },
+        {
+          "name": "DEC",
+          "alpine": 50,
+          "snowboard": 54
+        },
+        {
+          "name": "JAN",
+          "alpine": 63,
+          "snowboard": 58
+        },
+        {
+          "name": "FEB",
+          "alpine": 60,
+          "snowboard": 64
+        },
+        {
+          "name": "MAR",
+          "alpine": 82,
+          "snowboard": 88
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 84,
+          "stamina": 85,
+          "strategy": 84,
+          "mental": 83,
+          "experience": 77
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR026",
+      "name_ko": "변지영",
+      "name_en": "변지영 (KOR)",
+      "birth_date": "1998-01-01",
+      "birth_year": 1998,
+      "age": 28,
+      "gender": "M",
+      "sport": "cross_country",
+      "sport_key": "cross_country",
+      "sport_display": "Cross Country",
+      "team": "크로스컨트리",
+      "fis_code": "188923",
+      "sector": "CC",
+      "detail_discipline_code": "DIST",
+      "detail_discipline": "DIST",
+      "current_rank": 26,
+      "total_points": 400.9,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-19",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "CC",
+          "rank": 26,
+          "points": 61.06
+        },
+        {
+          "date": "2026-01-04",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "CC",
+          "rank": 26,
+          "points": 60.67
+        },
+        {
+          "date": "2025-12-22",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "CC",
+          "rank": 16,
+          "points": 74.72
+        },
+        {
+          "date": "2025-12-12",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 23,
+          "points": 64.32
+        },
+        {
+          "date": "2025-12-02",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "CC",
+          "rank": 19,
+          "points": 70.07
+        },
+        {
+          "date": "2025-11-20",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 21,
+          "points": 70.1
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 38,
+          "snowboard": 40
+        },
+        {
+          "name": "NOV",
+          "alpine": 42,
+          "snowboard": 50
+        },
+        {
+          "name": "DEC",
+          "alpine": 44,
+          "snowboard": 49
+        },
+        {
+          "name": "JAN",
+          "alpine": 54,
+          "snowboard": 64
+        },
+        {
+          "name": "FEB",
+          "alpine": 73,
+          "snowboard": 73
+        },
+        {
+          "name": "MAR",
+          "alpine": 70,
+          "snowboard": 93
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 82,
+          "stamina": 80,
+          "strategy": 84,
+          "mental": 80,
+          "experience": 87
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR027",
+      "name_ko": "이진복",
+      "name_en": "이진복 (KOR)",
+      "birth_date": "2002-01-01",
+      "birth_year": 2002,
+      "age": 24,
+      "gender": "M",
+      "sport": "cross_country",
+      "sport_key": "cross_country",
+      "sport_display": "Cross Country",
+      "team": "크로스컨트리",
+      "fis_code": "229490",
+      "sector": "CC",
+      "detail_discipline_code": "DIST",
+      "detail_discipline": "DIST",
+      "current_rank": 13,
+      "total_points": 503.7,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-16",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "CC",
+          "rank": 13,
+          "points": 80.05
+        },
+        {
+          "date": "2026-01-02",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "CC",
+          "rank": 7,
+          "points": 88.95
+        },
+        {
+          "date": "2025-12-24",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "CC",
+          "rank": 9,
+          "points": 87.63
+        },
+        {
+          "date": "2025-12-12",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "CC",
+          "rank": 11,
+          "points": 84.13
+        },
+        {
+          "date": "2025-11-27",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "CC",
+          "rank": 9,
+          "points": 84.86
+        },
+        {
+          "date": "2025-11-17",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "CC",
+          "rank": 14,
+          "points": 78.07
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 32,
+          "snowboard": 41
+        },
+        {
+          "name": "NOV",
+          "alpine": 31,
+          "snowboard": 55
+        },
+        {
+          "name": "DEC",
+          "alpine": 57,
+          "snowboard": 40
+        },
+        {
+          "name": "JAN",
+          "alpine": 67,
+          "snowboard": 72
+        },
+        {
+          "name": "FEB",
+          "alpine": 85,
+          "snowboard": 84
+        },
+        {
+          "name": "MAR",
+          "alpine": 82,
+          "snowboard": 80
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 90,
+          "stamina": 85,
+          "strategy": 89,
+          "mental": 93,
+          "experience": 82
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR028",
+      "name_ko": "정종원",
+      "name_en": "정종원 (KOR)",
+      "birth_date": "1992-01-01",
+      "birth_year": 1992,
+      "age": 34,
+      "gender": "M",
+      "sport": "cross_country",
+      "sport_key": "cross_country",
+      "sport_display": "Cross Country",
+      "team": "크로스컨트리",
+      "fis_code": "136287",
+      "sector": "CC",
+      "detail_discipline_code": "DIST",
+      "detail_discipline": "DIST",
+      "current_rank": 10,
+      "total_points": 469.8,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-16",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "CC",
+          "rank": 10,
+          "points": 83.97
+        },
+        {
+          "date": "2026-01-06",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 18,
+          "points": 71.56
+        },
+        {
+          "date": "2025-12-23",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 10,
+          "points": 84.0
+        },
+        {
+          "date": "2025-12-14",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 12,
+          "points": 81.17
+        },
+        {
+          "date": "2025-11-30",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "CC",
+          "rank": 23,
+          "points": 67.5
+        },
+        {
+          "date": "2025-11-19",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "CC",
+          "rank": 12,
+          "points": 81.64
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 20,
+          "snowboard": 31
+        },
+        {
+          "name": "NOV",
+          "alpine": 35,
+          "snowboard": 43
+        },
+        {
+          "name": "DEC",
+          "alpine": 57,
+          "snowboard": 53
+        },
+        {
+          "name": "JAN",
+          "alpine": 53,
+          "snowboard": 73
+        },
+        {
+          "name": "FEB",
+          "alpine": 64,
+          "snowboard": 83
+        },
+        {
+          "name": "MAR",
+          "alpine": 82,
+          "snowboard": 82
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 88,
+          "stamina": 91,
+          "strategy": 94,
+          "mental": 95,
+          "experience": 99
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR029",
+      "name_ko": "이건용",
+      "name_en": "이건용 (KOR)",
+      "birth_date": "1993-01-01",
+      "birth_year": 1993,
+      "age": 33,
+      "gender": "M",
+      "sport": "cross_country",
+      "sport_key": "cross_country",
+      "sport_display": "Cross Country",
+      "team": "크로스컨트리",
+      "fis_code": "154934",
+      "sector": "CC",
+      "detail_discipline_code": "DIST",
+      "detail_discipline": "DIST",
+      "current_rank": 28,
+      "total_points": 279.2,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-19",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "CC",
+          "rank": 28,
+          "points": 56.02
+        },
+        {
+          "date": "2026-01-05",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "CC",
+          "rank": 41,
+          "points": 39.51
+        },
+        {
+          "date": "2025-12-21",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "CC",
+          "rank": 38,
+          "points": 41.33
+        },
+        {
+          "date": "2025-12-12",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "CC",
+          "rank": 35,
+          "points": 46.73
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "CC",
+          "rank": 32,
+          "points": 52.2
+        },
+        {
+          "date": "2025-11-20",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 37,
+          "points": 43.43
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 29,
+          "snowboard": 31
+        },
+        {
+          "name": "NOV",
+          "alpine": 50,
+          "snowboard": 46
+        },
+        {
+          "name": "DEC",
+          "alpine": 41,
+          "snowboard": 41
+        },
+        {
+          "name": "JAN",
+          "alpine": 59,
+          "snowboard": 76
+        },
+        {
+          "name": "FEB",
+          "alpine": 89,
+          "snowboard": 83
+        },
+        {
+          "name": "MAR",
+          "alpine": 78,
+          "snowboard": 56
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 82,
+          "stamina": 82,
+          "strategy": 84,
+          "mental": 82,
+          "experience": 99
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR030",
+      "name_ko": "이의진",
+      "name_en": "이의진 (KOR)",
+      "birth_date": "2001-01-01",
+      "birth_year": 2001,
+      "age": 25,
+      "gender": "F",
+      "sport": "cross_country",
+      "sport_key": "cross_country",
+      "sport_display": "Cross Country",
+      "team": "크로스컨트리",
+      "fis_code": "221223",
+      "sector": "CC",
+      "detail_discipline_code": "DIST",
+      "detail_discipline": "DIST",
+      "current_rank": 40,
+      "total_points": 276.0,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-16",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 40,
+          "points": 41.55
+        },
+        {
+          "date": "2026-01-06",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "CC",
+          "rank": 33,
+          "points": 48.63
+        },
+        {
+          "date": "2025-12-24",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 38,
+          "points": 43.07
+        },
+        {
+          "date": "2025-12-14",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "CC",
+          "rank": 31,
+          "points": 54.13
+        },
+        {
+          "date": "2025-11-28",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "CC",
+          "rank": 34,
+          "points": 49.78
+        },
+        {
+          "date": "2025-11-19",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "CC",
+          "rank": 40,
+          "points": 38.88
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 30,
+          "snowboard": 40
+        },
+        {
+          "name": "NOV",
+          "alpine": 44,
+          "snowboard": 53
+        },
+        {
+          "name": "DEC",
+          "alpine": 55,
+          "snowboard": 41
+        },
+        {
+          "name": "JAN",
+          "alpine": 74,
+          "snowboard": 62
+        },
+        {
+          "name": "FEB",
+          "alpine": 81,
+          "snowboard": 58
+        },
+        {
+          "name": "MAR",
+          "alpine": 88,
+          "snowboard": 97
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 74,
+          "stamina": 77,
+          "strategy": 81,
+          "mental": 80,
+          "experience": 80
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR031",
+      "name_ko": "한다솜",
+      "name_en": "한다솜 (KOR)",
+      "birth_date": "1994-01-01",
+      "birth_year": 1994,
+      "age": 32,
+      "gender": "F",
+      "sport": "cross_country",
+      "sport_key": "cross_country",
+      "sport_display": "Cross Country",
+      "team": "크로스컨트리",
+      "fis_code": "162284",
+      "sector": "CC",
+      "detail_discipline_code": "DIST",
+      "detail_discipline": "DIST",
+      "current_rank": 22,
+      "total_points": 454.7,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-17",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "CC",
+          "rank": 22,
+          "points": 66.13
+        },
+        {
+          "date": "2026-01-07",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 21,
+          "points": 66.83
+        },
+        {
+          "date": "2025-12-26",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 9,
+          "points": 85.08
+        },
+        {
+          "date": "2025-12-12",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "CC",
+          "rank": 13,
+          "points": 80.21
+        },
+        {
+          "date": "2025-11-29",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "CC",
+          "rank": 19,
+          "points": 71.3
+        },
+        {
+          "date": "2025-11-18",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "CC",
+          "rank": 9,
+          "points": 85.19
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 35,
+          "snowboard": 33
+        },
+        {
+          "name": "NOV",
+          "alpine": 47,
+          "snowboard": 47
+        },
+        {
+          "name": "DEC",
+          "alpine": 49,
+          "snowboard": 59
+        },
+        {
+          "name": "JAN",
+          "alpine": 52,
+          "snowboard": 55
+        },
+        {
+          "name": "FEB",
+          "alpine": 74,
+          "snowboard": 90
+        },
+        {
+          "name": "MAR",
+          "alpine": 89,
+          "snowboard": 89
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 87,
+          "stamina": 81,
+          "strategy": 86,
+          "mental": 90,
+          "experience": 96
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR032",
+      "name_ko": "이지예",
+      "name_en": "이지예 (KOR)",
+      "birth_date": "2001-01-01",
+      "birth_year": 2001,
+      "age": 25,
+      "gender": "F",
+      "sport": "cross_country",
+      "sport_key": "cross_country",
+      "sport_display": "Cross Country",
+      "team": "크로스컨트리",
+      "fis_code": "212563",
+      "sector": "CC",
+      "detail_discipline_code": "DIST",
+      "detail_discipline": "DIST",
+      "current_rank": 47,
+      "total_points": 263.8,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-27",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "CC",
+          "rank": 47,
+          "points": 30.42
+        },
+        {
+          "date": "2026-01-17",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "CC",
+          "rank": 50,
+          "points": 26.16
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "CC",
+          "rank": 43,
+          "points": 34.99
+        },
+        {
+          "date": "2025-12-24",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "CC",
+          "rank": 35,
+          "points": 47.44
+        },
+        {
+          "date": "2025-12-10",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "CC",
+          "rank": 38,
+          "points": 42.78
+        },
+        {
+          "date": "2025-12-02",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "CC",
+          "rank": 36,
+          "points": 44.98
+        },
+        {
+          "date": "2025-11-15",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "CC",
+          "rank": 43,
+          "points": 37.01
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 35,
+          "snowboard": 41
+        },
+        {
+          "name": "NOV",
+          "alpine": 44,
+          "snowboard": 52
+        },
+        {
+          "name": "DEC",
+          "alpine": 58,
+          "snowboard": 42
+        },
+        {
+          "name": "JAN",
+          "alpine": 75,
+          "snowboard": 53
+        },
+        {
+          "name": "FEB",
+          "alpine": 61,
+          "snowboard": 80
+        },
+        {
+          "name": "MAR",
+          "alpine": 86,
+          "snowboard": 95
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 73,
+          "stamina": 65,
+          "strategy": 72,
+          "mental": 74,
+          "experience": 78
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR033",
+      "name_ko": "제상미",
+      "name_en": "제상미 (KOR)",
+      "birth_date": "1999-01-01",
+      "birth_year": 1999,
+      "age": 27,
+      "gender": "F",
+      "sport": "cross_country",
+      "sport_key": "cross_country",
+      "sport_display": "Cross Country",
+      "team": "크로스컨트리",
+      "fis_code": "195562",
+      "sector": "CC",
+      "detail_discipline_code": "DIST",
+      "detail_discipline": "DIST",
+      "current_rank": 17,
+      "total_points": 462.9,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-14",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "CC",
+          "rank": 17,
+          "points": 73.06
+        },
+        {
+          "date": "2026-01-07",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "CC",
+          "rank": 12,
+          "points": 80.97
+        },
+        {
+          "date": "2025-12-26",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "CC",
+          "rank": 13,
+          "points": 80.68
+        },
+        {
+          "date": "2025-12-14",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "CC",
+          "rank": 24,
+          "points": 62.07
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "CC",
+          "rank": 10,
+          "points": 83.99
+        },
+        {
+          "date": "2025-11-16",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "CC",
+          "rank": 11,
+          "points": 82.1
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 29,
+          "snowboard": 39
+        },
+        {
+          "name": "NOV",
+          "alpine": 43,
+          "snowboard": 40
+        },
+        {
+          "name": "DEC",
+          "alpine": 46,
+          "snowboard": 61
+        },
+        {
+          "name": "JAN",
+          "alpine": 61,
+          "snowboard": 51
+        },
+        {
+          "name": "FEB",
+          "alpine": 72,
+          "snowboard": 57
+        },
+        {
+          "name": "MAR",
+          "alpine": 79,
+          "snowboard": 68
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 91,
+          "stamina": 82,
+          "strategy": 93,
+          "mental": 93,
+          "experience": 81
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR034",
+      "name_ko": "정동현",
+      "name_en": "정동현 (KOR)",
+      "birth_date": "1988-01-01",
+      "birth_year": 1988,
+      "age": 38,
+      "gender": "M",
+      "sport": "alpine_skiing",
+      "sport_key": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "93945",
+      "sector": "AL",
+      "detail_discipline_code": "GS",
+      "detail_discipline": "Giant Slalom (GS)",
+      "current_rank": 9,
+      "total_points": 552.9,
+      "medals": {
+        "gold": 0,
+        "silver": 1,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-16",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 9,
+          "points": 86.44
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "AL",
+          "rank": 6,
+          "points": 92.87
+        },
+        {
+          "date": "2025-12-26",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "AL",
+          "rank": 5,
+          "points": 93.76
+        },
+        {
+          "date": "2025-12-12",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 9,
+          "points": 87.39
+        },
+        {
+          "date": "2025-11-30",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 4,
+          "points": 93.78
+        },
+        {
+          "date": "2025-11-18",
+          "event": "FIS World Cup Podium",
+          "location": "Calgary, CAN",
+          "discipline": "AL",
+          "rank": 2,
+          "points": 98.68
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 32,
+          "snowboard": 37
+        },
+        {
+          "name": "NOV",
+          "alpine": 38,
+          "snowboard": 37
+        },
+        {
+          "name": "DEC",
+          "alpine": 45,
+          "snowboard": 56
+        },
+        {
+          "name": "JAN",
+          "alpine": 50,
+          "snowboard": 62
+        },
+        {
+          "name": "FEB",
+          "alpine": 70,
+          "snowboard": 61
+        },
+        {
+          "name": "MAR",
+          "alpine": 76,
+          "snowboard": 75
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 91,
+          "stamina": 83,
+          "strategy": 91,
+          "mental": 91,
+          "experience": 99
+        },
+        "medal_projection": {
+          "gold": 0.86,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR035",
+      "name_ko": "박제윤",
+      "name_en": "박제윤 (KOR)",
+      "birth_date": "1994-01-01",
+      "birth_year": 1994,
+      "age": 32,
+      "gender": "M",
+      "sport": "alpine_skiing",
+      "sport_key": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "154866",
+      "sector": "AL",
+      "detail_discipline_code": "SL",
+      "detail_discipline": "Slalom (SL)",
+      "current_rank": 28,
+      "total_points": 292.6,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-05",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 28,
+          "points": 58.22
+        },
+        {
+          "date": "2025-12-23",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "AL",
+          "rank": 33,
+          "points": 48.76
+        },
+        {
+          "date": "2025-12-11",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "AL",
+          "rank": 30,
+          "points": 56.69
+        },
+        {
+          "date": "2025-11-28",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 27,
+          "points": 61.36
+        },
+        {
+          "date": "2025-11-17",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "AL",
+          "rank": 22,
+          "points": 67.59
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 39,
+          "snowboard": 37
+        },
+        {
+          "name": "NOV",
+          "alpine": 44,
+          "snowboard": 54
+        },
+        {
+          "name": "DEC",
+          "alpine": 47,
+          "snowboard": 46
+        },
+        {
+          "name": "JAN",
+          "alpine": 63,
+          "snowboard": 51
+        },
+        {
+          "name": "FEB",
+          "alpine": 73,
+          "snowboard": 60
+        },
+        {
+          "name": "MAR",
+          "alpine": 77,
+          "snowboard": 70
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 78,
+          "stamina": 81,
+          "strategy": 87,
+          "mental": 84,
+          "experience": 99
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR036",
+      "name_ko": "홍동관",
+      "name_en": "홍동관 (KOR)",
+      "birth_date": "1995-01-01",
+      "birth_year": 1995,
+      "age": 31,
+      "gender": "M",
+      "sport": "alpine_skiing",
+      "sport_key": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "163737",
+      "sector": "AL",
+      "detail_discipline_code": "GS",
+      "detail_discipline": "Giant Slalom (GS)",
+      "current_rank": 27,
+      "total_points": 370.5,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-16",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 27,
+          "points": 58.71
+        },
+        {
+          "date": "2026-01-04",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "AL",
+          "rank": 18,
+          "points": 73.98
+        },
+        {
+          "date": "2025-12-22",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "AL",
+          "rank": 29,
+          "points": 55.4
+        },
+        {
+          "date": "2025-12-10",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 29,
+          "points": 56.47
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 28,
+          "points": 58.4
+        },
+        {
+          "date": "2025-11-20",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 21,
+          "points": 67.54
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 39,
+          "snowboard": 45
+        },
+        {
+          "name": "NOV",
+          "alpine": 38,
+          "snowboard": 40
+        },
+        {
+          "name": "DEC",
+          "alpine": 46,
+          "snowboard": 42
+        },
+        {
+          "name": "JAN",
+          "alpine": 52,
+          "snowboard": 74
+        },
+        {
+          "name": "FEB",
+          "alpine": 66,
+          "snowboard": 90
+        },
+        {
+          "name": "MAR",
+          "alpine": 89,
+          "snowboard": 81
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 78,
+          "stamina": 79,
+          "strategy": 83,
+          "mental": 82,
+          "experience": 99
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR037",
+      "name_ko": "김동우",
+      "name_en": "김동우 (KOR)",
+      "birth_date": "1995-01-01",
+      "birth_year": 1995,
+      "age": 31,
+      "gender": "M",
+      "sport": "alpine_skiing",
+      "sport_key": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "163740",
+      "sector": "AL",
+      "detail_discipline_code": "SL",
+      "detail_discipline": "Slalom (SL)",
+      "current_rank": 9,
+      "total_points": 418.8,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-06",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "AL",
+          "rank": 9,
+          "points": 86.28
+        },
+        {
+          "date": "2025-12-25",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 10,
+          "points": 85.89
+        },
+        {
+          "date": "2025-12-09",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 13,
+          "points": 81.88
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 14,
+          "points": 77.76
+        },
+        {
+          "date": "2025-11-16",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 10,
+          "points": 86.95
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 40,
+          "snowboard": 37
+        },
+        {
+          "name": "NOV",
+          "alpine": 35,
+          "snowboard": 36
+        },
+        {
+          "name": "DEC",
+          "alpine": 40,
+          "snowboard": 50
+        },
+        {
+          "name": "JAN",
+          "alpine": 71,
+          "snowboard": 75
+        },
+        {
+          "name": "FEB",
+          "alpine": 74,
+          "snowboard": 83
+        },
+        {
+          "name": "MAR",
+          "alpine": 74,
+          "snowboard": 57
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 94,
+          "stamina": 84,
+          "strategy": 91,
+          "mental": 89,
+          "experience": 94
+        },
+        "medal_projection": {
+          "gold": 0.86,
+          "confidence": "High"
+        }
+      }
+    },
+    {
+      "id": "KOR038",
+      "name_ko": "정민식",
+      "name_en": "정민식 (KOR)",
+      "birth_date": "1997-01-01",
+      "birth_year": 1997,
+      "age": 29,
+      "gender": "M",
+      "sport": "alpine_skiing",
+      "sport_key": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "189170",
+      "sector": "AL",
+      "detail_discipline_code": "GS",
+      "detail_discipline": "Giant Slalom (GS)",
+      "current_rank": 25,
+      "total_points": 478.3,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-26",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "AL",
+          "rank": 25,
+          "points": 61.99
+        },
+        {
+          "date": "2026-01-15",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "AL",
+          "rank": 20,
+          "points": 68.22
+        },
+        {
+          "date": "2026-01-06",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "AL",
+          "rank": 21,
+          "points": 68.46
+        },
+        {
+          "date": "2025-12-25",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "AL",
+          "rank": 14,
+          "points": 80.02
+        },
+        {
+          "date": "2025-12-09",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "AL",
+          "rank": 23,
+          "points": 65.68
+        },
+        {
+          "date": "2025-11-30",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 17,
+          "points": 76.24
+        },
+        {
+          "date": "2025-11-16",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 27,
+          "points": 57.65
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 29,
+          "snowboard": 31
+        },
+        {
+          "name": "NOV",
+          "alpine": 31,
+          "snowboard": 45
+        },
+        {
+          "name": "DEC",
+          "alpine": 58,
+          "snowboard": 64
+        },
+        {
+          "name": "JAN",
+          "alpine": 53,
+          "snowboard": 70
+        },
+        {
+          "name": "FEB",
+          "alpine": 63,
+          "snowboard": 79
+        },
+        {
+          "name": "MAR",
+          "alpine": 82,
+          "snowboard": 84
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 85,
+          "stamina": 75,
+          "strategy": 86,
+          "mental": 83,
+          "experience": 96
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR039",
+      "name_ko": "이한희",
+      "name_en": "이한희 (KOR)",
+      "birth_date": "1997-01-01",
+      "birth_year": 1997,
+      "age": 29,
+      "gender": "M",
+      "sport": "alpine_skiing",
+      "sport_key": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "188824",
+      "sector": "AL",
+      "detail_discipline_code": "GS",
+      "detail_discipline": "Giant Slalom (GS)",
+      "current_rank": 45,
+      "total_points": 213.9,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-17",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "AL",
+          "rank": 45,
+          "points": 33.36
+        },
+        {
+          "date": "2026-01-02",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "AL",
+          "rank": 43,
+          "points": 36.62
+        },
+        {
+          "date": "2025-12-21",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "AL",
+          "rank": 43,
+          "points": 34.63
+        },
+        {
+          "date": "2025-12-10",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "AL",
+          "rank": 44,
+          "points": 35.31
+        },
+        {
+          "date": "2025-12-01",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "AL",
+          "rank": 39,
+          "points": 42.57
+        },
+        {
+          "date": "2025-11-17",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 46,
+          "points": 31.37
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 37,
+          "snowboard": 30
+        },
+        {
+          "name": "NOV",
+          "alpine": 35,
+          "snowboard": 53
+        },
+        {
+          "name": "DEC",
+          "alpine": 52,
+          "snowboard": 51
+        },
+        {
+          "name": "JAN",
+          "alpine": 67,
+          "snowboard": 76
+        },
+        {
+          "name": "FEB",
+          "alpine": 81,
+          "snowboard": 84
+        },
+        {
+          "name": "MAR",
+          "alpine": 78,
+          "snowboard": 80
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 72,
+          "stamina": 74,
+          "strategy": 77,
+          "mental": 71,
+          "experience": 88
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR040",
+      "name_ko": "신정우",
+      "name_en": "신정우 (KOR)",
+      "birth_date": "1999-01-01",
+      "birth_year": 1999,
+      "age": 27,
+      "gender": "M",
+      "sport": "alpine_skiing",
+      "sport_key": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "203604",
+      "sector": "AL",
+      "detail_discipline_code": "GS",
+      "detail_discipline": "Giant Slalom (GS)",
+      "current_rank": 40,
+      "total_points": 307.9,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-26",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "AL",
+          "rank": 40,
+          "points": 40.8
+        },
+        {
+          "date": "2026-01-15",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "AL",
+          "rank": 30,
+          "points": 53.07
+        },
+        {
+          "date": "2026-01-06",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "AL",
+          "rank": 39,
+          "points": 42.39
+        },
+        {
+          "date": "2025-12-21",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "AL",
+          "rank": 42,
+          "points": 35.62
+        },
+        {
+          "date": "2025-12-12",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "AL",
+          "rank": 42,
+          "points": 35.97
+        },
+        {
+          "date": "2025-11-29",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "AL",
+          "rank": 28,
+          "points": 56.74
+        },
+        {
+          "date": "2025-11-18",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "AL",
+          "rank": 37,
+          "points": 43.34
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 40,
+          "snowboard": 45
+        },
+        {
+          "name": "NOV",
+          "alpine": 47,
+          "snowboard": 43
+        },
+        {
+          "name": "DEC",
+          "alpine": 44,
+          "snowboard": 54
+        },
+        {
+          "name": "JAN",
+          "alpine": 64,
+          "snowboard": 65
+        },
+        {
+          "name": "FEB",
+          "alpine": 63,
+          "snowboard": 53
+        },
+        {
+          "name": "MAR",
+          "alpine": 82,
+          "snowboard": 77
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 74,
+          "stamina": 68,
+          "strategy": 74,
+          "mental": 78,
+          "experience": 82
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR041",
+      "name_ko": "김소희",
+      "name_en": "김소희 (KOR)",
+      "birth_date": "1996-01-01",
+      "birth_year": 1996,
+      "age": 30,
+      "gender": "F",
+      "sport": "alpine_skiing",
+      "sport_key": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "177571",
+      "sector": "AL",
+      "detail_discipline_code": "SL",
+      "detail_discipline": "Slalom (SL)",
+      "current_rank": 42,
+      "total_points": 287.8,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-26",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 42,
+          "points": 35.96
+        },
+        {
+          "date": "2026-01-17",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "AL",
+          "rank": 44,
+          "points": 33.09
+        },
+        {
+          "date": "2026-01-07",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 43,
+          "points": 34.88
+        },
+        {
+          "date": "2025-12-26",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "AL",
+          "rank": 34,
+          "points": 49.09
+        },
+        {
+          "date": "2025-12-10",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "AL",
+          "rank": 36,
+          "points": 44.08
+        },
+        {
+          "date": "2025-11-30",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "AL",
+          "rank": 39,
+          "points": 43.29
+        },
+        {
+          "date": "2025-11-17",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "AL",
+          "rank": 34,
+          "points": 47.44
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 36,
+          "snowboard": 39
+        },
+        {
+          "name": "NOV",
+          "alpine": 39,
+          "snowboard": 55
+        },
+        {
+          "name": "DEC",
+          "alpine": 57,
+          "snowboard": 48
+        },
+        {
+          "name": "JAN",
+          "alpine": 59,
+          "snowboard": 68
+        },
+        {
+          "name": "FEB",
+          "alpine": 86,
+          "snowboard": 90
+        },
+        {
+          "name": "MAR",
+          "alpine": 93,
+          "snowboard": 58
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 70,
+          "stamina": 64,
+          "strategy": 74,
+          "mental": 81,
+          "experience": 99
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR042",
+      "name_ko": "최태희",
+      "name_en": "최태희 (KOR)",
+      "birth_date": "2005-01-01",
+      "birth_year": 2005,
+      "age": 21,
+      "gender": "F",
+      "sport": "alpine_skiing",
+      "sport_key": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "263315",
+      "sector": "AL",
+      "detail_discipline_code": "SL",
+      "detail_discipline": "Slalom (SL)",
+      "current_rank": 33,
+      "total_points": 365.2,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-26",
+          "event": "FIS World Cup",
+          "location": "Calgary, CAN",
+          "discipline": "AL",
+          "rank": 33,
+          "points": 52.36
+        },
+        {
+          "date": "2026-01-14",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 29,
+          "points": 54.53
+        },
+        {
+          "date": "2026-01-03",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "AL",
+          "rank": 36,
+          "points": 46.92
+        },
+        {
+          "date": "2025-12-25",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "AL",
+          "rank": 37,
+          "points": 44.31
+        },
+        {
+          "date": "2025-12-13",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 30,
+          "points": 56.1
+        },
+        {
+          "date": "2025-11-29",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "AL",
+          "rank": 29,
+          "points": 54.56
+        },
+        {
+          "date": "2025-11-18",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "AL",
+          "rank": 28,
+          "points": 56.41
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 23,
+          "snowboard": 30
+        },
+        {
+          "name": "NOV",
+          "alpine": 35,
+          "snowboard": 40
+        },
+        {
+          "name": "DEC",
+          "alpine": 42,
+          "snowboard": 49
+        },
+        {
+          "name": "JAN",
+          "alpine": 56,
+          "snowboard": 65
+        },
+        {
+          "name": "FEB",
+          "alpine": 89,
+          "snowboard": 91
+        },
+        {
+          "name": "MAR",
+          "alpine": 85,
+          "snowboard": 92
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 78,
+          "stamina": 75,
+          "strategy": 82,
+          "mental": 83,
+          "experience": 67
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    },
+    {
+      "id": "KOR043",
+      "name_ko": "박서윤",
+      "name_en": "박서윤 (KOR)",
+      "birth_date": "2005-01-01",
+      "birth_year": 2005,
+      "age": 21,
+      "gender": "F",
+      "sport": "alpine_skiing",
+      "sport_key": "alpine_skiing",
+      "sport_display": "Alpine Skiing",
+      "team": "알파인",
+      "fis_code": "261321",
+      "sector": "AL",
+      "detail_discipline_code": "GS",
+      "detail_discipline": "Giant Slalom (GS)",
+      "current_rank": 48,
+      "total_points": 248.1,
+      "medals": {
+        "gold": 0,
+        "silver": 0,
+        "bronze": 0
+      },
+      "recent_results": [
+        {
+          "date": "2026-01-27",
+          "event": "FIS World Cup",
+          "location": "Beijing, CHN",
+          "discipline": "AL",
+          "rank": 48,
+          "points": 28.99
+        },
+        {
+          "date": "2026-01-15",
+          "event": "FIS World Cup",
+          "location": "Cortina, ITA",
+          "discipline": "AL",
+          "rank": 36,
+          "points": 45.11
+        },
+        {
+          "date": "2026-01-05",
+          "event": "FIS World Cup",
+          "location": "Laax, SUI",
+          "discipline": "AL",
+          "rank": 44,
+          "points": 32.74
+        },
+        {
+          "date": "2025-12-22",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "AL",
+          "rank": 42,
+          "points": 38.41
+        },
+        {
+          "date": "2025-12-12",
+          "event": "FIS World Cup",
+          "location": "Deer Valley, USA",
+          "discipline": "AL",
+          "rank": 46,
+          "points": 29.85
+        },
+        {
+          "date": "2025-12-02",
+          "event": "FIS World Cup",
+          "location": "Aspen, USA",
+          "discipline": "AL",
+          "rank": 47,
+          "points": 29.0
+        },
+        {
+          "date": "2025-11-19",
+          "event": "FIS World Cup",
+          "location": "Pyeongchang, KOR",
+          "discipline": "AL",
+          "rank": 38,
+          "points": 43.95
+        }
+      ],
+      "history": [
+        {
+          "name": "OCT",
+          "alpine": 40,
+          "snowboard": 34
+        },
+        {
+          "name": "NOV",
+          "alpine": 46,
+          "snowboard": 44
+        },
+        {
+          "name": "DEC",
+          "alpine": 55,
+          "snowboard": 56
+        },
+        {
+          "name": "JAN",
+          "alpine": 74,
+          "snowboard": 80
+        },
+        {
+          "name": "FEB",
+          "alpine": 83,
+          "snowboard": 84
+        },
+        {
+          "name": "MAR",
+          "alpine": 92,
+          "snowboard": 55
+        }
+      ],
+      "analysis": {
+        "capability_matrix": {
+          "technical": 69,
+          "stamina": 68,
+          "strategy": 72,
+          "mental": 77,
+          "experience": 72
+        },
+        "medal_projection": {
+          "gold": 0.05,
+          "confidence": "Medium"
+        }
+      }
+    }
+  ]
+}

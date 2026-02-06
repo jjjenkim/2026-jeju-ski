@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dye-black text-steel font-sans antialiased overflow-x-hidden;
+  }
+  
+  /* Noir Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-void-navy;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-carbon rounded-full;
+  }
+}

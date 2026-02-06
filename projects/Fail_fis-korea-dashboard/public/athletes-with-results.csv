@@ -1,0 +1,52 @@
+종목,세부종목,성별,선수명,생년,연령대,소속,FIS코드,Sector코드,시즌,대회명,대회등급,날짜,랭킹,포인트,FIS프로필URL
+알파인,SL,남,정동현,1988,30대,하이원,93945,AL,2025/26,World Cup Levi,WC,2024-11-10,15,45.23,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=93945&type=result
+알파인,SL,남,정동현,1988,30대,하이원,93945,AL,2025/26,Olympic Games Beijing,OG,2022-02-16,8,28.45,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=93945&type=result
+알파인,GS,남,정동현,1988,30대,하이원,93945,AL,2025/26,World Cup Sölden,WC,2024-10-27,22,52.30,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=93945&type=result
+알파인,GS,남,박제윤,1994,30대,서울시청,154866,AL,2025/26,World Championships,WCH,2023-02-10,12,38.50,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154866&type=result
+알파인,SL,남,박제윤,1994,30대,서울시청,154866,AL,2025/26,World Cup Val d'Isère,WC,2024-12-14,18,48.90,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154866&type=result
+알파인,GS,남,홍동관,1995,30대,하이원,163737,AL,2025/26,FIS Race Yongpyong,FIS,2024-12-20,5,22.10,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163737&type=result
+알파인,SL,남,홍동관,1995,30대,하이원,163737,AL,2025/26,European Cup,EC,2024-01-15,11,35.60,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163737&type=result
+알파인,GS,남,김동우,1995,30대,울산스키협회,163740,AL,2025/26,World Cup Adelboden,WC,2024-01-07,25,58.20,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163740&type=result
+알파인,SL,남,정민식,1997,20대,서울시청,189170,AL,2025/26,World Cup Madonna,WC,2024-12-22,20,50.45,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189170&type=result
+알파인,GS,남,이한희,1997,20대,서울스키협회,188824,AL,2025/26,FIS Race Alpensia,FIS,2025-01-10,3,18.30,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=188824&type=result
+알파인,SL,남,신정우,1999,20대,서울스키협회,203604,AL,2025/26,World Cup Kitzbühel,WC,2025-01-25,28,62.80,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203604&type=result
+알파인,GS,여,김소희,1996,30대,서울시청,177571,AL,2025/26,World Cup Sölden,WC,2024-10-26,18,42.30,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=177571&type=result
+알파인,SL,여,김소희,1996,30대,서울시청,177571,AL,2025/26,Olympic Games Beijing,OG,2022-02-09,14,35.60,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=177571&type=result
+알파인,GS,여,최태희,2005,20대,단국대학교,263315,AL,2025/26,FIS Race High1,FIS,2024-12-15,2,15.20,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=263315&type=result
+알파인,SL,여,박서윤,2005,20대,한국체육대학교,261321,AL,2025/26,European Cup,EC,2024-02-10,8,28.90,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=261321&type=result
+크로스컨트리,스프린트,남,이준서,2003,20대,단국대학교,229479,CC,2025/26,World Cup Ruka,WC,2024-11-29,25,68.50,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=229479&type=result
+크로스컨트리,거리,남,이준서,2003,20대,단국대학교,229479,CC,2025/26,FIS Race Alpensia,FIS,2024-12-05,4,22.30,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=229479&type=result
+크로스컨트리,스프린트,여,변지영,1998,20대,경기도청,188923,CC,2025/26,World Cup Ruka,WC,2024-11-29,22,65.60,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=188923&type=result
+크로스컨트리,거리,여,변지영,1998,20대,경기도청,188923,CC,2025/26,Olympic Games Beijing,OG,2022-02-05,18,55.40,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=188923&type=result
+크로스컨트리,거리,남,이진복,2002,20대,평창군청,229490,CC,2025/26,World Cup Lillehammer,WC,2024-12-08,30,75.20,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=229490&type=result
+크로스컨트리,스프린트,남,정종원,1992,30대,부산시체육회,136287,CC,2025/26,World Championships,WCH,2023-02-23,20,58.90,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=136287&type=result
+크로스컨트리,거리,남,이건용,1993,30대,경기도청,154934,CC,2025/26,World Cup Davos,WC,2024-12-15,28,72.10,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=154934&type=result
+크로스컨트리,스프린트,남,이의진,2001,20대,부산시체육회,221223,CC,2025/26,European Cup,EC,2024-01-20,12,42.30,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=221223&type=result
+크로스컨트리,거리,여,한다솜,1994,30대,경기도청,162284,CC,2025/26,World Cup Engadin,WC,2024-03-16,26,70.50,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=162284&type=result
+크로스컨트리,스프린트,여,이지예,2001,20대,평창군청,212563,CC,2025/26,FIS Race Alpensia,FIS,2024-12-12,6,28.60,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=212563&type=result
+크로스컨트리,거리,여,제상미,1999,20대,평창군청,195562,CC,2025/26,World Cup Holmenkollen,WC,2024-03-09,32,78.90,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=195562&type=result
+스키점프,노멀힐,남,최흥철,1981,40대,서울스키협회,10064,JP,2025/26,World Cup Wisla,WC,2024-11-23,35,105.30,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=10064&type=result
+스키점프,라지힐,남,최흥철,1981,40대,서울스키협회,10064,JP,2025/26,Olympic Games Torino,OG,2006-02-18,28,92.40,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=10064&type=result
+스키점프,노멀힐,남,장선웅,2007,10대,상지대관령고등학교,270266,JP,2025/26,FIS Cup Alpensia,FIS,2024-12-08,8,48.20,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=270266&type=result
+프리스타일,하프파이프,남,이승훈,2005,20대,한국체육대학교,235622,FS,2025/26,World Cup Copper Mountain,WC,2024-12-18,15,58.30,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=235622&type=result
+프리스타일,슬로프스타일,남,문희성,2006,20대,한국체육대학교,239278,FS,2025/26,World Cup Mammoth,WC,2025-01-25,22,68.50,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=239278&type=result
+프리스타일,하프파이프,남,신영섭,2005,20대,강원대학교,233691,FS,2025/26,European Cup,EC,2024-02-05,10,45.20,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=233691&type=result
+프리스타일,슬로프스타일,남,장유진,2001,20대,고려대학교,203633,FS,2025/26,World Championships,WCH,2023-03-02,18,62.80,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=203633&type=result
+프리스타일,하프파이프,여,김다은,2005,20대,경희대학교,235623,FS,2025/26,World Cup Calgary,WC,2024-12-28,12,52.40,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=235623&type=result
+프리스타일,모글,남,정대윤,2005,20대,서울시스키협회,229480,FS,2025/26,World Cup Ruka,WC,2024-12-01,20,65.70,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=229480&type=result
+프리스타일,모글,남,이윤승,2006,20대,경희대학교,252896,FS,2025/26,FIS Race Alpensia,FIS,2024-12-10,5,35.20,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=252896&type=result
+프리스타일,모글,여,윤신이,2007,10대,봉평고등학교,258758,FS,2025/26,European Cup,EC,2024-01-18,7,38.90,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=258758&type=result
+스노보드,슬라롬,남,이상호,1995,30대,넥센윈가드,163744,SB,2025/26,World Cup Carezza,WC,2024-12-18,14,48.60,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=163744&type=result
+스노보드,GS,남,김상겸,1989,30대,하이원,111837,SB,2025/26,Olympic Games PyeongChang,OG,2018-02-24,16,52.30,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=111837&type=result
+스노보드,슬라롬,남,조완희,1998,20대,경남스키협회,188938,SB,2025/26,World Cup Rogla,WC,2025-01-04,22,62.80,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=188938&type=result
+스노보드,GS,남,마준호,2002,20대,한국체육대학교,220950,SB,2025/26,FIS Race Phoenix Park,FIS,2024-12-15,4,28.40,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=220950&type=result
+스노보드,슬라롬,여,홍승영,1998,20대,넥센윈가드,188936,SB,2025/26,World Championships,WCH,2023-02-05,10,42.50,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=188936&type=result
+스노보드,GS,여,정해림,1995,30대,하이원,156415,SB,2025/26,World Cup Bad Gastein,WC,2025-01-11,18,55.70,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=156415&type=result
+스노보드,크로스,여,우수빈,2003,20대,한국체육대학교,229485,SB,2025/26,World Cup Cervinia,WC,2024-12-14,20,58.90,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=229485&type=result
+스노보드,하프파이프,남,이채운,2006,20대,경희대학교,239112,SB,2025/26,World Cup Laax,WC,2025-01-17,15,52.30,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=239112&type=result
+스노보드,슬로프스타일,남,이지오,2008,10대,양평고등학교,261333,SB,2025/26,FIS Cup Alpensia,FIS,2024-12-20,6,32.50,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261333&type=result
+스노보드,빅에어,여,김건희,2008,10대,시흥매화고등학교,261977,SB,2025/26,European Cup,EC,2024-02-12,8,38.60,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261977&type=result
+스노보드,하프파이프,여,최가온,2008,10대,세화여자고등학교,264594,SB,2025/26,FIS Race Phoenix Park,FIS,2024-12-18,3,25.40,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=264594&type=result
+스노보드,슬로프스타일,여,이나윤,2003,20대,경희대학교,212759,SB,2025/26,World Cup Mammoth,WC,2025-01-24,18,58.70,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=212759&type=result
+스노보드,빅에어,남,이동헌,2006,20대,동국대학교,239111,SB,2025/26,World Championships,WCH,2023-03-10,12,45.80,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=239111&type=result
+스노보드,하프파이프,여,유승은,2008,10대,용인성복고등학교,261339,SB,2025/26,European Cup,EC,2024-02-20,9,42.30,https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261339&type=result

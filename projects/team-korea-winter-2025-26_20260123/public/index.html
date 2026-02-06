@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Team Korea Winter 2025-26 Dashboard</title>
+      <style>
+            * {
+                  margin: 0;
+                  padding: 0;
+                  box-sizing: border-box;
+            }
+
+            body {
+                  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+                  min-height: 100vh;
+                  padding: 20px;
+            }
+
+            .container {
+                  max-width: 1400px;
+                  margin: 0 auto;
+            }
+
+            header {
+                  text-align: center;
+                  color: white;
+                  margin-bottom: 40px;
+            }
+
+            h1 {
+                  font-size: 3em;
+                  margin-bottom: 10px;
+                  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            }
+
+            .subtitle {
+                  font-size: 1.2em;
+                  opacity: 0.9;
+            }
+
+            .stats-grid {
+                  display: grid;
+                  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                  gap: 20px;
+                  margin-bottom: 40px;
+            }
+
+            .stat-card {
+                  background: white;
+                  padding: 30px;
+                  border-radius: 15px;
+                  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+                  text-align: center;
+                  transition: transform 0.3s ease;
+            }
+
+            .stat-card:hover {
+                  transform: translateY(-5px);
+            }
+
+            .stat-number {
+                  font-size: 3em;
+                  font-weight: bold;
+                  color: #667eea;
+                  margin-bottom: 10px;
+            }
+
+            .stat-label {
+                  font-size: 1.1em;
+                  color: #666;
+            }
+
+            .athletes-section {
+                  background: white;
+                  border-radius: 15px;
+                  padding: 30px;
+                  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+
+            .section-title {
+                  font-size: 2em;
+                  margin-bottom: 20px;
+                  color: #333;
+            }
+
+            .filters {
+                  display: flex;
+                  gap: 15px;
+                  margin-bottom: 30px;
+                  flex-wrap: wrap;
+            }
+
+            .filter-btn {
+                  padding: 10px 20px;
+                  border: 2px solid #667eea;
+                  background: white;
+                  color: #667eea;
+                  border-radius: 25px;
+                  cursor: pointer;
+                  transition: all 0.3s ease;
+                  font-size: 1em;
+            }
+
+            .filter-btn:hover,
+            .filter-btn.active {
+                  background: #667eea;
+                  color: white;
+            }
+
+            .athletes-grid {
+                  display: grid;
+                  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+                  gap: 20px;
+            }
+
+            .athlete-card {
+                  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+                  padding: 20px;
+                  border-radius: 10px;
+                  transition: transform 0.3s ease;
+            }
+
+            .athlete-card:hover {
+                  transform: scale(1.05);
+            }
+
+            .athlete-name-ko {
+                  font-size: 1.5em;
+                  font-weight: bold;
+                  color: #333;
+                  margin-bottom: 5px;
+            }
+
+            .athlete-name-en {
+                  font-size: 1em;
+                  color: #666;
+                  margin-bottom: 10px;
+            }
+
+            .athlete-info {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 5px;
+                  font-size: 0.9em;
+                  color: #555;
+            }
+
+            .badge {
+                  display: inline-block;
+                  padding: 5px 12px;
+                  border-radius: 15px;
+                  font-size: 0.85em;
+                  font-weight: bold;
+                  margin-top: 10px;
+            }
+
+            .team-freestyle {
+                  background: #ff6b6b;
+                  color: white;
+            }
+
+            .team-snowboard {
+                  background: #4ecdc4;
+                  color: white;
+            }
+
+            .team-alpine {
+                  background: #45b7d1;
+                  color: white;
+            }
+
+            .team-jump {
+                  background: #f9ca24;
+                  color: #333;
+            }
+
+            .team-cross {
+                  background: #6c5ce7;
+                  color: white;
+            }
+
+            .loading {
+                  text-align: center;
+                  padding: 50px;
+                  font-size: 1.5em;
+                  color: white;
+            }
+
+            .error {
+                  background: #ff6b6b;
+                  color: white;
+                  padding: 20px;
+                  border-radius: 10px;
+                  text-align: center;
+                  margin: 20px 0;
+            }
+      </style>
+</head>
+
+<body>
+      <div class="container">
+            <header>
+                  <h1>🇰🇷 Team Korea Winter 2025-26</h1>
+                  <p class="subtitle">대한민국 동계 스포츠 국가대표 선수단</p>
+            </header>
+
+            <div id="stats" class="stats-grid"></div>
+
+            <div class="athletes-section">
+                  <h2 class="section-title">선수 명단</h2>
+                  <div id="filters" class="filters"></div>
+                  <div id="athletes" class="athletes-grid"></div>
+            </div>
+      </div>
+
+      <script>
+            let athletesData = null;
+            let currentFilter = 'all';
+
+            async function loadData() {
+                  try {
+                        const response = await fetch('/data/athletes.json');
+                        if (!response.ok) throw new Error('데이터를 불러올 수 없습니다');
+                        athletesData = await response.json();
+                        renderStats();
+                        renderFilters();
+                        renderAthletes();
+                  } catch (error) {
+                        document.getElementById('athletes').innerHTML =
+                              `<div class="error">❌ ${error.message}<br>먼저 데이터 수집을 실행해주세요.</div>`;
+                  }
+            }
+
+            function renderStats() {
+                  const stats = athletesData.statistics;
+                  const statsHTML = `
+                <div class="stat-card">
+                    <div class="stat-number">${stats.total_athletes}</div>
+                    <div class="stat-label">총 선수</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${Object.keys(stats.by_sport).length}</div>
+                    <div class="stat-label">종목</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${Object.keys(stats.by_team).length}</div>
+                    <div class="stat-label">팀</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${stats.total_medals.gold + stats.total_medals.silver + stats.total_medals.bronze}</div>
+                    <div class="stat-label">메달</div>
+                </div>
+            `;
+                  document.getElementById('stats').innerHTML = statsHTML;
+            }
+
+            function renderFilters() {
+                  const teams = Object.keys(athletesData.statistics.by_team);
+                  const filtersHTML = `
+                <button class="filter-btn active" onclick="filterAthletes('all')">전체</button>
+                ${teams.map(team =>
+                        `<button class="filter-btn" onclick="filterAthletes('${team}')">${team}</button>`
+                  ).join('')}
+            `;
+                  document.getElementById('filters').innerHTML = filtersHTML;
+            }
+
+            function filterAthletes(team) {
+                  currentFilter = team;
+                  document.querySelectorAll('.filter-btn').forEach(btn => {
+                        btn.classList.remove('active');
+                        if ((team === 'all' && btn.textContent === '전체') ||
+                              btn.textContent === team) {
+                              btn.classList.add('active');
+                        }
+                  });
+                  renderAthletes();
+            }
+
+            function getTeamClass(team) {
+                  const teamMap = {
+                        '프리스타일': 'team-freestyle',
+                        '스노보드': 'team-snowboard',
+                        '알파인': 'team-alpine',
+                        '스키점프': 'team-jump',
+                        '크로스컨트리': 'team-cross'
+                  };
+                  return teamMap[team] || 'team-freestyle';
+            }
+
+            function renderAthletes() {
+                  const athletes = currentFilter === 'all'
+                        ? athletesData.athletes
+                        : athletesData.athletes.filter(a => a.team === currentFilter);
+
+                  const athletesHTML = athletes.map(athlete => `
+                <div class="athlete-card">
+                    <div class="athlete-name-ko">${athlete.name_ko}</div>
+                    <div class="athlete-name-en">${athlete.name_en}</div>
+                    <div class="athlete-info">
+                        <div>🏂 ${athlete.sport_display}</div>
+                        <div>🎯 FIS Code: ${athlete.fis_code}</div>
+                        ${athlete.birth_year ? `<div>📅 ${athlete.birth_year}년생</div>` : ''}
+                    </div>
+                    <span class="badge ${getTeamClass(athlete.team)}">${athlete.team}</span>
+                </div>
+            `).join('');
+
+                  document.getElementById('athletes').innerHTML = athletesHTML ||
+                        '<div class="loading">선수가 없습니다</div>';
+            }
+
+            // 페이지 로드 시 데이터 불러오기
+            loadData();
+      </script>
+</body>
+
+</html>

@@ -1,0 +1,508 @@
+{
+  "athlete": "이지오",
+  "profile_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261333&type=result",
+  "scraped_at": "2026-01-20T07:27:11.531015",
+  "results_count": 50,
+  "results": [
+    {
+      "date": "17-01-2026",
+      "location": "Laax",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "38",
+      "fis_points": "44.70",
+      "cup_points": ""
+    },
+    {
+      "date": "15-01-2026",
+      "location": "Laax",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "19",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "03-01-2026",
+      "location": "Calgary",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "14",
+      "fis_points": "110.20",
+      "cup_points": "18.00"
+    },
+    {
+      "date": "02-01-2026",
+      "location": "Calgary",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "5",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "19-12-2025",
+      "location": "Copper",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "11",
+      "fis_points": "257.30",
+      "cup_points": "24.00"
+    },
+    {
+      "date": "17-12-2025",
+      "location": "Copper",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "5",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "12-12-2025",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "6",
+      "fis_points": "429.20",
+      "cup_points": "40.00"
+    },
+    {
+      "date": "10-12-2025",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "6",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-04-2025",
+      "location": "Corvatsch",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Halfpipe",
+      "rank": "3",
+      "fis_points": "172.20",
+      "cup_points": "60.00"
+    },
+    {
+      "date": "29-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "World Championships",
+      "discipline": "Halfpipe",
+      "rank": "10",
+      "fis_points": "254.10",
+      "cup_points": ""
+    },
+    {
+      "date": "27-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "12",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "21-02-2025",
+      "location": "Calgary",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "36",
+      "fis_points": "16.10",
+      "cup_points": ""
+    },
+    {
+      "date": "19-02-2025",
+      "location": "Calgary",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "17",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "12-02-2025",
+      "location": "Yabuli Ski Resort",
+      "nation": "",
+      "category": "Asian Winter Games",
+      "discipline": "Halfpipe",
+      "rank": "3",
+      "fis_points": "234.40",
+      "cup_points": ""
+    },
+    {
+      "date": "01-02-2025",
+      "location": "Aspen",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "16",
+      "fis_points": "176.30",
+      "cup_points": "15.00"
+    },
+    {
+      "date": "30-01-2025",
+      "location": "Aspen",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "8",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-01-2025",
+      "location": "Laax",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "20",
+      "fis_points": "148.70",
+      "cup_points": "11.00"
+    },
+    {
+      "date": "17-01-2025",
+      "location": "Laax",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "9",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "20-12-2024",
+      "location": "Copper",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-12-2024",
+      "location": "Copper",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-12-2024",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "12",
+      "fis_points": "217.20",
+      "cup_points": "22.00"
+    },
+    {
+      "date": "06-12-2024",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "7",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "17-03-2024",
+      "location": "Laax",
+      "nation": "",
+      "category": "Junior",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "70.00",
+      "cup_points": ""
+    },
+    {
+      "date": "09-03-2024",
+      "location": "Laax",
+      "nation": "",
+      "category": "European Cup Premium",
+      "discipline": "Halfpipe",
+      "rank": "3",
+      "fis_points": "198.40",
+      "cup_points": "90.00"
+    },
+    {
+      "date": "24-02-2024",
+      "location": "Welli Hilli",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Halfpipe",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "10-02-2024",
+      "location": "Calgary",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "4",
+      "fis_points": "577.50",
+      "cup_points": "50.00"
+    },
+    {
+      "date": "09-02-2024",
+      "location": "Calgary",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "9",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "01-02-2024",
+      "location": "Gangwon/Welli Hilli",
+      "nation": "",
+      "category": "Youth Olympic Winter Games",
+      "discipline": "Halfpipe",
+      "rank": "5",
+      "fis_points": "131.90",
+      "cup_points": ""
+    },
+    {
+      "date": "20-01-2024",
+      "location": "Laax",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "23",
+      "fis_points": "131.00",
+      "cup_points": "8.00"
+    },
+    {
+      "date": "16-12-2023",
+      "location": "Copper Mountain",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "18",
+      "fis_points": "146.00",
+      "cup_points": "13.00"
+    },
+    {
+      "date": "14-12-2023",
+      "location": "Copper Mountain",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "11",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-12-2023",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Halfpipe",
+      "rank": "16",
+      "fis_points": "123.00",
+      "cup_points": "15.00"
+    },
+    {
+      "date": "06-12-2023",
+      "location": "Secret Garden",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Halfpipe",
+      "rank": "16",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "21-04-2023",
+      "location": "Kitzsteinhorn",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Slopestyle",
+      "rank": "DNS",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "19-04-2023",
+      "location": "Kitzsteinhorn",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Halfpipe",
+      "rank": "3",
+      "fis_points": "78.20",
+      "cup_points": "60.00"
+    },
+    {
+      "date": "18-04-2023",
+      "location": "Kitzsteinhorn",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Halfpipe",
+      "rank": "6",
+      "fis_points": "69.10",
+      "cup_points": "40.00"
+    },
+    {
+      "date": "19-03-2023",
+      "location": "Laax",
+      "nation": "",
+      "category": "National Junior Championships",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "50.00",
+      "cup_points": ""
+    },
+    {
+      "date": "18-03-2023",
+      "location": "Laax",
+      "nation": "",
+      "category": "European Cup Premium",
+      "discipline": "Halfpipe",
+      "rank": "5",
+      "fis_points": "54.60",
+      "cup_points": "90.00"
+    },
+    {
+      "date": "24-02-2023",
+      "location": "Yongpyong",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Big Air",
+      "rank": "4",
+      "fis_points": "24.80",
+      "cup_points": ""
+    },
+    {
+      "date": "23-02-2023",
+      "location": "Yongpyong",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Slopestyle",
+      "rank": "3",
+      "fis_points": "30.90",
+      "cup_points": ""
+    },
+    {
+      "date": "14-02-2023",
+      "location": "Pheonix PyeongChang",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "10.00",
+      "cup_points": ""
+    },
+    {
+      "date": "13-02-2023",
+      "location": "Pheonix PyeongChang",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Halfpipe",
+      "rank": "1",
+      "fis_points": "10.00",
+      "cup_points": ""
+    },
+    {
+      "date": "08-10-2022",
+      "location": "Cardrona Alpine Resort",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Halfpipe",
+      "rank": "3",
+      "fis_points": "10.40",
+      "cup_points": "60.00"
+    },
+    {
+      "date": "08-10-2022",
+      "location": "Cardrona Alpine Resort",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Big Air",
+      "rank": "8",
+      "fis_points": "15.10",
+      "cup_points": "32.00"
+    },
+    {
+      "date": "07-10-2022",
+      "location": "Cardrona Alpine Resort",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Slopestyle",
+      "rank": "13",
+      "fis_points": "30.10",
+      "cup_points": "20.00"
+    },
+    {
+      "date": "02-09-2022",
+      "location": "Cardrona",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Slopestyle",
+      "rank": "30",
+      "fis_points": "9.90",
+      "cup_points": "1.00"
+    },
+    {
+      "date": "01-09-2022",
+      "location": "Cardrona",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Halfpipe",
+      "rank": "13",
+      "fis_points": "13.60",
+      "cup_points": "20.00"
+    },
+    {
+      "date": "14-02-2022",
+      "location": "Yongpyong Resort",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Big Air",
+      "rank": "5",
+      "fis_points": "20.10",
+      "cup_points": ""
+    },
+    {
+      "date": "14-02-2022",
+      "location": "Yongpyong Resort",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Slopestyle",
+      "rank": "7",
+      "fis_points": "11.60",
+      "cup_points": ""
+    },
+    {
+      "date": "11-02-2022",
+      "location": "Phoenix Pyeongchang",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Halfpipe",
+      "rank": "3",
+      "fis_points": "34.00",
+      "cup_points": ""
+    }
+  ]
+}

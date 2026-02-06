@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html class="dark" lang="ko">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Team Korea - Performance Dashboard</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ff4747",
+                        "secondary-blue": "#148CFF",
+                        "secondary": "#148CFF",
+                        "background-light": "#f8f5f5",
+                        "background-dark": "#0a0a0a",
+                        "deep-bg": "#121212",
+                        "off-white": "#f5f5f5",
+                        "muted-gray": "#3c3c3c",
+                        "forest-grey": "#2a2a2a",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "Noto Sans KR", "Inter", "sans-serif"],
+                        "sans": ["Inter", "Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "2xl": "2.5rem",
+                        "3xl": "3rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                @apply bg-background-light dark:bg-background-dark text-gray-900 dark:text-off-white;
+                font-family: 'Lexend', 'Noto Sans KR', sans-serif;
+            }
+        }
+        .glass-modal {
+            background: rgba(24, 16, 16, 0.85);
+            backdrop-filter: blur(25px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .glass-panel {
+            background: rgba(60, 60, 60, 0.25);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .knob-shadow {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+        .massive-title {
+            letter-spacing: -0.05em;
+            line-height: 0.85;
+        }
+        .hero-gradient {
+            background: linear-gradient(180deg, rgba(20, 140, 255, 0.12) 0%, rgba(18, 18, 18, 1) 100%);
+        }
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .premium-tooltip {
+            background: rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        .shimmer-bg::after {
+            content: "";
+            position: absolute; top: 0; right: 0; bottom: 0; left: 0;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
+            animation: shimmer 2s infinite;
+        }
+        @keyframes drawLine {
+            from { stroke-dashoffset: 400; }
+            to { stroke-dashoffset: 0; }
+        }
+        .animate-draw {
+            stroke-dasharray: 400;
+            animation: drawLine 1.5s ease-out forwards;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="dark">
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/history@5/umd/history.development.js"></script>
+    <script src="https://unpkg.com/react-router@6.3.0/umd/react-router.development.js"></script>
+    <script src="https://unpkg.com/react-router-dom@6.3.0/umd/react-router-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+        const { useState, useEffect } = React;
+        const { createRoot } = ReactDOM;
+        const { MemoryRouter, Routes, Route, Link, useNavigate, useLocation } = ReactRouterDOM;
+
+        // --- Common Components ---
+
+        const BottomNav = () => {
+            const navigate = useNavigate();
+            const location = useLocation();
+            const isActive = (path) => location.pathname === path;
+
+            return (
+                <nav class="fixed bottom-0 left-0 right-0 max-w-[480px] mx-auto z-50 px-6 pb-8 pointer-events-none">
+                    <div class="glass-panel pointer-events-auto rounded-full flex items-center justify-around py-3 px-4 shadow-2xl border-white/20">
+                        <button onClick={() => navigate('/')} className={`flex flex-col items-center gap-1 ${isActive('/') ? 'text-primary' : 'text-white/40'}`}>
+                            <span class="material-symbols-outlined" style={isActive('/') ? {fontVariationSettings: "'FILL' 1"} : {}}>dashboard</span>
+                            <span class="text-[9px] font-black uppercase tracking-tighter">Main</span>
+                        </button>
+                        <button onClick={() => navigate('/results')} className={`flex flex-col items-center gap-1 ${isActive('/results') ? 'text-primary' : 'text-white/40'}`}>
+                            <span class="material-symbols-outlined" style={isActive('/results') ? {fontVariationSettings: "'FILL' 1"} : {}}>leaderboard</span>
+                            <span class="text-[9px] font-black uppercase tracking-tighter">Results</span>
+                        </button>
+                        <button onClick={() => navigate('/profile')} className={`flex flex-col items-center gap-1 ${isActive('/profile') ? 'text-primary' : 'text-white/40'}`}>
+                            <span class="material-symbols-outlined" style={isActive('/profile') ? {fontVariationSettings: "'FILL' 1"} : {}}>person</span>
+                            <span class="text-[9px] font-black uppercase tracking-tighter">Athletes</span>
+                        </button>
+                        <button onClick={() => navigate('/analysis/season')} className={`flex flex-col items-center gap-1 ${isActive('/analysis/season') ? 'text-primary' : 'text-white/40'}`}>
+                            <span class="material-symbols-outlined">analytics</span>
+                            <span class="text-[9px] font-black uppercase tracking-tighter">Insight</span>
+                        </button>
+                    </div>
+                </nav>
+            );
+        };
+
+        const AnalysisModal = ({ type, onClose }) => {
+            const navigate = useNavigate();
+            const [filter, setFilter] = useState(type || 'season'); // 'week', 'month', 'season'
+            const [isLoading, setIsLoading] = useState(false);
+
+            useEffect(() => {
+                if (filter === 'month') {
+                    setIsLoading(true);
+                    const timer = setTimeout(() => setIsLoading(false), 1500);
+                    return () => clearTimeout(timer);
+                }
+            }, [filter]);
+
+            return (
+                <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={onClose}></div>
+                    <div className="relative z-10 w-full max-w-[480px] h-[92vh] overflow-hidden flex flex-col rounded-2xl glass-modal">
+                        <div className="flex h-6 w-full items-center justify-center shrink-0">
+                            <div className="h-1.5 w-12 rounded-full bg-white/20"></div>
+                        </div>
+                        <div className="flex items-center justify-between px-6 pt-2 pb-2">
+                            <h2 className="text-white text-xl font-bold leading-tight tracking-tight">종목별 상세 분석</h2>
+                            <button onClick={onClose} className="flex size-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-colors">
+                                <span className="material-symbols-outlined text-white text-[24px]">close</span>
+                            </button>
+                        </div>
+                        
+                        <div className="px-6 py-2">
+                            <div className="flex p-1 bg-black/30 rounded-full border border-white/5 backdrop-blur-sm">
+                                <button onClick={() => setFilter('week')} className={`flex-1 py-1.5 text-sm font-medium transition-all ${filter === 'week' ? 'text-primary bg-white/5 rounded-full' : 'text-white/40'}`}>주간</button>
+                                <button onClick={() => setFilter('month')} className={`flex-1 py-1.5 text-sm font-medium transition-all ${filter === 'month' ? 'text-secondary bg-white/5 rounded-full' : 'text-white/40'}`}>월간</button>
+                                <button onClick={() => setFilter('season')} className={`flex-1 py-1.5 text-sm font-medium transition-all ${filter === 'season' ? 'text-primary bg-white/5 rounded-full' : 'text-white/40'}`}>시즌</button>
+                            </div>
+                        </div>
+
+                        <div className="flex-1 overflow-y-auto px-6 pb-10 space-y-8 mt-4">
+                            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+                                <div className="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-primary px-5 text-white shadow-lg shadow-primary/20">
+                                    <span className="material-symbols-outlined text-[18px]">downhill_skiing</span>
+                                    <p className="text-sm font-semibold">Alpine</p>
+                                </div>
+                                <div className="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white/10 px-5 text-white/70 border border-white/5">
+                                    <span className="material-symbols-outlined text-[18px]">snowboarding</span>
+                                    <p className="text-sm font-medium">Snowboard</p>
+                                </div>
+                                <div className="flex h-10 shrink-0 items-center justify-center gap-x-2 rounded-full bg-white/10 px-5 text-white/70 border border-white/5">
+                                    <span className="material-symbols-outlined text-[18px]">skateboarding</span>
+                                    <p className="text-sm font-medium">Freestyle</p>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-col gap-4">
+                                <div>
+                                    <p className="text-white/60 text-sm font-medium">{filter === 'month' ? '월간' : '시즌별'} 퍼포먼스 트렌드</p>
+                                    <div className="flex items-baseline gap-2">
+                                        <span className="text-white text-4xl font-bold tracking-tight">{isLoading ? '--.-' : (filter === 'month' ? '94.2' : '88.5')}</span>
+                                        <span className={`${isLoading ? 'text-white/20 bg-white/5' : (filter === 'month' ? 'text-green-400 bg-green-400/10' : 'text-[#0bda0b] bg-[#0bda0b]/10')} text-sm font-bold px-2 py-0.5 rounded-md`}>
+                                            {isLoading ? 'updating' : (filter === 'month' ? '+5.8%' : '+12.4%')}
+                                        </span>
+                                    </div>
+                                </div>
+
+                                {isLoading ? (
+                                    <div className="relative w-full h-48 bg-black/40 rounded-2xl p-4 border border-white/5 overflow-hidden shimmer-bg">
+                                        <div className="absolute inset-0 bg-black/10 backdrop-blur-[2px] z-10 flex flex-col items-center justify-center">
+                                            <div className="relative flex items-center justify-center mb-3">
+                                                <div className="w-10 h-10 rounded-full border-2 border-secondary/10"></div>
+                                                <div className="absolute w-10 h-10 rounded-full border-t-2 border-secondary animate-spin"></div>
+                                            </div>
+                                            <p className="text-secondary text-xs font-medium tracking-widest opacity-80 uppercase">데이터 갱신 중...</p>
+                                        </div>
+                                    </div>
+                                ) : (
+                                    <div className="relative w-full h-64 bg-black/40 rounded-2xl p-4 border border-white/5 overflow-visible">
+                                        <div className="w-full h-full flex flex-col justify-between opacity-10 pointer-events-none">
+                                            {[1,2,3,4].map(i => <div key={i} className="border-t border-white/40 w-full"></div>)}
+                                        </div>
+                                        <svg className="absolute inset-0 w-full h-full p-4 overflow-visible" preserveAspectRatio="none" viewBox="0 0 100 100">
+                                            <path d="M0,80 Q25,85,50,60 T100,45" fill="none" stroke="#148CFF" strokeOpacity="0.4" strokeWidth="2.5"></path>
+                                            <path className="animate-draw" d="M0,70 Q25,50,50,40 T100,25" fill="none" stroke="#FF4646" strokeWidth="4"></path>
+                                            {filter === 'month' && (
+                                                <React.Fragment>
+                                                    <circle cx="75" cy="32.5" fill="#FF4646" r="5"></circle>
+                                                    <circle cx="75" cy="32.5" fill="white" r="2.5"></circle>
+                                                </React.Fragment>
+                                            )}
+                                        </svg>
+                                        
+                                        {filter === 'month' && (
+                                            <div className="absolute left-[75%] top-[32.5%] -translate-x-1/2 -translate-y-[105%] w-[12.5rem] premium-tooltip p-4 rounded-[1rem] z-50">
+                                                <div className="flex justify-between items-start mb-2">
+                                                    <div className="flex items-center gap-2">
+                                                        <div className="w-2 h-2 rounded-full bg-primary"></div>
+                                                        <span className="text-white text-sm font-bold">이상호</span>
+                                                    </div>
+                                                    <div className="px-1.5 py-0.5 rounded bg-white/10 border border-white/10 text-[10px] text-white/90 font-bold">01</div>
+                                                </div>
+                                                <div className="space-y-0.5">
+                                                    <p className="text-white/50 text-[10px] uppercase tracking-wider">Parallel Giant Slalom</p>
+                                                    <div className="flex items-baseline gap-1">
+                                                        <span className="text-white text-2xl font-bold">94.2</span>
+                                                        <span className="text-white/40 text-[10px] font-medium uppercase">Score</span>
+                                                    </div>
+                                                </div>
+                                                <button onClick={() => { navigate('/profile'); onClose(); }} className="mt-3 w-full py-2 px-3 flex items-center justify-between rounded-[0.5rem] bg-secondary/10 border border-secondary/30 group transition-all">
+                                                    <span className="text-[11px] font-bold text-secondary">선수 프로필 보기</span>
+                                                    <span className="material-symbols-outlined text-[14px] text-secondary">arrow_forward_ios</span>
+                                                </button>
+                                            </div>
+                                        )}
+                                    </div>
+                                )}
+                            </div>
+
+                            <div className="space-y-4">
+                                <div className="flex items-center justify-between">
+                                    <h3 className="text-white text-lg font-bold tracking-tight">상위 선수 지표</h3>
+                                    <button className="text-primary text-xs font-bold flex items-center gap-1">전체보기 <span className="material-symbols-outlined text-[14px]">chevron_right</span></button>
+                                </div>
+                                <div className="space-y-3">
+                                    {[
+                                        { name: '이상호', sport: 'Snowboard', score: '94.2', initials: 'SH', color: 'from-primary to-orange-500', rank: '1st' },
+                                        { name: '김지웅', sport: 'Alpine', score: '89.2', initials: 'JW', color: 'from-secondary to-cyan-500', rank: '4th' }
+                                    ].map((player, idx) => (
+                                        <div key={idx} className="flex items-center justify-between p-4 bg-white/5 rounded-xl border border-white/5 hover:bg-white/10 transition-colors">
+                                            <div className="flex items-center gap-3">
+                                                <div className={`size-10 rounded-full bg-gradient-to-br ${player.color} flex items-center justify-center text-white font-bold text-sm`}>
+                                                    {player.initials}
+                                                </div>
+                                                <div>
+                                                    <p className="text-white font-bold">{player.name}</p>
+                                                    <p className="text-white/50 text-xs">{player.sport}</p>
+                                                </div>
+                                            </div>
+                                            <div className="text-right">
+                                                <p className="text-white font-bold">{player.score} <span className="text-[10px] text-white/40 font-normal">SCORE</span></p>
+                                                <div className="flex items-center justify-end gap-1">
+                                                    <span className="material-symbols-outlined text-yellow-500 text-[14px] fill-1">military_tech</span>
+                                                    <span className="text-white/70 text-xs font-medium">{player.rank} Place</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+
+                            <div className="pt-4">
+                                <button className={`w-full h-14 font-bold rounded-xl flex items-center justify-center gap-2 transition-all active:scale-[0.98] ${isLoading ? 'bg-white/5 text-white/30 cursor-not-allowed' : 'bg-primary text-white shadow-lg shadow-primary/25'}`}>
+                                    <span className="material-symbols-outlined">analytics</span>
+                                    {filter === 'month' ? '월간 상세 리포트 확인' : '상세 리포트 다운로드'}
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        // --- Screens ---
+
+        const Dashboard = () => {
+            const navigate = useNavigate();
+            return (
+                <div className="min-h-screen bg-deep-bg text-off-white pb-32">
+                    <header className="hero-gradient pt-16 pb-10 px-6 relative">
+                        <div className="mb-10 text-center sm:text-left">
+                            <h2 className="text-[10px] font-bold tracking-[0.4em] text-secondary/80 mb-2 uppercase">Republic of Korea</h2>
+                            <h1 className="massive-title text-[72px] font-black italic flex flex-col">
+                                <span>TEAM</span>
+                                <span className="text-primary">KOREA</span>
+                            </h1>
+                            <p className="text-[11px] font-medium tracking-[0.2em] text-gray-500 mt-4 uppercase">Elite Winter Sports Division</p>
+                        </div>
+                        <div className="flex gap-4">
+                            <div className="glass-panel px-5 py-4 rounded-2xl flex-1 border-l-4 border-l-primary">
+                                <p className="text-[10px] uppercase tracking-widest text-gray-400 font-bold mb-1">Milano 2026</p>
+                                <span className="text-2xl font-black">D-452</span>
+                            </div>
+                            <div className="glass-panel px-5 py-4 rounded-2xl flex-1 border-l-4 border-l-secondary">
+                                <p className="text-[10px] uppercase tracking-widest text-gray-400 font-bold mb-1">Elite Squad</p>
+                                <span className="text-2xl font-black">124</span>
+                            </div>
+                        </div>
+                    </header>
+
+                    <main className="px-6 space-y-10">
+                        <section className="grid grid-cols-2 gap-4">
+                            <div className="glass-panel p-5 rounded-3xl relative overflow-hidden">
+                                <span className="material-symbols-outlined text-secondary mb-3 text-2xl">public</span>
+                                <p className="text-[11px] text-gray-400 font-bold uppercase tracking-wider mb-1">Global Standing</p>
+                                <p className="text-2xl font-black">Top 7</p>
+                            </div>
+                            <div className="glass-panel p-5 rounded-3xl relative overflow-hidden">
+                                <span className="material-symbols-outlined text-primary mb-3 text-2xl">military_tech</span>
+                                <p className="text-[11px] text-gray-400 font-bold uppercase tracking-wider mb-1">Medal Forecast</p>
+                                <p className="text-2xl font-black">12 Gold</p>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div className="flex items-center justify-between mb-6">
+                                <h3 className="font-black text-xl tracking-tight uppercase italic">Recent Victories</h3>
+                                <span className="text-[10px] font-bold text-gray-500 border-b border-gray-500">VIEW ALL</span>
+                            </div>
+                            <div className="flex overflow-x-auto gap-4 hide-scrollbar -mx-6 px-6">
+                                <div onClick={() => navigate('/analysis/month')} className="min-w-[280px] cursor-pointer glass-panel rounded-[2rem] p-6 relative overflow-hidden bg-gradient-to-br from-white/5 to-transparent">
+                                    <div className="inline-block px-2 py-1 rounded-lg bg-primary/20 text-primary text-[10px] font-black mb-4 uppercase tracking-widest">FIS World Cup</div>
+                                    <h4 className="font-bold text-xl leading-tight mb-4">이상호 선수, 슬로베니아 대회 금메달 획득</h4>
+                                    <div className="flex items-center gap-2 text-gray-500 text-[11px] font-medium">
+                                        <span className="material-symbols-outlined text-sm">schedule</span>
+                                        <span>2 HOURS AGO</span>
+                                    </div>
+                                </div>
+                                <div className="min-w-[280px] glass-panel rounded-[2rem] p-6 relative overflow-hidden bg-gradient-to-br from-white/5 to-transparent">
+                                    <div className="inline-block px-2 py-1 rounded-lg bg-secondary/20 text-secondary text-[10px] font-black mb-4 uppercase tracking-widest">National Trials</div>
+                                    <h4 className="font-bold text-xl leading-tight mb-4">박제윤, 국가대표 선발전 압도적 1위</h4>
+                                    <div className="flex items-center gap-2 text-gray-500 text-[11px] font-medium">
+                                        <span className="material-symbols-outlined text-sm">schedule</span>
+                                        <span>YESTERDAY</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section>
+                            <div className="flex items-center justify-between mb-6">
+                                <h3 className="font-black text-xl tracking-tight uppercase italic">Top Ranking</h3>
+                                <button onClick={() => navigate('/results')} className="text-[10px] font-bold text-gray-500">ALL ATHLETES</button>
+                            </div>
+                            <div className="space-y-3">
+                                {[
+                                    { id: 1, name: '이상호', sport: 'Snowboard', score: '98.20', trend: 'up', val: '2.1%' },
+                                    { id: 2, name: '박제윤', sport: 'Alpine Ski', score: '94.50', trend: 'down', val: '0.5%' }
+                                ].map(item => (
+                                    <div key={item.id} onClick={() => navigate('/profile')} className="glass-panel p-4 rounded-2xl flex items-center justify-between cursor-pointer active:scale-95 transition-all">
+                                        <div className="flex items-center gap-4">
+                                            <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black italic ${item.id === 1 ? 'bg-primary/10 text-primary' : 'bg-white/5 text-gray-500'}`}>{item.id.toString().padStart(2, '0')}</div>
+                                            <div>
+                                                <p className="font-bold text-[15px]">{item.name}</p>
+                                                <p className="text-[10px] text-gray-500 uppercase font-bold tracking-widest">{item.sport}</p>
+                                            </div>
+                                        </div>
+                                        <div className="text-right">
+                                            <p className={`font-black text-[15px] ${item.id === 1 ? 'text-secondary' : 'text-off-white/80'}`}>{item.score}</p>
+                                            <p className={`text-[10px] font-bold flex items-center justify-end gap-0.5 ${item.trend === 'up' ? 'text-green-500' : 'text-red-500'}`}>
+                                                <span className="material-symbols-outlined text-[12px] font-bold">trending_{item.trend}</span> {item.val}
+                                            </p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+                    </main>
+                    <BottomNav />
+                </div>
+            );
+        };
+
+        const Results = () => {
+            const navigate = useNavigate();
+            return (
+                <div className="min-h-screen bg-[#1e1e1e] pb-32">
+                    <main className="max-w-md mx-auto px-5 py-8 space-y-8">
+                        <header className="space-y-6 pt-4">
+                            <div className="flex items-center justify-between">
+                                <div>
+                                    <h1 className="text-3xl font-bold tracking-tight text-white mb-1">Competition</h1>
+                                    <p className="text-primary text-[10px] font-bold uppercase tracking-[0.2em]">Milano Cortina 2026</p>
+                                </div>
+                                <button className="w-10 h-10 rounded-2xl glass-panel flex items-center justify-center text-gray-300">
+                                    <span className="material-symbols-outlined text-xl">tune</span>
+                                </button>
+                            </div>
+                            <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+                                <button className="px-4 py-2 rounded-full text-[11px] font-semibold border bg-white text-black border-white">All Sports</button>
+                                <button className="px-4 py-2 rounded-full text-[11px] font-semibold border bg-white/5 border-white/10 text-gray-400">Snowboard</button>
+                                <button className="px-4 py-2 rounded-full text-[11px] font-semibold border bg-white/5 border-white/10 text-gray-400">Alpine Ski</button>
+                            </div>
+                        </header>
+
+                        <div className="space-y-4">
+                            <div className="grid grid-cols-12 px-4 text-[10px] font-bold uppercase tracking-widest text-gray-500">
+                                <div className="col-span-2">Rank</div>
+                                <div className="col-span-6">Athlete / Event</div>
+                                <div className="col-span-4 text-right">Performance</div>
+                            </div>
+                            <div className="space-y-2.5">
+                                {[
+                                    { id: '01', name: '이상호', event: 'Snowboard Parallel GS', score: '98.20', type: 'primary' },
+                                    { id: '02', name: '박제윤', event: 'Alpine Ski Slalom', score: '94.50', type: 'secondary' },
+                                    { id: '03', name: '최흥철', event: 'Ski Jumping Large Hill', score: '91.00', type: 'muted' },
+                                    { id: '04', name: '이윤승', event: 'Freestyle Moguls', score: '88.75', type: 'muted' }
+                                ].map((item, i) => (
+                                    <div key={i} onClick={() => navigate('/profile')} className="glass-panel grid grid-cols-12 items-center p-3.5 rounded-2xl cursor-pointer hover:bg-white/5 transition-colors">
+                                        <div className="col-span-2">
+                                            <div className={`w-9 h-9 rounded-full flex items-center justify-center ${item.type === 'primary' ? 'bg-primary shadow-[0_0_15px_rgba(255,70,70,0.3)]' : item.type === 'secondary' ? 'bg-secondary shadow-[0_0_15px_rgba(20,140,255,0.3)]' : 'bg-white/10 border border-white/10'}`}>
+                                                <span className="text-white font-bold text-sm">{item.id}</span>
+                                            </div>
+                                        </div>
+                                        <div className="col-span-6 flex flex-col pl-2">
+                                            <span className="font-bold text-base text-white">{item.name}</span>
+                                            <span className="text-[10px] text-gray-400 font-medium">{item.event}</span>
+                                        </div>
+                                        <div className="col-span-4 flex items-center justify-end gap-3">
+                                            <span className="font-bold text-sm tabular-nums text-white">{item.score}</span>
+                                            <div className="flex items-end gap-0.5 h-6">
+                                                <div className="w-1 rounded-full bg-secondary/20 h-2"></div>
+                                                <div className="w-1 rounded-full bg-secondary/40 h-3"></div>
+                                                <div className="w-1 rounded-full bg-secondary/60 h-4"></div>
+                                                <div className="w-1 rounded-full bg-secondary h-5"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </main>
+                    <BottomNav />
+                </div>
+            );
+        };
+
+        const Profile = () => {
+            const navigate = useNavigate();
+            return (
+                <div className="bg-background-dark font-display text-white selection:bg-primary/30 min-h-screen max-w-[480px] mx-auto overflow-x-hidden shadow-2xl relative pb-32">
+                    <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-4 bg-transparent max-w-[480px] mx-auto">
+                        <button onClick={() => navigate(-1)} className="flex size-10 items-center justify-center rounded-full glass-card">
+                            <span className="material-symbols-outlined text-white">arrow_back_ios_new</span>
+                        </button>
+                        <div className="flex gap-2">
+                            <button className="flex size-10 items-center justify-center rounded-full glass-card"><span className="material-symbols-outlined text-white">share</span></button>
+                            <button className="flex size-10 items-center justify-center rounded-full glass-card"><span className="material-symbols-outlined text-white">favorite</span></button>
+                        </div>
+                    </header>
+                    
+                    <div className="relative h-[480px] w-full">
+                        <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDn5y9a36UTHuQJ5tvC3U8y4wrerJuU8u3-3sK-MNtQk_7_e0GVsmd2xNBacoD5zqfDacDLULDECjgPsT04D7M7diwCcYe2uKU0DK75MLiXsXiM_kO5_HDM2SdKj40-_7y58auqneCXo6NMoRy1GEz1VE9qzf3XnBkI-n8mwGcDY5ypDVoY3-TMosrVsmUrtmvvdPlDRVL3YL3og_ltEww6rX3HOZM6GCl_3QI2pOZNM_HQQTDb1XaYAizeh2YJ3QRLJLCp7Tu7ZxQ')"}}></div>
+                        <div className="absolute inset-0 bg-gradient-to-t from-background-dark via-background-dark/40 to-transparent"></div>
+                        <div className="absolute bottom-0 left-0 p-6 w-full">
+                            <span className="inline-block px-3 py-1 bg-primary text-[10px] font-bold tracking-widest rounded-full mb-3 uppercase">Team Korea</span>
+                            <h1 className="text-4xl font-extrabold tracking-tighter mb-1">이상호</h1>
+                            <p className="text-white/70 text-lg font-medium">Snowboard Parallel Giant Slalom</p>
+                            <div className="flex items-center gap-2 mt-2">
+                                <div className="size-2 rounded-full bg-green-500"></div>
+                                <span className="text-sm text-green-500 font-bold uppercase tracking-wider">Active Status</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="grid grid-cols-4 gap-3 px-6 -mt-8 relative z-10">
+                        {['나이 28', '신장 180', '체중 78', '소속 넥센'].map((item, i) => (
+                            <div key={i} className="glass-card rounded-xl p-3 flex flex-col items-center justify-center shadow-lg text-center">
+                                <span className="text-white/50 text-[10px] uppercase font-bold tracking-tighter">{item.split(' ')[0]}</span>
+                                <span className="text-lg font-bold">{item.split(' ')[1]}</span>
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className="px-6 pt-10 pb-4">
+                        <h2 className="text-2xl font-bold tracking-tight border-l-4 border-primary pl-3">Season Performance</h2>
+                    </div>
+                    
+                    <div className="px-6 mb-10">
+                        <div className="bg-[#1a1a1a] rounded-2xl p-5 border border-white/5">
+                            <div className="flex justify-between items-end mb-6">
+                                <div>
+                                    <p className="text-white/50 text-xs font-medium mb-1 uppercase tracking-widest">Global Rank</p>
+                                    <p className="text-4xl font-black text-white">#1 <span className="text-primary text-sm font-bold align-top ml-1">▲2</span></p>
+                                </div>
+                                <div className="text-right">
+                                    <p className="text-white/50 text-xs font-medium mb-1 uppercase tracking-widest">Total Points</p>
+                                    <p className="text-xl font-bold text-secondary">5,240 <span className="text-xs text-white/40">pts</span></p>
+                                </div>
+                            </div>
+                            <div className="relative h-40 w-full mb-4">
+                                <svg className="w-full h-full" preserveAspectRatio="none" viewBox="0 0 100 100">
+                                    <path d="M0,80 Q10,75 20,60 T40,40 T60,50 T80,20 T100,10" fill="none" stroke="#f42525" strokeLinecap="round" strokeWidth="2.5"></path>
+                                    <path d="M0,90 Q15,80 30,85 T50,70 T70,60 T90,40 T100,30" fill="none" stroke="#148CFF" strokeDasharray="2,2" strokeWidth="1.5"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="px-6 pb-12">
+                        <h2 className="text-2xl font-bold tracking-tight border-l-4 border-primary pl-3 mb-4">Career Highlights</h2>
+                        <div className="space-y-3">
+                            <div className="flex items-center gap-4 bg-[#1a1a1a] p-4 rounded-xl border border-white/5">
+                                <div className="flex size-12 items-center justify-center rounded-lg bg-yellow-500/10 text-yellow-500"><span className="material-symbols-outlined text-3xl">emoji_events</span></div>
+                                <div className="flex-1"><p className="text-sm font-bold">FIS World Cup 1st Place</p><p className="text-xs text-white/50">March 2024 • Winterberg, GER</p></div>
+                                <div className="text-xs font-bold text-white/40 uppercase">Gold</div>
+                            </div>
+                        </div>
+                    </div>
+                    <BottomNav />
+                </div>
+            );
+        };
+
+        const AnalysisWrapper = ({ initialType }) => {
+            const navigate = useNavigate();
+            return <AnalysisModal type={initialType} onClose={() => navigate('/')} />;
+        };
+
+        // --- App Shell ---
+
+        const App = () => {
+            return (
+                <MemoryRouter>
+                    <Routes>
+                        <Route path="/" element={<Dashboard />} />
+                        <Route path="/results" element={<Results />} />
+                        <Route path="/profile" element={<Profile />} />
+                        <Route path="/analysis/season" element={<AnalysisWrapper initialType="season" />} />
+                        <Route path="/analysis/month" element={<AnalysisWrapper initialType="month" />} />
+                    </Routes>
+                </MemoryRouter>
+            );
+        };
+
+        const root = createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>

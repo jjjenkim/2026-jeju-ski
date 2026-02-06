@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased bg-gray-50 dark:bg-[#1A1D29] text-gray-900 dark:text-[#F9FAFB] transition-colors duration-300;
+  }
+
+  :root[data-theme="dark"],
+  .dark {
+    /* Backgrounds */
+    --bg-primary: #1A1D29;
+    --bg-card: #252836;
+
+    /* Chart Colors (Neon) */
+    --chart-mint: #34D399;
+    --chart-gold: #FBBF24;
+    --chart-purple: #A78BFA;
+    --chart-pink: #F472B6;
+    --chart-cyan: #22D3EE;
+
+    /* Badges */
+    --rank-1st: #FFD700;
+    --rank-2nd: #C0C0C0;
+    --rank-3rd: #CD7F32;
+
+    /* Text */
+    --text-primary: #F9FAFB;
+    --text-secondary: #9CA3AF;
+    --text-accent: #34D399;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white dark:bg-ksa-dark-card rounded-lg shadow-md p-6 border border-gray-200 dark:border-ksa-dark-border transition-all duration-200;
+  }
+
+  .card-hover {
+    @apply hover:shadow-lg hover:scale-[1.01] transition-all duration-200;
+  }
+
+  .chart-container {
+    @apply w-full h-full min-h-[300px] lg:min-h-[400px];
+  }
+
+  .filter-button {
+    @apply px-4 py-2 rounded-md font-medium transition-all duration-200;
+  }
+
+  .filter-button-active {
+    @apply bg-ksa-primary text-white;
+  }
+
+  .filter-button-inactive {
+    @apply bg-gray-200 dark:bg-ksa-dark-card text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-ksa-dark-border;
+  }
+}
+
+/* Custom scrollbar for dark mode */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-ksa-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-ksa-dark-border rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-600;
+}

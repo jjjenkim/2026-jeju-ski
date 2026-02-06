@@ -1,0 +1,508 @@
+{
+  "athlete": "윤신이",
+  "profile_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=258758&type=result",
+  "scraped_at": "2026-01-20T07:26:51.673062",
+  "results_count": 50,
+  "results": [
+    {
+      "date": "16-01-2026",
+      "location": "Waterville Valley Resort",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "39",
+      "fis_points": "18.80",
+      "cup_points": ""
+    },
+    {
+      "date": "10-01-2026",
+      "location": "Val St. Come",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Dual Moguls",
+      "rank": "46",
+      "fis_points": "16.70",
+      "cup_points": ""
+    },
+    {
+      "date": "09-01-2026",
+      "location": "Val St. Come",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "49",
+      "fis_points": "15.80",
+      "cup_points": ""
+    },
+    {
+      "date": "21-12-2025",
+      "location": "Tignes",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Moguls",
+      "rank": "6",
+      "fis_points": "104.00",
+      "cup_points": ""
+    },
+    {
+      "date": "20-12-2025",
+      "location": "Tignes",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Moguls",
+      "rank": "6",
+      "fis_points": "104.00",
+      "cup_points": ""
+    },
+    {
+      "date": "08-12-2025",
+      "location": "Ruka",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "41",
+      "fis_points": "18.20",
+      "cup_points": ""
+    },
+    {
+      "date": "07-12-2025",
+      "location": "Ruka",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "46",
+      "fis_points": "16.70",
+      "cup_points": ""
+    },
+    {
+      "date": "21-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "World Championships",
+      "discipline": "Dual Moguls",
+      "rank": "30",
+      "fis_points": "32.00",
+      "cup_points": ""
+    },
+    {
+      "date": "19-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "World Championships",
+      "discipline": "Moguls",
+      "rank": "30",
+      "fis_points": "32.00",
+      "cup_points": ""
+    },
+    {
+      "date": "18-03-2025",
+      "location": "Engadin",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Moguls",
+      "rank": "30",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "12-03-2025",
+      "location": "Livigno",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Dual Moguls",
+      "rank": "24",
+      "fis_points": "70.00",
+      "cup_points": "7.00"
+    },
+    {
+      "date": "11-03-2025",
+      "location": "Livigno",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "27",
+      "fis_points": "45.00",
+      "cup_points": "4.00"
+    },
+    {
+      "date": "01-03-2025",
+      "location": "Almaty",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Dual Moguls",
+      "rank": "23",
+      "fis_points": "80.00",
+      "cup_points": "8.00"
+    },
+    {
+      "date": "28-02-2025",
+      "location": "Almaty",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "26",
+      "fis_points": "50.00",
+      "cup_points": "5.00"
+    },
+    {
+      "date": "20-02-2025",
+      "location": "O2 Resort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Moguls",
+      "rank": "1",
+      "fis_points": "50.00",
+      "cup_points": ""
+    },
+    {
+      "date": "13-02-2025",
+      "location": "O2 Resort",
+      "nation": "",
+      "category": "Asian Cup",
+      "discipline": "Moguls",
+      "rank": "10",
+      "fis_points": "67.60",
+      "cup_points": "26.00"
+    },
+    {
+      "date": "08-01-2025",
+      "location": "Almaty",
+      "nation": "",
+      "category": "FIS Junior World Ski Championships",
+      "discipline": "Dual Moguls",
+      "rank": "7",
+      "fis_points": "129.60",
+      "cup_points": ""
+    },
+    {
+      "date": "07-01-2025",
+      "location": "Almaty",
+      "nation": "",
+      "category": "FIS Junior World Ski Championships",
+      "discipline": "Moguls",
+      "rank": "7",
+      "fis_points": "129.60",
+      "cup_points": ""
+    },
+    {
+      "date": "21-12-2024",
+      "location": "Bakuriani",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Dual Moguls",
+      "rank": "27",
+      "fis_points": "45.00",
+      "cup_points": "4.00"
+    },
+    {
+      "date": "20-12-2024",
+      "location": "Bakuriani",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "23",
+      "fis_points": "80.00",
+      "cup_points": "8.00"
+    },
+    {
+      "date": "08-12-2024",
+      "location": "Idre Fjall",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Moguls",
+      "rank": "1",
+      "fis_points": "120.00",
+      "cup_points": ""
+    },
+    {
+      "date": "08-12-2024",
+      "location": "Idre Fjall",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Moguls",
+      "rank": "2",
+      "fis_points": "96.00",
+      "cup_points": ""
+    },
+    {
+      "date": "06-12-2024",
+      "location": "Idre Fjäll",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "29",
+      "fis_points": "36.00",
+      "cup_points": "2.00"
+    },
+    {
+      "date": "30-11-2024",
+      "location": "Ruka",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "26",
+      "fis_points": "50.00",
+      "cup_points": "5.00"
+    },
+    {
+      "date": "14-04-2024",
+      "location": "Duved",
+      "nation": "",
+      "category": "Open",
+      "discipline": "Dual Moguls",
+      "rank": "4",
+      "fis_points": "55.00",
+      "cup_points": ""
+    },
+    {
+      "date": "13-04-2024",
+      "location": "Duved",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Moguls",
+      "rank": "3",
+      "fis_points": "78.00",
+      "cup_points": ""
+    },
+    {
+      "date": "06-04-2024",
+      "location": "Chiesa in Valmalenco",
+      "nation": "",
+      "category": "FIS Junior World Ski Championships",
+      "discipline": "Dual Moguls",
+      "rank": "20",
+      "fis_points": "39.60",
+      "cup_points": ""
+    },
+    {
+      "date": "05-04-2024",
+      "location": "Chiesa in Valmalenco",
+      "nation": "",
+      "category": "FIS Junior World Ski Championships",
+      "discipline": "Moguls",
+      "rank": "19",
+      "fis_points": "43.20",
+      "cup_points": ""
+    },
+    {
+      "date": "24-03-2024",
+      "location": "Sierra Nevada",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Moguls",
+      "rank": "1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "10-03-2024",
+      "location": "Mègève",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Moguls",
+      "rank": "DNF",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "09-03-2024",
+      "location": "Mègève",
+      "nation": "",
+      "category": "European Cup",
+      "discipline": "Moguls",
+      "rank": "5",
+      "fis_points": "130.50",
+      "cup_points": "45.00"
+    },
+    {
+      "date": "22-02-2024",
+      "location": "High1resort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Moguls",
+      "rank": "1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "02-02-2024",
+      "location": "High1resort",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Moguls",
+      "rank": "1",
+      "fis_points": "50.00",
+      "cup_points": ""
+    },
+    {
+      "date": "27-01-2024",
+      "location": "Gangwon/Jeongseon High 1",
+      "nation": "",
+      "category": "Youth Olympic Winter Games",
+      "discipline": "Dual Moguls",
+      "rank": "14",
+      "fis_points": "46.80",
+      "cup_points": ""
+    },
+    {
+      "date": "26-01-2024",
+      "location": "Gangwon/Jeongseon High 1",
+      "nation": "",
+      "category": "Youth Olympic Winter Games",
+      "discipline": "Dual Moguls Team",
+      "rank": "2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "09-12-2023",
+      "location": "Idre Fjäll",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Dual Moguls",
+      "rank": "33",
+      "fis_points": "24.00",
+      "cup_points": ""
+    },
+    {
+      "date": "08-12-2023",
+      "location": "Idre Fjäll",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "29",
+      "fis_points": "36.00",
+      "cup_points": "2.00"
+    },
+    {
+      "date": "07-12-2023",
+      "location": "Idre Fjäll",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Moguls",
+      "rank": "29",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "02-12-2023",
+      "location": "Ruka",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "28",
+      "fis_points": "40.00",
+      "cup_points": "3.00"
+    },
+    {
+      "date": "02-04-2023",
+      "location": "Duved-Are",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Dual Moguls",
+      "rank": "3",
+      "fis_points": "66.00",
+      "cup_points": ""
+    },
+    {
+      "date": "01-04-2023",
+      "location": "Duved-Are",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Moguls",
+      "rank": "4",
+      "fis_points": "55.00",
+      "cup_points": ""
+    },
+    {
+      "date": "25-03-2023",
+      "location": "Chiesa in Valmalenco",
+      "nation": "",
+      "category": "FIS Junior World Ski Championships",
+      "discipline": "Dual Moguls",
+      "rank": "12",
+      "fis_points": "79.20",
+      "cup_points": ""
+    },
+    {
+      "date": "24-03-2023",
+      "location": "Chiesa in Valmalenco",
+      "nation": "",
+      "category": "FIS Junior World Ski Championships",
+      "discipline": "Dual Moguls Team",
+      "rank": "10",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "23-03-2023",
+      "location": "Chiesa in Valmalenco",
+      "nation": "",
+      "category": "FIS Junior World Ski Championships",
+      "discipline": "Moguls",
+      "rank": "28",
+      "fis_points": "14.40",
+      "cup_points": ""
+    },
+    {
+      "date": "17-12-2022",
+      "location": "Alpe d'Huez",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Dual Moguls",
+      "rank": "25",
+      "fis_points": "60.00",
+      "cup_points": "6.00"
+    },
+    {
+      "date": "16-12-2022",
+      "location": "Alpe d'Huez",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "21",
+      "fis_points": "100.00",
+      "cup_points": "10.00"
+    },
+    {
+      "date": "15-12-2022",
+      "location": "Alpe d'Huez",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Moguls",
+      "rank": "21",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "11-12-2022",
+      "location": "Idre Fjäll",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Dual Moguls",
+      "rank": "25",
+      "fis_points": "60.00",
+      "cup_points": "6.00"
+    },
+    {
+      "date": "10-12-2022",
+      "location": "Idre Fjäll",
+      "nation": "",
+      "category": "World Cup",
+      "discipline": "Moguls",
+      "rank": "29",
+      "fis_points": "36.00",
+      "cup_points": "2.00"
+    },
+    {
+      "date": "09-12-2022",
+      "location": "Idre Fjäll",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Moguls",
+      "rank": "29",
+      "fis_points": "",
+      "cup_points": ""
+    }
+  ]
+}

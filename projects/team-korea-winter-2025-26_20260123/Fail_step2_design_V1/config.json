@@ -1,0 +1,124 @@
+{
+  "project_name": "team-korea-winter-2025-26",
+  "version": "2.0.0",
+  "description": "대한민국 동계 국가대표 통합 대시보드",
+  "created": "2026-01-23",
+  "target_olympic": "2026 밀라노-코르티나 동계올림픽",
+  "data": {
+    "total_athletes": 43,
+    "sports": 8,
+    "teams": 5,
+    "update_schedule": "매일 오전 9시",
+    "update_cron": "0 9 * * 3"
+  },
+  "orchestrator": {
+    "max_concurrent": 5,
+    "max_retries": 5,
+    "cache_ttl": 3600,
+    "cache_max_size": 1000
+  },
+  "scraper": {
+    "rate_limit_delay": 2,
+    "timeout": 10,
+    "retry_backoff": "exponential",
+    "cache_enabled": true
+  },
+  "sports_mapping": {
+    "FS": {
+      "name": "freestyle_skiing",
+      "disciplines": {
+        "MO": "moguls",
+        "DM": "dual_moguls",
+        "HP": "halfpipe",
+        "SS": "slopestyle",
+        "BA": "big_air",
+        "SX": "ski_cross"
+      }
+    },
+    "SB": {
+      "name": "snowboard",
+      "disciplines": {
+        "HP": "halfpipe",
+        "SS": "slopestyle",
+        "BA": "big_air",
+        "SBX": "snowboard_cross",
+        "PGS": "parallel_gs",
+        "PSL": "parallel_slalom"
+      }
+    },
+    "AL": {
+      "name": "alpine_skiing",
+      "disciplines": {
+        "SL": "slalom",
+        "GS": "giant_slalom",
+        "SG": "super_g",
+        "DH": "downhill"
+      }
+    },
+    "JP": {
+      "name": "ski_jumping",
+      "disciplines": {
+        "LH": "large_hill",
+        "NH": "normal_hill",
+        "TEAM": "team"
+      }
+    },
+    "CC": {
+      "name": "cross_country",
+      "disciplines": {
+        "DIST": "distance",
+        "SPR": "sprint",
+        "TEAM": "team_sprint"
+      }
+    }
+  },
+  "team_mapping": {
+    "freestyle_moguls": "프리스타일",
+    "freestyle_park": "프리스타일",
+    "snowboard_park": "스노보드",
+    "snowboard_cross": "스노보드",
+    "snowboard_alpine": "스노보드",
+    "alpine_skiing": "알파인",
+    "ski_cross": "스키 크로스",
+    "ski_jumping": "스키점프",
+    "cross_country": "크로스컨트리"
+  },
+  "design": {
+    "colors": {
+      "korea_red": "#FF4646",
+      "korea_blue": "#148CFF",
+      "gold": "#FFD700",
+      "silver": "#C0C0C0",
+      "bronze": "#CD7F32",
+      "background": "#0A0A0A",
+      "card_bg": "rgba(255, 255, 255, 0.02)"
+    },
+    "fonts": {
+      "display": "Pretendard Variable",
+      "body": "Pretendard"
+    }
+  },
+  "institutional_links": [
+    {
+      "name": "대한스키협회",
+      "url": "http://www.sports.or.kr/ski"
+    },
+    {
+      "name": "FIS 공식 사이트",
+      "url": "https://www.fis-ski.com"
+    },
+    {
+      "name": "대한체육회",
+      "url": "https://www.sports.or.kr"
+    },
+    {
+      "name": "올림픽 공식 페이지",
+      "url": "https://olympics.com"
+    }
+  ],
+  "deployment": {
+    "platform": "Netlify",
+    "build_command": "npm run build",
+    "publish_dir": "dist"
+  }
+}

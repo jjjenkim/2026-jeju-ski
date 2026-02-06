@@ -2,7 +2,7 @@
     {
         "id": "235622",
         "fis_code": "235622",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=235622&type=result",
         "name_en": "SEUNGHUN LEE",
         "name_ko": "이승훈",
         "gender": "M",
@@ -463,7 +463,7 @@
     {
         "id": "239278",
         "fis_code": "239278",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=239278&type=result",
         "name_en": "Heesung MOON",
         "name_ko": "문희성",
         "gender": "M",
@@ -478,6 +478,15 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/239278.html",
         "recent_results": [
+            {
+                "date": "2020-02-18",
+                "place": "Pyeongchang",
+                "category": "NC",
+                "discipline": "Freeski Halfpipe",
+                "rank": 6,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2021-01-25",
                 "place": "Phoenix Pyeongchang",
@@ -828,22 +837,13 @@
                 "rank": 37,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-02-04",
-                "place": "Phoenix Pyeongchang",
-                "category": "NC",
-                "discipline": "Freeski Halfpipe",
-                "rank": 2,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "233691",
         "fis_code": "233691",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=233691&type=result",
         "name_en": "Yeongseop SHIN",
         "name_ko": "신영섭",
         "gender": "M",
@@ -1286,7 +1286,7 @@
     {
         "id": "203633",
         "fis_code": "203633",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=203633&type=result",
         "name_en": "Yujin JANG",
         "name_ko": "장유진",
         "gender": "F",
@@ -1720,7 +1720,7 @@
     {
         "id": "235623",
         "fis_code": "235623",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=235623&type=result",
         "name_en": "Daeun KIM",
         "name_ko": "김다은",
         "gender": "F",
@@ -2145,7 +2145,7 @@
     {
         "id": "229480",
         "fis_code": "229480",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=229480&type=result",
         "name_en": "Daeyoon JUNG",
         "name_ko": "정대윤",
         "gender": "M",
@@ -2597,7 +2597,7 @@
     {
         "id": "252896",
         "fis_code": "252896",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=252896&type=result",
         "name_en": "Yoonseung LEE",
         "name_ko": "이윤승",
         "gender": "M",
@@ -3040,7 +3040,7 @@
     {
         "id": "258758",
         "fis_code": "258758",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=FS&competitorid=258758&type=result",
         "name_en": "Shin-Ee YUN",
         "name_ko": "윤신이",
         "gender": "F",
@@ -3501,7 +3501,7 @@
     {
         "id": "163744",
         "fis_code": "163744",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=163744&type=result",
         "name_en": "Sangho LEE",
         "name_ko": "이상호",
         "gender": "M",
@@ -3517,11 +3517,20 @@
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/163744.html",
         "recent_results": [
             {
-                "date": "2024-11-30",
-                "place": "Mylin",
-                "category": "-",
+                "date": "2024-03-16",
+                "place": "St. Moritz",
+                "category": "EC",
                 "discipline": "Parallel Giant Slalom",
-                "rank": 7,
+                "rank": 3,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-03-17",
+                "place": "St. Moritz",
+                "category": "EC",
+                "discipline": "Parallel Slalom",
+                "rank": 27,
                 "result_code": null,
                 "fis_points": 0
             },
@@ -3535,11 +3544,11 @@
                 "fis_points": 0
             },
             {
-                "date": "2024-12-01",
+                "date": "2024-11-30",
                 "place": "Mylin",
                 "category": "-",
-                "discipline": "Parallel Slalom",
-                "rank": 1,
+                "discipline": "Parallel Giant Slalom",
+                "rank": 7,
                 "result_code": null,
                 "fis_points": 0
             },
@@ -3553,11 +3562,11 @@
                 "fis_points": 0
             },
             {
-                "date": "2024-12-07",
-                "place": "Yanqing (NASC)",
-                "category": "WC",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 5,
+                "date": "2024-12-01",
+                "place": "Mylin",
+                "category": "-",
+                "discipline": "Parallel Slalom",
+                "rank": 1,
                 "result_code": null,
                 "fis_points": 0
             },
@@ -3567,6 +3576,15 @@
                 "category": "-",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 1,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-12-07",
+                "place": "Yanqing (NASC)",
+                "category": "WC",
+                "discipline": "Parallel Giant Slalom",
+                "rank": 5,
                 "result_code": null,
                 "fis_points": 0
             },
@@ -3591,7 +3609,7 @@
             {
                 "date": "2024-12-14",
                 "place": "Cortina d'Ampezzo",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 31,
                 "result_code": null,
@@ -3600,7 +3618,7 @@
             {
                 "date": "2024-12-14",
                 "place": "Cortina d'Ampezzo",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 31,
                 "result_code": null,
@@ -3663,18 +3681,18 @@
             {
                 "date": "2025-03-01",
                 "place": "Krynica",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Giant Slalom",
-                "rank": 3,
+                "rank": 2,
                 "result_code": null,
                 "fis_points": 0
             },
             {
                 "date": "2025-03-01",
                 "place": "Krynica",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
-                "rank": 2,
+                "rank": 3,
                 "result_code": null,
                 "fis_points": 0
             },
@@ -3771,18 +3789,18 @@
             {
                 "date": "2025-12-06",
                 "place": "Mylin",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Giant Slalom",
-                "rank": 2,
+                "rank": 9,
                 "result_code": null,
                 "fis_points": 0
             },
             {
                 "date": "2025-12-06",
                 "place": "Mylin",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
-                "rank": 9,
+                "rank": 2,
                 "result_code": null,
                 "fis_points": 0
             },
@@ -3929,31 +3947,13 @@
                 "rank": 4,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Rogla",
-                "category": "-",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 2,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Rogla",
-                "category": "WC",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 1,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "111837",
         "fis_code": "111837",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=111837&type=result",
         "name_en": "Sangkyum KIM",
         "name_ko": "김상겸",
         "gender": "M",
@@ -3969,6 +3969,24 @@
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/111837.html",
         "recent_results": [
             {
+                "date": "2024-12-12",
+                "place": "Carezza",
+                "category": "-",
+                "discipline": "Parallel Giant Slalom",
+                "rank": 3,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-12-14",
+                "place": "Cortina d'Ampezzo",
+                "category": "WC",
+                "discipline": "Parallel Giant Slalom",
+                "rank": 5,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
                 "date": "2024-12-14",
                 "place": "Cortina d'Ampezzo",
                 "category": "-",
@@ -3980,7 +3998,7 @@
             {
                 "date": "2025-01-11",
                 "place": "Scuol",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 16,
                 "result_code": null,
@@ -3989,7 +4007,7 @@
             {
                 "date": "2025-01-11",
                 "place": "Scuol",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 16,
                 "result_code": null,
@@ -4363,31 +4381,13 @@
                 "rank": 6,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Rogla",
-                "category": "-",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 3,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Rogla",
-                "category": "WC",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 5,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "188938",
         "fis_code": "188938",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=188938&type=result",
         "name_en": "Wanhee CHO",
         "name_ko": "조완희",
         "gender": "F",
@@ -4402,6 +4402,24 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/188938.html",
         "recent_results": [
+            {
+                "date": "2024-03-05",
+                "place": "High1resort",
+                "category": "AC",
+                "discipline": "Parallel Slalom",
+                "rank": 2,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-03-12",
+                "place": "Cuiyunshan Galaxy Ski Resort",
+                "category": "AC",
+                "discipline": "Parallel Giant Slalom",
+                "rank": 5,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-03-13",
                 "place": "Cuiyunshan Galaxy Ski Resort",
@@ -4468,7 +4486,7 @@
             {
                 "date": "2024-12-07",
                 "place": "Yanqing (NASC)",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 28,
                 "result_code": null,
@@ -4477,7 +4495,7 @@
             {
                 "date": "2024-12-07",
                 "place": "Yanqing (NASC)",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 28,
                 "result_code": null,
@@ -4486,7 +4504,7 @@
             {
                 "date": "2025-01-11",
                 "place": "Scuol",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 26,
                 "result_code": null,
@@ -4495,7 +4513,7 @@
             {
                 "date": "2025-01-11",
                 "place": "Scuol",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 26,
                 "result_code": null,
@@ -4779,31 +4797,13 @@
                 "rank": 29,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Rogla",
-                "category": "-",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 26,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Rogla",
-                "category": "WC",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 26,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "220950",
         "fis_code": "220950",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=220950&type=result",
         "name_en": "Junho MA",
         "name_ko": "마준호",
         "gender": "M",
@@ -4818,6 +4818,24 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/220950.html",
         "recent_results": [
+            {
+                "date": "2024-12-08",
+                "place": "Yanqing (NASC)",
+                "category": "-",
+                "discipline": "Parallel Slalom",
+                "rank": 36,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-12-08",
+                "place": "Yanqing (NASC)",
+                "category": "WC",
+                "discipline": "Parallel Slalom",
+                "rank": 36,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-12-12",
                 "place": "Carezza",
@@ -4884,7 +4902,7 @@
             {
                 "date": "2025-01-14",
                 "place": "Bad Gastein",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Slalom",
                 "rank": 54,
                 "result_code": null,
@@ -4893,7 +4911,7 @@
             {
                 "date": "2025-01-14",
                 "place": "Bad Gastein",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Slalom",
                 "rank": 54,
                 "result_code": null,
@@ -5177,31 +5195,13 @@
                 "rank": 41,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Rogla",
-                "category": "-",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 48,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Rogla",
-                "category": "WC",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 48,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "188936",
         "fis_code": "188936",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=188936&type=result",
         "name_en": "Seungyeong HONG",
         "name_ko": "홍승영",
         "gender": "F",
@@ -5217,9 +5217,27 @@
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/188936.html",
         "recent_results": [
             {
+                "date": "2025-01-14",
+                "place": "Bad Gastein",
+                "category": "WC",
+                "discipline": "Parallel Slalom",
+                "rank": 37,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2025-01-14",
+                "place": "Bad Gastein",
+                "category": "-",
+                "discipline": "Parallel Slalom",
+                "rank": 37,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
                 "date": "2025-01-18",
                 "place": "Bansko",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 46,
                 "result_code": null,
@@ -5228,7 +5246,7 @@
             {
                 "date": "2025-01-18",
                 "place": "Bansko",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 46,
                 "result_code": null,
@@ -5282,7 +5300,7 @@
             {
                 "date": "2025-02-01",
                 "place": "Ratschings",
-                "category": "-",
+                "category": "EC",
                 "discipline": "Parallel Slalom",
                 "rank": 19,
                 "result_code": null,
@@ -5291,7 +5309,7 @@
             {
                 "date": "2025-02-01",
                 "place": "Ratschings",
-                "category": "EC",
+                "category": "-",
                 "discipline": "Parallel Slalom",
                 "rank": 19,
                 "result_code": null,
@@ -5417,7 +5435,7 @@
             {
                 "date": "2025-03-20",
                 "place": "Engadin",
-                "category": "-",
+                "category": "WSC",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 40,
                 "result_code": null,
@@ -5426,7 +5444,7 @@
             {
                 "date": "2025-03-20",
                 "place": "Engadin",
-                "category": "WSC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 40,
                 "result_code": null,
@@ -5638,31 +5656,13 @@
                 "rank": 39,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Rogla",
-                "category": "-",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 38,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Rogla",
-                "category": "WC",
-                "discipline": "Parallel Giant Slalom",
-                "rank": 38,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "156415",
         "fis_code": "156415",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=156415&type=result",
         "name_en": "Haerim JEONG",
         "name_ko": "정해림",
         "gender": "F",
@@ -5698,7 +5698,7 @@
             {
                 "date": "2024-12-14",
                 "place": "Cortina d'Ampezzo",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 20,
                 "result_code": null,
@@ -5707,7 +5707,7 @@
             {
                 "date": "2024-12-14",
                 "place": "Cortina d'Ampezzo",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 20,
                 "result_code": null,
@@ -5716,7 +5716,7 @@
             {
                 "date": "2024-12-21",
                 "place": "Davos",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Slalom",
                 "rank": 22,
                 "result_code": null,
@@ -5725,7 +5725,7 @@
             {
                 "date": "2024-12-21",
                 "place": "Davos",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Slalom",
                 "rank": 22,
                 "result_code": null,
@@ -5752,7 +5752,7 @@
             {
                 "date": "2025-01-14",
                 "place": "Bad Gastein",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Slalom",
                 "rank": 32,
                 "result_code": null,
@@ -5761,7 +5761,7 @@
             {
                 "date": "2025-01-14",
                 "place": "Bad Gastein",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Slalom",
                 "rank": 32,
                 "result_code": null,
@@ -5815,7 +5815,7 @@
             {
                 "date": "2025-01-25",
                 "place": "Rogla",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 15,
                 "result_code": null,
@@ -5824,7 +5824,7 @@
             {
                 "date": "2025-01-25",
                 "place": "Rogla",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Giant Slalom",
                 "rank": 15,
                 "result_code": null,
@@ -5851,18 +5851,18 @@
             {
                 "date": "2025-02-16",
                 "place": "Val St. Come",
-                "category": "-",
+                "category": "WC",
                 "discipline": "Parallel Giant Slalom",
-                "rank": 8,
+                "rank": 11,
                 "result_code": null,
                 "fis_points": 0
             },
             {
                 "date": "2025-02-16",
                 "place": "Val St. Come",
-                "category": "WC",
+                "category": "-",
                 "discipline": "Parallel Giant Slalom",
-                "rank": 11,
+                "rank": 8,
                 "result_code": null,
                 "fis_points": 0
             },
@@ -6096,7 +6096,7 @@
     {
         "id": "229485",
         "fis_code": "229485",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=229485&type=result",
         "name_en": "Subeen WOO",
         "name_ko": "우수빈",
         "gender": "F",
@@ -6557,7 +6557,7 @@
     {
         "id": "239112",
         "fis_code": "239112",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=239112&type=result",
         "name_en": "Chaeun LEE",
         "name_ko": "이채운",
         "gender": "F",
@@ -7009,7 +7009,7 @@
     {
         "id": "261333",
         "fis_code": "261333",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261333&type=result",
         "name_en": "Jio LEE",
         "name_ko": "이지오",
         "gender": "M",
@@ -7443,7 +7443,7 @@
     {
         "id": "261977",
         "fis_code": "261977",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261977&type=result",
         "name_en": "Geonhui KIM",
         "name_ko": "김건희",
         "gender": "F",
@@ -7895,7 +7895,7 @@
     {
         "id": "264594",
         "fis_code": "264594",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=264594&type=result",
         "name_en": "Gaon CHOI",
         "name_ko": "최가온",
         "gender": "F",
@@ -8131,7 +8131,7 @@
     {
         "id": "212759",
         "fis_code": "212759",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=212759&type=result",
         "name_en": "Nayoon LEE",
         "name_ko": "이나윤",
         "gender": "F",
@@ -8592,7 +8592,7 @@
     {
         "id": "239111",
         "fis_code": "239111",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=239111&type=result",
         "name_en": "Dongheon LEE",
         "name_ko": "이동헌",
         "gender": "M",
@@ -9044,7 +9044,7 @@
     {
         "id": "261339",
         "fis_code": "261339",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=SB&competitorid=261339&type=result",
         "name_en": "Seungeun YU",
         "name_ko": "유승은",
         "gender": "F",
@@ -9334,7 +9334,7 @@
     {
         "id": "10064",
         "fis_code": "10064",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=10064&type=result",
         "name_en": "Heung Chul CHOI",
         "name_ko": "최흥철",
         "gender": "M",
@@ -9786,7 +9786,7 @@
     {
         "id": "270266",
         "fis_code": "270266",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=270266&type=result",
         "name_en": "Sunwoong JANG",
         "name_ko": "장선웅",
         "gender": "M",
@@ -10166,7 +10166,7 @@
     {
         "id": "229479",
         "fis_code": "229479",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=229479&type=result",
         "name_en": "JOONSEO LEE",
         "name_ko": "이준서",
         "gender": "M",
@@ -10636,7 +10636,7 @@
     {
         "id": "188923",
         "fis_code": "188923",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=188923&type=result",
         "name_en": "JI YEONG BYUN",
         "name_ko": "변지영",
         "gender": "F",
@@ -10651,6 +10651,24 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/188923.html",
         "recent_results": [
+            {
+                "date": "2024-09-14",
+                "place": "Kijimadaira",
+                "category": "-",
+                "discipline": "General",
+                "rank": 43,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-09-15",
+                "place": "Kijimadaira",
+                "category": "-",
+                "discipline": "General",
+                "rank": 45,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-11-22",
                 "place": "Bruksvallarna",
@@ -11055,31 +11073,13 @@
                 "rank": 1,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 4,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 2,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "229490",
         "fis_code": "229490",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=229490&type=result",
         "name_en": "JINBOK LEE",
         "name_ko": "이진복",
         "gender": "M",
@@ -11094,6 +11094,24 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/229490.html",
         "recent_results": [
+            {
+                "date": "2024-03-05",
+                "place": "Alpensia Cross-Country Center",
+                "category": "FIS",
+                "discipline": "General",
+                "rank": 2,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-08-05",
+                "place": "Alpensia Cross-Country Center",
+                "category": "-",
+                "discipline": "General",
+                "rank": 6,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-08-06",
                 "place": "Alpensia Cross-Country Center",
@@ -11471,31 +11489,13 @@
                 "rank": 8,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 3,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 4,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "136287",
         "fis_code": "136287",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=136287&type=result",
         "name_en": "Jongwon JEONG",
         "name_ko": "정종원",
         "gender": "M",
@@ -11510,6 +11510,24 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/136287.html",
         "recent_results": [
+            {
+                "date": "2024-02-15",
+                "place": "Alpensia Cross-Country Center",
+                "category": "FEC",
+                "discipline": "General",
+                "rank": 7,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-02-16",
+                "place": "Alpensia Cross-Country Center",
+                "category": "FEC",
+                "discipline": "General",
+                "rank": 5,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-03-04",
                 "place": "Alpensia Cross-Country Center",
@@ -11923,31 +11941,13 @@
                 "rank": 2,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 9,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 6,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "154934",
         "fis_code": "154934",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=154934&type=result",
         "name_en": "GEONYONG LEE",
         "name_ko": "이건용",
         "gender": "M",
@@ -11962,6 +11962,24 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/154934.html",
         "recent_results": [
+            {
+                "date": "2024-02-15",
+                "place": "Alpensia Cross-Country Center",
+                "category": "FEC",
+                "discipline": "General",
+                "rank": 8,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-02-16",
+                "place": "Alpensia Cross-Country Center",
+                "category": "FEC",
+                "discipline": "General",
+                "rank": 9,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-03-04",
                 "place": "Alpensia Cross-Country Center",
@@ -12384,31 +12402,13 @@
                 "rank": 3,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 1,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 1,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "221223",
         "fis_code": "221223",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=221223&type=result",
         "name_en": "Eui Jin LEE",
         "name_ko": "이의진",
         "gender": "F",
@@ -12878,7 +12878,7 @@
     {
         "id": "162284",
         "fis_code": "162284",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=162284&type=result",
         "name_en": "Dasom HAN",
         "name_ko": "한다솜",
         "gender": "F",
@@ -13348,7 +13348,7 @@
     {
         "id": "212563",
         "fis_code": "212563",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=212563&type=result",
         "name_en": "JI YE LEE",
         "name_ko": "이지예",
         "gender": "F",
@@ -13369,6 +13369,15 @@
                 "category": "NC",
                 "discipline": "General",
                 "rank": 5,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-01-08",
+                "place": "Alpensia Cross-Country Center",
+                "category": "NC",
+                "discipline": "General",
+                "rank": 4,
                 "result_code": null,
                 "fis_points": 0
             },
@@ -13767,31 +13776,13 @@
                 "rank": 1,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 2,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 2,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "195562",
         "fis_code": "195562",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=CC&competitorid=195562&type=result",
         "name_en": "Sangmi JE",
         "name_ko": "제상미",
         "gender": "F",
@@ -13806,6 +13797,24 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/195562.html",
         "recent_results": [
+            {
+                "date": "2024-02-16",
+                "place": "Alpensia Cross-Country Center",
+                "category": "FEC",
+                "discipline": "General",
+                "rank": 4,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-03-04",
+                "place": "Alpensia Cross-Country Center",
+                "category": "FIS",
+                "discipline": "General",
+                "rank": 2,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-03-05",
                 "place": "Alpensia Cross-Country Center",
@@ -14210,31 +14219,13 @@
                 "rank": 2,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 1,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-01-31",
-                "place": "Alpensia Cross-Country Center",
-                "category": "NC",
-                "discipline": "General",
-                "rank": 1,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "93945",
         "fis_code": "93945",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=93945&type=result",
         "name_en": "Donghyun JUNG",
         "name_ko": "정동현",
         "gender": "M",
@@ -14249,6 +14240,33 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/93945.html",
         "recent_results": [
+            {
+                "date": "2023-03-07",
+                "place": "Yongpyong Resort",
+                "category": "FIS",
+                "discipline": "Slalom",
+                "rank": 1,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2023-11-28",
+                "place": "Wanglong Ski Resort",
+                "category": "FIS",
+                "discipline": "Giant Slalom",
+                "rank": 1,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2023-11-30",
+                "place": "Wanglong Ski Resort",
+                "category": "FIS",
+                "discipline": "Slalom",
+                "rank": 1,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2023-12-01",
                 "place": "Wanglong Ski Resort",
@@ -14527,31 +14545,13 @@
                 "rank": 20,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-02-03",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 1,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-02-05",
-                "place": "Yongpyong Resorts",
-                "category": "FEC",
-                "discipline": "Giant Slalom",
-                "rank": 5,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "154866",
         "fis_code": "154866",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=154866&type=result",
         "name_en": "Jeyun PARK",
         "name_ko": "박제윤",
         "gender": "M",
@@ -14566,6 +14566,15 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/154866.html",
         "recent_results": [
+            {
+                "date": "2024-02-29",
+                "place": "Sugadairakohgen",
+                "category": "FEC",
+                "discipline": "Slalom",
+                "rank": 14,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-03-11",
                 "place": "Yongpyong Resort",
@@ -14835,40 +14844,13 @@
                 "rank": 13,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-02-02",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 7,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-02-03",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 8,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-02-05",
-                "place": "Yongpyong Resorts",
-                "category": "FEC",
-                "discipline": "Giant Slalom",
-                "rank": 15,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "163737",
         "fis_code": "163737",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163737&type=result",
         "name_en": "Dongkwan HONG",
         "name_ko": "홍동관",
         "gender": "M",
@@ -14883,6 +14865,24 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/163737.html",
         "recent_results": [
+            {
+                "date": "2024-12-04",
+                "place": "Wanglong Ski Resrort",
+                "category": "FIS",
+                "discipline": "Giant Slalom",
+                "rank": 3,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-12-05",
+                "place": "Wanglong Ski Resrort",
+                "category": "FIS",
+                "discipline": "Slalom",
+                "rank": 2,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-12-06",
                 "place": "Wanglong Ski Resrort",
@@ -15143,22 +15143,13 @@
                 "rank": 11,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-02-03",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 23,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "163740",
         "fis_code": "163740",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163740&type=result",
         "name_en": "Dong Woo KIM",
         "name_ko": "김동우",
         "gender": "M",
@@ -15173,6 +15164,15 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/163740.html",
         "recent_results": [
+            {
+                "date": "2024-12-10",
+                "place": "Wanlong Ski Resort",
+                "category": "FEC",
+                "discipline": "Giant Slalom",
+                "rank": 30,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-12-30",
                 "place": "Alpensia Resort",
@@ -15478,22 +15478,13 @@
                 "rank": 24,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-02-05",
-                "place": "Yongpyong Resorts",
-                "category": "FEC",
-                "discipline": "Giant Slalom",
-                "rank": 27,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "189170",
         "fis_code": "189170",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=189170&type=result",
         "name_en": "Minsik JUNG",
         "name_ko": "정민식",
         "gender": "M",
@@ -15502,12 +15493,21 @@
         "team": "Alpine Skiing Team",
         "birth_date": "1997-02-06",
         "age": 29,
-        "current_rank": 182,
-        "fis_points": 24.43,
-        "rank_context": "FIS-SL",
+        "current_rank": 0,
+        "fis_points": 0.0,
+        "rank_context": "Unranked",
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/189170.html",
         "recent_results": [
+            {
+                "date": "2024-04-11",
+                "place": "Nozawa Onsen",
+                "category": "FIS",
+                "discipline": "Slalom",
+                "rank": 3,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-12-03",
                 "place": "Wanglong Ski Resrort",
@@ -15777,22 +15777,13 @@
                 "rank": 44,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-02-03",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 22,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "188824",
         "fis_code": "188824",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=188824&type=result",
         "name_en": "HANHEE LEE",
         "name_ko": "이한희",
         "gender": "M",
@@ -15807,6 +15798,33 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/188824.html",
         "recent_results": [
+            {
+                "date": "2024-03-07",
+                "place": "Yong Pyong",
+                "category": "FIS",
+                "discipline": "Giant Slalom",
+                "rank": 6,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-03-08",
+                "place": "Yong Pyong",
+                "category": "FIS",
+                "discipline": "Giant Slalom",
+                "rank": 2,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-03-11",
+                "place": "Yongpyong Resort",
+                "category": "FIS",
+                "discipline": "Slalom",
+                "rank": 3,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-03-12",
                 "place": "Yongpyong Resort",
@@ -16067,40 +16085,13 @@
                 "rank": 27,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-02-02",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 25,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-02-03",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 24,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-02-05",
-                "place": "Yongpyong Resorts",
-                "category": "FEC",
-                "discipline": "Giant Slalom",
-                "rank": 26,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "203604",
         "fis_code": "203604",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=203604&type=result",
         "name_en": "Jeongwoo SHIN",
         "name_ko": "신정우",
         "gender": "M",
@@ -16115,6 +16106,24 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/203604.html",
         "recent_results": [
+            {
+                "date": "2024-12-10",
+                "place": "Wanlong Ski Resort",
+                "category": "FEC",
+                "discipline": "Giant Slalom",
+                "rank": 3,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-12-11",
+                "place": "Wanlong Ski Resort",
+                "category": "FEC",
+                "discipline": "Giant Slalom",
+                "rank": 2,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-12-12",
                 "place": "Wanlong Ski Resrort",
@@ -16438,31 +16447,13 @@
                 "rank": 15,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-02-02",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 21,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-02-05",
-                "place": "Yongpyong Resorts",
-                "category": "FEC",
-                "discipline": "Giant Slalom",
-                "rank": 11,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "177571",
         "fis_code": "177571",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=177571&type=result",
         "name_en": "Sohui GIM",
         "name_ko": "김소희",
         "gender": "F",
@@ -16477,6 +16468,24 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/177571.html",
         "recent_results": [
+            {
+                "date": "2024-02-16",
+                "place": "Yong Pyong",
+                "category": "FIS",
+                "discipline": "Slalom",
+                "rank": 1,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-02-28",
+                "place": "Sugadairakohgen",
+                "category": "FEC",
+                "discipline": "Giant Slalom",
+                "rank": 5,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2024-02-29",
                 "place": "Sugadairakohgen",
@@ -16773,40 +16782,13 @@
                 "rank": 3,
                 "result_code": null,
                 "fis_points": 0
-            },
-            {
-                "date": "2026-02-02",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 3,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-02-03",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 8,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-02-05",
-                "place": "Yongpyong Resorts",
-                "category": "FEC",
-                "discipline": "Giant Slalom",
-                "rank": 2,
-                "result_code": null,
-                "fis_points": 0
             }
         ]
     },
     {
         "id": "263315",
         "fis_code": "263315",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=263315&type=result",
         "name_en": "Taehee CHOI",
         "name_ko": "최태희",
         "gender": "F",
@@ -17132,7 +17114,7 @@
     {
         "id": "261321",
         "fis_code": "261321",
-        "fis_url": "",
+        "fis_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=261321&type=result",
         "name_en": "Seoyun PARK",
         "name_ko": "박서윤",
         "gender": "F",
@@ -17147,6 +17129,33 @@
         "status": "Active",
         "photo_url": "https://data.fis-ski.com/general/load-competitor-picture/261321.html",
         "recent_results": [
+            {
+                "date": "2024-12-13",
+                "place": "Wanlong Ski Resrort",
+                "category": "FEC",
+                "discipline": "Slalom",
+                "rank": 27,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-12-30",
+                "place": "Alpensia Resort",
+                "category": "FIS",
+                "discipline": "Slalom",
+                "rank": 1,
+                "result_code": null,
+                "fis_points": 0
+            },
+            {
+                "date": "2024-12-31",
+                "place": "Alpensia Resort",
+                "category": "FIS",
+                "discipline": "Slalom",
+                "rank": 1,
+                "result_code": null,
+                "fis_points": 0
+            },
             {
                 "date": "2025-01-18",
                 "place": "Bardonecchia",
@@ -17450,24 +17459,6 @@
                 "category": "FEC",
                 "discipline": "Giant Slalom",
                 "rank": 22,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-02-03",
-                "place": "Alpensia Ski Resort",
-                "category": "FEC",
-                "discipline": "Slalom",
-                "rank": 28,
-                "result_code": null,
-                "fis_points": 0
-            },
-            {
-                "date": "2026-02-05",
-                "place": "Yongpyong Resorts",
-                "category": "FEC",
-                "discipline": "Giant Slalom",
-                "rank": 19,
                 "result_code": null,
                 "fis_points": 0
             }

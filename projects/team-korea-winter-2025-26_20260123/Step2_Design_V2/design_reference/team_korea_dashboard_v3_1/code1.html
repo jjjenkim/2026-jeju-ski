@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html class="dark" lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Team Korea - Unified Dashboard</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#FF4646",
+                        secondary: "#148CFF",
+                        muted: "#3c3c3c",
+                        "deep-bg": "#121212",
+                        "off-white": "#f5f5f5"
+                    },
+                    fontFamily: {
+                        sans: ["Pretendard", "Inter", "system-ui", "-apple-system", "sans-serif"],
+                    },
+                    borderRadius: {
+                        '2xl': '1.5rem',
+                        '3xl': '2rem'
+                    }
+                }
+            }
+        };
+    </script>
+    <link href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <style type="text/tailwindcss">
+        @layer base {
+            body {
+                font-family: 'Pretendard', 'Inter', sans-serif;
+            }
+        }
+        .glass-card {
+            background: rgba(60, 60, 60, 0.2);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .hero-gradient {
+            background: linear-gradient(180deg, rgba(20, 140, 255, 0.12) 0%, rgba(18, 18, 18, 1) 100%);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .pb-safe {
+            padding-bottom: calc(env(safe-area-inset-bottom) + 6rem);
+        }
+        .massive-title {
+            letter-spacing: -0.05em;
+            line-height: 0.85;
+        }
+    </style>
+    <style>
+        body {
+            min-height: 100dvh;
+        }
+    </style>
+    <style>
+        body {
+            min-height: max(884px, 100dvh);
+        }
+    </style>
+</head>
+
+<body class="dark bg-deep-bg text-off-white antialiased overflow-x-hidden">
+    <header class="hero-gradient pt-16 pb-10 px-6 relative">
+        <div class="mb-10 text-center sm:text-left">
+            <h2 class="text-[10px] font-bold tracking-[0.4em] text-secondary/80 mb-2 uppercase">Republic of Korea</h2>
+            <h1 class="massive-title text-[72px] font-black italic flex flex-col">
+                <span>TEAM</span>
+                <span class="text-primary">KOREA</span>
+            </h1>
+            <p class="text-[11px] font-medium tracking-[0.2em] text-gray-500 mt-4 uppercase">Elite Winter Sports
+                Division</p>
+        </div>
+        <div class="flex gap-4">
+            <div class="glass-card px-5 py-4 rounded-2xl flex-1 border-l-4 border-l-primary">
+                <p class="text-[10px] uppercase tracking-widest text-gray-400 font-bold mb-1">Milano 2026</p>
+                <div class="flex items-baseline gap-1">
+                    <span class="text-2xl font-black">D-452</span>
+                </div>
+            </div>
+            <div class="glass-card px-5 py-4 rounded-2xl flex-1 border-l-4 border-l-secondary">
+                <p class="text-[10px] uppercase tracking-widest text-gray-400 font-bold mb-1">Elite Squad</p>
+                <div class="flex items-baseline gap-1">
+                    <span class="text-2xl font-black">124</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="px-6 space-y-10 pb-safe">
+        <section class="grid grid-cols-2 gap-4">
+            <div class="glass-card p-5 rounded-3xl relative overflow-hidden">
+                <div class="absolute -right-4 -top-4 w-16 h-16 bg-secondary/10 rounded-full blur-2xl"></div>
+                <span class="material-symbols-outlined text-secondary mb-3 text-2xl">public</span>
+                <p class="text-[11px] text-gray-400 font-bold uppercase tracking-wider mb-1">Global Standing</p>
+                <p class="text-2xl font-black">Top 7</p>
+            </div>
+            <div class="glass-card p-5 rounded-3xl relative overflow-hidden">
+                <div class="absolute -right-4 -top-4 w-16 h-16 bg-primary/10 rounded-full blur-2xl"></div>
+                <span class="material-symbols-outlined text-primary mb-3 text-2xl">military_tech</span>
+                <p class="text-[11px] text-gray-400 font-bold uppercase tracking-wider mb-1">Medal Forecast</p>
+                <p class="text-2xl font-black">12 Gold</p>
+            </div>
+        </section>
+        <section>
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="font-black text-xl tracking-tight uppercase italic">Performance Analysis</h3>
+                <span class="bg-secondary/10 text-secondary text-[10px] font-black px-2 py-1 rounded-md">LIVE</span>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="glass-card p-4 rounded-3xl aspect-square flex flex-col justify-between">
+                    <p class="text-[10px] uppercase font-bold tracking-widest text-gray-500">Sport Distribution</p>
+                    <div class="relative flex items-center justify-center py-2">
+                        <svg class="w-20 h-20" viewBox="0 0 36 36">
+                            <path class="text-muted"
+                                d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                                fill="none" stroke="currentColor" stroke-dasharray="100, 100" stroke-width="3"></path>
+                            <path class="text-secondary"
+                                d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"
+                                fill="none" stroke="currentColor" stroke-dasharray="45, 100" stroke-linecap="round"
+                                stroke-width="3"></path>
+                        </svg>
+                        <span class="absolute text-xs font-black">45%</span>
+                    </div>
+                    <p class="text-[10px] text-center text-gray-400 font-medium">Skiing Focus</p>
+                </div>
+                <div class="glass-card p-4 rounded-3xl aspect-square flex flex-col justify-between">
+                    <p class="text-[10px] uppercase font-bold tracking-widest text-gray-500">Team Status</p>
+                    <div class="flex items-end justify-around h-16 gap-1 px-2">
+                        <div class="w-2.5 bg-primary/40 rounded-full h-[40%]"></div>
+                        <div class="w-2.5 bg-primary rounded-full h-[85%]"></div>
+                        <div class="w-2.5 bg-primary/60 rounded-full h-[60%]"></div>
+                        <div class="w-2.5 bg-primary/20 rounded-full h-[30%]"></div>
+                    </div>
+                    <p class="text-[10px] text-center text-gray-400 font-medium">Readiness High</p>
+                </div>
+                <div class="glass-card p-4 rounded-3xl aspect-square flex flex-col justify-between">
+                    <p class="text-[10px] uppercase font-bold tracking-widest text-gray-500">Performance Radar</p>
+                    <div class="flex items-center justify-center relative h-16">
+                        <span class="material-symbols-outlined text-4xl text-white/10">pentagon</span>
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="w-8 h-8 border-2 border-secondary/50 rotate-[15deg]"></div>
+                            <div class="absolute w-5 h-5 bg-secondary/20 rotate-[-10deg]"></div>
+                        </div>
+                    </div>
+                    <p class="text-[10px] text-center text-gray-400 font-medium">Multi-discipline</p>
+                </div>
+                <div class="glass-card p-4 rounded-3xl aspect-square flex flex-col justify-between">
+                    <p class="text-[10px] uppercase font-bold tracking-widest text-gray-500">Ranking Heatmap</p>
+                    <div class="grid grid-cols-3 gap-1.5 p-1">
+                        <div class="h-3.5 rounded-sm bg-secondary"></div>
+                        <div class="h-3.5 rounded-sm bg-secondary/60"></div>
+                        <div class="h-3.5 rounded-sm bg-secondary/80"></div>
+                        <div class="h-3.5 rounded-sm bg-secondary/30"></div>
+                        <div class="h-3.5 rounded-sm bg-secondary/90"></div>
+                        <div class="h-3.5 rounded-sm bg-secondary/10"></div>
+                        <div class="h-3.5 rounded-sm bg-secondary/50"></div>
+                        <div class="h-3.5 rounded-sm bg-secondary/70"></div>
+                        <div class="h-3.5 rounded-sm bg-secondary"></div>
+                    </div>
+                    <p class="text-[10px] text-center text-gray-400 font-medium">Rank Density</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="font-black text-xl tracking-tight uppercase italic">Recent Victories</h3>
+                <span class="text-[10px] font-bold text-gray-500 border-b border-gray-500">VIEW ALL</span>
+            </div>
+            <div class="flex overflow-x-auto gap-4 hide-scrollbar -mx-6 px-6">
+                <div
+                    class="min-w-[280px] glass-card rounded-[2rem] p-6 relative overflow-hidden bg-gradient-to-br from-muted/20 to-transparent">
+                    <div class="absolute right-0 top-0 p-4">
+                        <span class="text-primary font-black text-5xl opacity-10 italic">01</span>
+                    </div>
+                    <div
+                        class="inline-block px-2 py-1 rounded-lg bg-primary/20 text-primary text-[10px] font-black mb-4 uppercase tracking-widest">
+                        FIS World Cup</div>
+                    <h4 class="font-bold text-xl leading-tight mb-4">이상호 선수, 슬로베니아 대회 금메달 획득</h4>
+                    <div class="flex items-center gap-2 text-gray-500 text-[11px] font-medium">
+                        <span class="material-symbols-outlined text-sm">schedule</span>
+                        <span>2 HOURS AGO</span>
+                    </div>
+                </div>
+                <div
+                    class="min-w-[280px] glass-card rounded-[2rem] p-6 relative overflow-hidden bg-gradient-to-br from-muted/20 to-transparent">
+                    <div class="absolute right-0 top-0 p-4">
+                        <span class="text-secondary font-black text-5xl opacity-10 italic">02</span>
+                    </div>
+                    <div
+                        class="inline-block px-2 py-1 rounded-lg bg-secondary/20 text-secondary text-[10px] font-black mb-4 uppercase tracking-widest">
+                        National Trials</div>
+                    <h4 class="font-bold text-xl leading-tight mb-4">박제윤, 국가대표 선발전 압도적 1위</h4>
+                    <div class="flex items-center gap-2 text-gray-500 text-[11px] font-medium">
+                        <span class="material-symbols-outlined text-sm">schedule</span>
+                        <span>YESTERDAY</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex items-center justify-between mb-6">
+                <h3 class="font-black text-xl tracking-tight uppercase italic">Top Ranking</h3>
+                <span class="text-[10px] font-bold text-gray-500">ALL ATHLETES</span>
+            </div>
+            <div class="space-y-3">
+                <div class="glass-card p-4 rounded-2xl flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center font-black text-primary italic">
+                            01</div>
+                        <div>
+                            <p class="font-bold text-[15px]">이상호</p>
+                            <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Snowboard</p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-black text-[15px] text-secondary">98.20</p>
+                        <p class="text-[10px] text-green-500 font-bold flex items-center justify-end gap-0.5">
+                            <span class="material-symbols-outlined text-[12px] font-bold">trending_up</span> 2.1%
+                        </p>
+                    </div>
+                </div>
+                <div class="glass-card p-4 rounded-2xl flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center font-black text-gray-500 italic">
+                            02</div>
+                        <div>
+                            <p class="font-bold text-[15px]">박제윤</p>
+                            <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Alpine Ski</p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-black text-[15px] text-off-white/80">94.50</p>
+                        <p class="text-[10px] text-red-500 font-bold flex items-center justify-end gap-0.5">
+                            <span class="material-symbols-outlined text-[12px] font-bold">trending_down</span> 0.5%
+                        </p>
+                    </div>
+                </div>
+                <div class="glass-card p-4 rounded-2xl flex items-center justify-between">
+                    <div class="flex items-center gap-4">
+                        <div
+                            class="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center font-black text-gray-500 italic">
+                            03</div>
+                        <div>
+                            <p class="font-bold text-[15px]">최흥철</p>
+                            <p class="text-[10px] text-gray-500 uppercase font-bold tracking-widest">Ski Jumping</p>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <p class="font-black text-[15px] text-off-white/80">91.00</p>
+                        <p class="text-[10px] text-gray-500 font-bold flex items-center justify-end gap-0.5">
+                            <span class="material-symbols-outlined text-[12px] font-bold">trending_flat</span> 0.0%
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <nav class="fixed bottom-8 left-6 right-6 z-[100]">
+        <div
+            class="max-w-md mx-auto h-16 glass-card rounded-full px-8 flex justify-between items-center shadow-2xl border-white/20">
+            <button class="flex flex-col items-center gap-1 text-primary">
+                <span class="material-symbols-outlined text-[24px]"
+                    style="font-variation-settings: 'FILL' 1;">dashboard</span>
+                <span class="text-[9px] font-black uppercase tracking-tighter">Main</span>
+            </button>
+            <button class="flex flex-col items-center gap-1 text-gray-500">
+                <span class="material-symbols-outlined text-[24px]">leaderboard</span>
+                <span class="text-[9px] font-black uppercase tracking-tighter">Results</span>
+            </button>
+            <button class="flex flex-col items-center gap-1 text-gray-500">
+                <span class="material-symbols-outlined text-[24px]">groups</span>
+                <span class="text-[9px] font-black uppercase tracking-tighter">Athletes</span>
+            </button>
+            <button class="flex flex-col items-center gap-1 text-gray-500">
+                <span class="material-symbols-outlined text-[24px]">analytics</span>
+                <span class="text-[9px] font-black uppercase tracking-tighter">Insight</span>
+            </button>
+        </div>
+    </nav>
+
+</body>
+
+</html>

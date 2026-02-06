@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "last_updated": "2026-01-23T09:00:00Z",
+    "total_athletes": 0,
+    "sports": 7,
+    "teams": 2
+  },
+  "statistics": {
+    "total_athletes": 0,
+    "by_sport": {},
+    "by_team": {},
+    "by_gender": {},
+    "age_distribution": {
+      "teens": 0,
+      "twenties": 0,
+      "thirties": 0
+    },
+    "total_medals": {
+      "gold": 0,
+      "silver": 0,
+      "bronze": 0
+    }
+  },
+  "athletes": []
+}

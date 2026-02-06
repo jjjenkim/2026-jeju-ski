@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@monotool/server-gdrive": "^0.6.2"
+  },
+  "_npx": {
+    "packages": [
+      "@monotool/server-gdrive"
+    ]
+  }
+}

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>FIS Regulation Chatbot</title>
+      <!-- Use Google Fonts (FIS Brand: clean sans-serif like Roboto) -->
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+      <style>
+            /* --- DESIGN SYSTEM --- */
+            :root {
+                  /* FIS Brand Colors */
+                  --primary-blue: #002D62;
+                  /* FIS Blue */
+                  --accent-yellow: #F0AB00;
+                  /* FIS Yellow */
+                  --bg-grey: #F4F6F9;
+                  --white: #FFFFFF;
+                  --text-dark: #333333;
+                  --text-light: #666666;
+
+                  /* Dimensions */
+                  --radius-md: 12px;
+                  --radius-input: 24px;
+
+                  /* Shadows */
+                  --shadow-subtle: 0 2px 4px rgba(0, 0, 0, 0.05);
+                  --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+                  /* Animations */
+                  --transition-speed: 200ms;
+            }
+
+            * {
+                  box-sizing: border-box;
+                  margin: 0;
+                  padding: 0;
+            }
+
+            body {
+                  font-family: 'Roboto', sans-serif;
+                  background-color: var(--bg-grey);
+                  color: var(--text-dark);
+                  height: 100vh;
+                  overflow: hidden;
+                  display: flex;
+                  /* Using Flexbox for Layout */
+            }
+
+            /* --- 1. LEFT SIDEBAR (20%) --- */
+            aside.left-panel {
+                  width: 20%;
+                  background-color: var(--white);
+                  border-right: 1px solid #E5E7EB;
+                  display: flex;
+                  flex-direction: column;
+                  padding: 20px;
+            }
+
+            .brand-header {
+                  display: flex;
+                  align-items: center;
+                  gap: 10px;
+                  margin-bottom: 30px;
+            }
+
+            .fis-logo {
+                  width: 32px;
+                  height: 32px;
+                  background-color: var(--primary-blue);
+                  /* Placeholder for logo */
+                  border-radius: 6px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  color: white;
+                  font-weight: bold;
+                  font-size: 10px;
+            }
+
+            .panel-title {
+                  font-size: 12px;
+                  font-weight: 700;
+                  color: var(--text-light);
+                  text-transform: uppercase;
+                  letter-spacing: 0.5px;
+                  margin-bottom: 12px;
+            }
+
+            .doc-list {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 12px;
+                  overflow-y: auto;
+            }
+
+            .doc-card {
+                  background-color: var(--white);
+                  border: 1px solid #E5E7EB;
+                  border-radius: var(--radius-md);
+                  padding: 12px;
+                  position: relative;
+                  transition: all var(--transition-speed) ease-out;
+                  cursor: pointer;
+                  display: flex;
+                  gap: 10px;
+            }
+
+            .doc-card:hover {
+                  transform: scale(1.02);
+                  box-shadow: var(--shadow-subtle);
+                  border-color: var(--accent-yellow);
+            }
+
+            .pdf-thumb {
+                  width: 30px;
+                  height: 40px;
+                  background-color: #FFEBEE;
+                  border-radius: 4px;
+                  color: #D32F2F;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  font-size: 18px;
+                  flex-shrink: 0;
+            }
+
+            .doc-meta h4 {
+                  font-size: 13px;
+                  margin-bottom: 4px;
+                  color: var(--primary-blue);
+                  white-space: nowrap;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  max-width: 120px;
+            }
+
+            .doc-meta span {
+                  font-size: 11px;
+                  color: var(--text-light);
+            }
+
+            .delete-btn {
+                  position: absolute;
+                  top: 8px;
+                  right: 8px;
+                  opacity: 0;
+                  cursor: pointer;
+                  color: #999;
+                  transition: opacity 0.2s;
+            }
+
+            .doc-card:hover .delete-btn {
+                  opacity: 1;
+            }
+
+            /* --- 2. CENTER PANEL (60%) --- */
+            main.center-panel {
+                  width: 60%;
+                  display: flex;
+                  flex-direction: column;
+                  position: relative;
+                  background-color: var(--bg-grey);
+            }
+
+            .chat-container {
+                  flex-grow: 1;
+                  padding: 30px;
+                  overflow-y: auto;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 20px;
+                  padding-bottom: 100px;
+                  /* Space for input */
+            }
+
+            .message {
+                  max-width: 80%;
+                  padding: 16px 20px;
+                  font-size: 15px;
+                  line-height: 1.6;
+                  border-radius: var(--radius-md);
+                  box-shadow: var(--shadow-subtle);
+                  animation: slideUp 300ms ease-out forwards;
+                  opacity: 0;
+                  transform: translateY(20px);
+                  position: relative;
+            }
+
+            @keyframes slideUp {
+                  to {
+                        opacity: 1;
+                        transform: translateY(0);
+                  }
+            }
+
+            /* AI Message */
+            .message.ai {
+                  align-self: flex-start;
+                  background-color: var(--white);
+                  color: var(--text-dark);
+                  border: 1px solid #E5E7EB;
+                  border-bottom-left-radius: 4px;
+            }
+
+            /* User Message - FIS Blue (replacing 'purple' for brand consistency) */
+            .message.user {
+                  align-self: flex-end;
+                  background-color: var(--primary-blue);
+                  color: white;
+                  border-bottom-right-radius: 4px;
+            }
+
+            .citation-tag {
+                  display: inline-block;
+                  background-color: #E0E7FF;
+                  color: var(--primary-blue);
+                  font-size: 10px;
+                  font-weight: bold;
+                  padding: 1px 4px;
+                  border-radius: 4px;
+                  margin-left: 2px;
+                  cursor: pointer;
+                  vertical-align: super;
+                  transition: transform 0.2s;
+            }
+
+            .citation-tag:hover {
+                  transform: scale(1.1);
+                  background-color: var(--accent-yellow);
+            }
+
+            /* Input Area */
+            .input-area {
+                  position: absolute;
+                  bottom: 30px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 80%;
+                  background-color: var(--white);
+                  border-radius: var(--radius-input);
+                  box-shadow: var(--shadow-card);
+                  padding: 8px 8px 8px 20px;
+                  display: flex;
+                  align-items: center;
+                  border: 1px solid transparent;
+                  transition: border-color 0.2s;
+            }
+
+            .input-area:focus-within {
+                  border-color: var(--primary-blue);
+            }
+
+            .input-area input {
+                  flex-grow: 1;
+                  border: none;
+                  outline: none;
+                  font-size: 15px;
+                  font-family: inherit;
+            }
+
+            .send-btn {
+                  width: 40px;
+                  height: 40px;
+                  background-color: var(--accent-yellow);
+                  border: none;
+                  border-radius: 50%;
+                  color: var(--primary-blue);
+                  cursor: pointer;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  transition: transform 0.2s;
+            }
+
+            .send-btn:hover {
+                  transform: scale(1.05);
+                  /* Hover effect */
+            }
+
+            /* Loading Pulse */
+            .loading-dots {
+                  display: flex;
+                  gap: 4px;
+                  padding: 10px;
+            }
+
+            .dot {
+                  width: 8px;
+                  height: 8px;
+                  background-color: #ccc;
+                  border-radius: 50%;
+                  animation: pulse 1.4s infinite ease-in-out both;
+            }
+
+            .dot:nth-child(1) {
+                  animation-delay: -0.32s;
+            }
+
+            .dot:nth-child(2) {
+                  animation-delay: -0.16s;
+            }
+
+            @keyframes pulse {
+
+                  0%,
+                  80%,
+                  100% {
+                        transform: scale(0);
+                  }
+
+                  40% {
+                        transform: scale(1);
+                  }
+            }
+
+            /* --- 3. RIGHT SIDEBAR (20%) --- */
+            aside.right-panel {
+                  width: 20%;
+                  background-color: var(--white);
+                  border-left: 1px solid #E5E7EB;
+                  padding: 20px;
+                  display: flex;
+                  flex-direction: column;
+            }
+
+            .source-card {
+                  background-color: #FAFAFA;
+                  border-left: 4px solid var(--accent-yellow);
+                  padding: 12px;
+                  border-radius: 4px;
+                  font-size: 13px;
+                  margin-bottom: 12px;
+                  line-height: 1.5;
+                  color: #444;
+                  animation: slideUp 300ms ease-out forwards;
+            }
+
+            .source-header {
+                  font-weight: bold;
+                  color: var(--primary-blue);
+                  margin-bottom: 4px;
+                  font-size: 11px;
+                  text-transform: uppercase;
+            }
+      </style>
+</head>
+
+<body>
+
+      <!-- LEFT: Documents -->
+      <aside class="left-panel">
+            <div class="brand-header">
+                  <div class="fis-logo">FIS</div>
+                  <span style="font-weight: 700; color: var(--primary-blue);">Regulations AI</span>
+            </div>
+
+            <div class="panel-title">Uploaded Documents</div>
+
+            <div class="doc-list" id="doc-list">
+                  <div class="doc-card">
+                        <div class="pdf-thumb">📄</div>
+                        <div class="doc-meta">
+                              <h4>ICR_2026_Final.pdf</h4>
+                              <span>128 pages</span>
+                        </div>
+                        <div class="delete-btn">✕</div>
+                  </div>
+
+                  <div class="doc-card">
+                        <div class="pdf-thumb">📄</div>
+                        <div class="doc-meta">
+                              <h4>Safety_Rules.pdf</h4>
+                              <span>45 pages</span>
+                        </div>
+                        <div class="delete-btn">✕</div>
+                  </div>
+            </div>
+      </aside>
+
+      <!-- CENTER: Chat -->
+      <main class="center-panel">
+            <div class="chat-container" id="chat-box">
+                  <!-- Initial AI Message -->
+                  <div class="message ai">
+                        <strong>⛷️ Welcome to FIS Regulation Bot</strong><br>
+                        I can help you answer questions based on the uploaded documents.
+                  </div>
+            </div>
+
+            <div class="input-area">
+                  <input type="text" id="user-input" placeholder="Ask a question concerning FIS rules...">
+                  <button class="send-btn" id="send-btn">➤</button>
+            </div>
+      </main>
+
+      <!-- RIGHT: Sources -->
+      <aside class="right-panel">
+            <div class="panel-title">Sources</div>
+            <div id="sources-container">
+                  <div style="text-align:center; color:#ccc; margin-top:40px;">
+                        Citations will appear here.
+                  </div>
+            </div>
+      </aside>
+
+      <!-- LOGIC -->
+      <script>
+            const chatBox = document.getElementById('chat-box');
+            const userInput = document.getElementById('user-input');
+            const sendBtn = document.getElementById('send-btn');
+            const sourcesContainer = document.getElementById('sources-container');
+
+            // Send Message Function
+            function sendMessage() {
+                  const text = userInput.value.trim();
+                  if (!text) return;
+
+                  // 1. Add User Message
+                  addMessage(text, 'user');
+                  userInput.value = '';
+
+                  // 2. Show Loading
+                  const loader = document.createElement('div');
+                  loader.className = 'message ai';
+                  loader.innerHTML = '<div class="loading-dots"><div class="dot"></div><div class="dot"></div><div class="dot"></div></div>';
+                  chatBox.appendChild(loader);
+                  chatBox.scrollTop = chatBox.scrollHeight;
+
+                  // 3. Simulate AI Response (Delay 1.5s)
+                  setTimeout(() => {
+                        loader.remove();
+
+                        // Sample Answer
+                        const answerHTML = `
+                    According to <strong>Article 205.4</strong>, competitors must perform a full stop 
+                    before re-entering the course after a fall <span class="citation-tag" onclick="showSource(1)">[1]</span>.
+                    <br><br>
+                    Failure to do so will result in disqualification <span class="citation-tag" onclick="showSource(2)">[2]</span>.
+                `;
+                        addMessage(answerHTML, 'ai');
+
+                        // Update Sources
+                        updateSources();
+                  }, 1500);
+            }
+
+            function addMessage(html, type) {
+                  const msg = document.createElement('div');
+                  msg.className = `message ${type}`;
+                  msg.innerHTML = html;
+                  chatBox.appendChild(msg);
+                  chatBox.scrollTop = chatBox.scrollHeight;
+            }
+
+            function updateSources() {
+                  sourcesContainer.innerHTML = `
+                <div class="source-card">
+                    <div class="source-header">Reference [1]</div>
+                    "Competitors who have stopped must look out..." <br>
+                    <em>ICR_2026.pdf, p.42</em>
+                </div>
+                <div class="source-card">
+                    <div class="source-header">Reference [2]</div>
+                    "...re-entering without a full stop leads to DSQ." <br>
+                    <em>Safety_Rules.pdf, p.15</em>
+                </div>
+            `;
+            }
+
+            function showSource(id) {
+                  // Visual feedback for citations
+                  alert("Highlighting source [" + id + "] on the right panel.");
+            }
+
+            // Event Listeners
+            sendBtn.addEventListener('click', sendMessage);
+            userInput.addEventListener('keypress', (e) => {
+                  if (e.key === 'Enter') sendMessage();
+            });
+      </script>
+</body>
+
+</html>

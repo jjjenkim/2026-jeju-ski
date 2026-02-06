@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIS 데이터 수동 입력</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+      border-bottom: 3px solid #0066cc;
+      padding-bottom: 10px;
+    }
+    .info-box {
+      background: #e3f2fd;
+      border-left: 4px solid #2196f3;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .athlete-select {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      margin: 10px 0;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    .result-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 80px 80px;
+      gap: 10px;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f9f9f9;
+      border-radius: 4px;
+    }
+    .result-row input, .result-row select {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    button {
+      background: #0066cc;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 10px 5px;
+    }
+    button:hover {
+      background: #0052a3;
+    }
+    .btn-secondary {
+      background: #6c757d;
+    }
+    .btn-secondary:hover {
+      background: #5a6268;
+    }
+    .btn-danger {
+      background: #dc3545;
+    }
+    .btn-danger:hover {
+      background: #c82333;
+    }
+    .status {
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 4px;
+      display: none;
+    }
+    .status.success {
+      background: #d4edda;
+      border: 1px solid #c3e6cb;
+      color: #155724;
+      display: block;
+    }
+    .status.error {
+      background: #f8d7da;
+      border: 1px solid #f5c6cb;
+      color: #721c24;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎿 FIS 데이터 수동 입력</h1>
+
+    <div class="info-box">
+      <strong>⚠️ FIS 웹사이트 접근 제한 안내</strong><br>
+      FIS 웹사이트가 자동화된 데이터 수집을 차단하고 있어, 임시로 수동 입력 방식을 제공합니다.<br>
+      각 선수의 FIS 프로필 페이지에서 직접 데이터를 복사하여 입력해주세요.
+    </div>
+
+    <div>
+      <label><strong>선수 선택:</strong></label>
+      <select id="athleteSelect" class="athlete-select">
+        <option value="">선수를 선택하세요</option>
+      </select>
+    </div>
+
+    <div id="athleteInfo" style="margin: 20px 0; padding: 15px; background: #f0f0f0; border-radius: 4px; display: none;">
+      <strong>선수 정보:</strong>
+      <div id="athleteDetails"></div>
+      <a id="fisLink" href="#" target="_blank" style="color: #0066cc; text-decoration: none; font-weight: bold;">
+        📊 FIS 프로필 보기 →
+      </a>
+    </div>
+
+    <div style="margin: 30px 0;">
+      <h3>2024/25 시즌 경기 결과 입력</h3>
+      <div style="margin: 10px 0; color: #666; font-size: 14px;">
+        <strong>헤더:</strong> 시즌 | 날짜 | 장소 | 대회명 | 카테고리 | 순위 | 포인트
+      </div>
+      <div id="resultsContainer"></div>
+      <button onclick="addResultRow()" class="btn-secondary">+ 결과 추가</button>
+    </div>
+
+    <div>
+      <button onclick="saveResults()">💾 저장</button>
+      <button onclick="loadCurrentData()" class="btn-secondary">🔄 현재 데이터 불러오기</button>
+    </div>
+
+    <div id="status" class="status"></div>
+  </div>
+
+  <script>
+    let athletes = [];
+    let currentAthlete = null;
+
+    // Load athletes list
+    async function loadAthletes() {
+      try {
+        const response = await fetch('http://localhost:3001/api/athletes');
+        const data = await response.json();
+        athletes = data.athletes;
+
+        const select = document.getElementById('athleteSelect');
+        athletes.forEach(athlete => {
+          const option = document.createElement('option');
+          option.value = athlete.name;
+          option.textContent = `${athlete.name} (${athlete.discipline})`;
+          select.appendChild(option);
+        });
+      } catch (error) {
+        showStatus('선수 목록을 불러오는데 실패했습니다: ' + error.message, 'error');
+      }
+    }
+
+    document.getElementById('athleteSelect').addEventListener('change', function() {
+      const athleteName = this.value;
+      if (!athleteName) {
+        document.getElementById('athleteInfo').style.display = 'none';
+        return;
+      }
+
+      currentAthlete = athletes.find(a => a.name === athleteName);
+      if (currentAthlete) {
+        document.getElementById('athleteDetails').innerHTML = `
+          ${currentAthlete.name} | ${currentAthlete.gender} | ${currentAthlete.discipline} | ${currentAthlete.affiliation}
+        `;
+        document.getElementById('fisLink').href = currentAthlete.fisUrl;
+        document.getElementById('athleteInfo').style.display = 'block';
+      }
+    });
+
+    function addResultRow(data = {}) {
+      const container = document.getElementById('resultsContainer');
+      const rowDiv = document.createElement('div');
+      rowDiv.className = 'result-row';
+      rowDiv.innerHTML = `
+        <input type="text" placeholder="2024/25" value="${data.season || '2024/25'}" class="season">
+        <input type="text" placeholder="2024-12-15" value="${data.date || ''}" class="date">
+        <input type="text" placeholder="PyeongChang (KOR)" value="${data.location || ''}" class="location">
+        <input type="text" placeholder="대회명" value="${data.competition || ''}" class="competition">
+        <select class="category">
+          <option value="OG" ${data.category === 'OG' ? 'selected' : ''}>OG (올림픽)</option>
+          <option value="WCH" ${data.category === 'WCH' ? 'selected' : ''}>WCH (세계선수권)</option>
+          <option value="WC" ${data.category === 'WC' ? 'selected' : ''}>WC (월드컵)</option>
+          <option value="EC" ${data.category === 'EC' ? 'selected' : ''}>EC (유럽컵)</option>
+          <option value="FIS" ${data.category === 'FIS' ? 'selected' : ''}>FIS</option>
+        </select>
+        <input type="number" placeholder="1" value="${data.rank || ''}" class="rank" min="1">
+        <input type="number" placeholder="100" value="${data.points || ''}" class="points" step="0.01">
+        <button onclick="this.parentElement.remove()" class="btn-danger">삭제</button>
+      `;
+      container.appendChild(rowDiv);
+    }
+
+    function collectResults() {
+      const rows = document.querySelectorAll('.result-row');
+      const results = [];
+
+      rows.forEach(row => {
+        results.push({
+          season: row.querySelector('.season').value,
+          date: row.querySelector('.date').value,
+          location: row.querySelector('.location').value,
+          competition: row.querySelector('.competition').value,
+          category: row.querySelector('.category').value,
+          rank: parseInt(row.querySelector('.rank').value) || 0,
+          points: parseFloat(row.querySelector('.points').value) || 0
+        });
+      });
+
+      return results;
+    }
+
+    async function saveResults() {
+      if (!currentAthlete) {
+        showStatus('선수를 먼저 선택해주세요.', 'error');
+        return;
+      }
+
+      const results = collectResults();
+      if (results.length === 0) {
+        showStatus('입력된 결과가 없습니다.', 'error');
+        return;
+      }
+
+      try {
+        const response = await fetch('http://localhost:3001/api/manual-update', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            athlete: currentAthlete,
+            results: results
+          })
+        });
+
+        const data = await response.json();
+        if (data.success) {
+          showStatus(`✅ ${currentAthlete.name} 선수의 ${results.length}개 결과가 저장되었습니다!`, 'success');
+          document.getElementById('resultsContainer').innerHTML = '';
+        } else {
+          showStatus('저장 실패: ' + data.error, 'error');
+        }
+      } catch (error) {
+        showStatus('저장 중 오류 발생: ' + error.message, 'error');
+      }
+    }
+
+    async function loadCurrentData() {
+      if (!currentAthlete) {
+        showStatus('선수를 먼저 선택해주세요.', 'error');
+        return;
+      }
+
+      try {
+        const response = await fetch(`http://localhost:3001/api/scrape-athlete/${encodeURIComponent(currentAthlete.name)}`);
+        const data = await response.json();
+
+        if (data.success && data.results.length > 0) {
+          document.getElementById('resultsContainer').innerHTML = '';
+          data.results.forEach(result => addResultRow(result));
+          showStatus(`${data.results.length}개의 기존 데이터를 불러왔습니다.`, 'success');
+        } else {
+          showStatus('저장된 데이터가 없습니다.', 'error');
+        }
+      } catch (error) {
+        showStatus('데이터 로딩 실패: ' + error.message, 'error');
+      }
+    }
+
+    function showStatus(message, type) {
+      const statusDiv = document.getElementById('status');
+      statusDiv.textContent = message;
+      statusDiv.className = `status ${type}`;
+
+      setTimeout(() => {
+        statusDiv.className = 'status';
+      }, 5000);
+    }
+
+    // Initialize
+    loadAthletes();
+    addResultRow(); // Add one empty row by default
+  </script>
+</body>
+</html>

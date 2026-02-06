@@ -1,0 +1,5 @@
+{
+      "google_api_key": "YOUR_API_KEY_HERE",
+      "target_file": "data/raw/sample_schedule.csv",
+      "design_style": "Corporate Professional Style. Clean white background (#ffffff), Navy blue (#1e3a8a) primary color, Light gray (#f3f4f6) accents, Sans-serif fonts (Inter, Roboto), Subtle shadows and rounded corners."
+}

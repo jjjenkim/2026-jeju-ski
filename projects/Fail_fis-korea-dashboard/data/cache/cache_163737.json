@@ -1,0 +1,508 @@
+{
+  "athlete": "홍동관",
+  "profile_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=AL&competitorid=163737&type=result",
+  "scraped_at": "2026-01-20T07:27:57.901488",
+  "results_count": 50,
+  "results": [
+    {
+      "date": "14-12-2025",
+      "location": "Wanlong Ski Resorts",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Slalom",
+      "rank": "8",
+      "fis_points": "26.61",
+      "cup_points": "32"
+    },
+    {
+      "date": "13-12-2025",
+      "location": "Wanlong Ski Resorts",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Slalom",
+      "rank": "14",
+      "fis_points": "36.68",
+      "cup_points": "18"
+    },
+    {
+      "date": "12-12-2025",
+      "location": "Wanlong Ski Resorts",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Giant Slalom",
+      "rank": "DNF2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "11-12-2025",
+      "location": "Wanlong Ski Resorts",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Giant Slalom",
+      "rank": "6",
+      "fis_points": "30.29",
+      "cup_points": "40"
+    },
+    {
+      "date": "10-12-2025",
+      "location": "Wanlong Ski Resorts",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Giant Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-12-2025",
+      "location": "Wanlong Ski Resorts",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slalom",
+      "rank": "7",
+      "fis_points": "45.43",
+      "cup_points": ""
+    },
+    {
+      "date": "06-12-2025",
+      "location": "Wanlong Ski Resorts",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Giant Slalom",
+      "rank": "1",
+      "fis_points": "24.91",
+      "cup_points": ""
+    },
+    {
+      "date": "18-08-2025",
+      "location": "Mount Hutt",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Giant Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "12-04-2025",
+      "location": "Myoko",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Giant Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "10-04-2025",
+      "location": "Nozawa Onsen",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "09-04-2025",
+      "location": "Nozawa Onsen",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slalom",
+      "rank": "7",
+      "fis_points": "32.23",
+      "cup_points": ""
+    },
+    {
+      "date": "08-04-2025",
+      "location": "Nozawa Onsen",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Giant Slalom",
+      "rank": "6",
+      "fis_points": "34.34",
+      "cup_points": ""
+    },
+    {
+      "date": "13-03-2025",
+      "location": "Sugadairakohgen",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Giant Slalom",
+      "rank": "6",
+      "fis_points": "32.08",
+      "cup_points": ""
+    },
+    {
+      "date": "12-03-2025",
+      "location": "Sugadairakohgen",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "11-03-2025",
+      "location": "Sugadairakohgen Kogen",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Slalom",
+      "rank": "3",
+      "fis_points": "26.01",
+      "cup_points": ""
+    },
+    {
+      "date": "09-03-2025",
+      "location": "Sugadairakohgen Kogen",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Giant Slalom",
+      "rank": "12",
+      "fis_points": "37.61",
+      "cup_points": ""
+    },
+    {
+      "date": "07-03-2025",
+      "location": "Hakuba",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Slalom",
+      "rank": "DSQ2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "06-03-2025",
+      "location": "Hakuba",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "28-02-2025",
+      "location": "Sugadairakohgen",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "27-02-2025",
+      "location": "Sugadairakohgen",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Slalom",
+      "rank": "19",
+      "fis_points": "37.78",
+      "cup_points": "12"
+    },
+    {
+      "date": "26-02-2025",
+      "location": "Sugadairakohgen",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Giant Slalom",
+      "rank": "DNF2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "25-02-2025",
+      "location": "Sugadairakohgen",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Giant Slalom",
+      "rank": "18",
+      "fis_points": "42.94",
+      "cup_points": "13"
+    },
+    {
+      "date": "16-02-2025",
+      "location": "Saalbach",
+      "nation": "",
+      "category": "World Championships",
+      "discipline": "Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "15-02-2025",
+      "location": "Saalbach",
+      "nation": "",
+      "category": "FIS Qualification",
+      "discipline": "Slalom",
+      "rank": "21",
+      "fis_points": "46.31",
+      "cup_points": ""
+    },
+    {
+      "date": "14-02-2025",
+      "location": "Saalbach",
+      "nation": "",
+      "category": "World Championships",
+      "discipline": "Giant Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-02-2025",
+      "location": "Saalbach",
+      "nation": "",
+      "category": "FIS Qualification",
+      "discipline": "Giant Slalom",
+      "rank": "16",
+      "fis_points": "58.86",
+      "cup_points": ""
+    },
+    {
+      "date": "09-02-2025",
+      "location": "Yabuli Ski Resort",
+      "nation": "",
+      "category": "Asian Winter Games",
+      "discipline": "Slalom",
+      "rank": "DNF2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "04-02-2025",
+      "location": "Yongpyong Resort",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Giant Slalom",
+      "rank": "6",
+      "fis_points": "32.25",
+      "cup_points": "40"
+    },
+    {
+      "date": "03-02-2025",
+      "location": "Yongpyong Resort",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Giant Slalom",
+      "rank": "6",
+      "fis_points": "34.87",
+      "cup_points": "40"
+    },
+    {
+      "date": "01-02-2025",
+      "location": "Alpensia Resort",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Slalom",
+      "rank": "8",
+      "fis_points": "27.27",
+      "cup_points": "32"
+    },
+    {
+      "date": "31-01-2025",
+      "location": "Alpensia Resort",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Slalom",
+      "rank": "2",
+      "fis_points": "26.82",
+      "cup_points": "80"
+    },
+    {
+      "date": "24-01-2025",
+      "location": "Yongpyong Resort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "23-01-2025",
+      "location": "Yongpyong Resort",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "22-01-2025",
+      "location": "Yongpyong Resort",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Giant Slalom",
+      "rank": "6",
+      "fis_points": "37.18",
+      "cup_points": ""
+    },
+    {
+      "date": "31-12-2024",
+      "location": "Alpensia Resort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slalom",
+      "rank": "DNF2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "30-12-2024",
+      "location": "Alpensia Resort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slalom",
+      "rank": "1",
+      "fis_points": "23.30",
+      "cup_points": ""
+    },
+    {
+      "date": "13-12-2024",
+      "location": "Wanlong Ski Resrort",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "12-12-2024",
+      "location": "Wanlong Ski Resrort",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Slalom",
+      "rank": "7",
+      "fis_points": "27.19",
+      "cup_points": "36"
+    },
+    {
+      "date": "11-12-2024",
+      "location": "Wanlong Ski Resort",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Giant Slalom",
+      "rank": "3",
+      "fis_points": "33.24",
+      "cup_points": "60"
+    },
+    {
+      "date": "10-12-2024",
+      "location": "Wanlong Ski Resort",
+      "nation": "",
+      "category": "Far East Cup",
+      "discipline": "Giant Slalom",
+      "rank": "10",
+      "fis_points": "32.93",
+      "cup_points": "26"
+    },
+    {
+      "date": "06-12-2024",
+      "location": "Wanglong Ski Resrort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slalom",
+      "rank": "2",
+      "fis_points": "24.08",
+      "cup_points": ""
+    },
+    {
+      "date": "05-12-2024",
+      "location": "Wanglong Ski Resrort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slalom",
+      "rank": "2",
+      "fis_points": "29.19",
+      "cup_points": ""
+    },
+    {
+      "date": "04-12-2024",
+      "location": "Wanglong Ski Resrort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Giant Slalom",
+      "rank": "3",
+      "fis_points": "30.42",
+      "cup_points": ""
+    },
+    {
+      "date": "03-12-2024",
+      "location": "Wanglong Ski Resrort",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Giant Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "31-08-2024",
+      "location": "Coronet Peak",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Slalom",
+      "rank": "29",
+      "fis_points": "53.73",
+      "cup_points": "2"
+    },
+    {
+      "date": "30-08-2024",
+      "location": "Coronet Peak",
+      "nation": "",
+      "category": "Australian New Zealand Cup",
+      "discipline": "Slalom",
+      "rank": "DNF1",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-08-2024",
+      "location": "Coronet Peak",
+      "nation": "",
+      "category": "National Championships",
+      "discipline": "Slalom",
+      "rank": "DNF2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-08-2024",
+      "location": "Cardrona",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slalom",
+      "rank": "DNF2",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "07-08-2024",
+      "location": "Cardrona",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Slalom",
+      "rank": "3",
+      "fis_points": "31.86",
+      "cup_points": ""
+    },
+    {
+      "date": "06-08-2024",
+      "location": "Cardrona",
+      "nation": "",
+      "category": "FIS",
+      "discipline": "Giant Slalom",
+      "rank": "3",
+      "fis_points": "36.70",
+      "cup_points": ""
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "athlete": "최흥철",
+  "profile_url": "https://www.fis-ski.com/DB/general/athlete-biography.html?sectorcode=JP&competitorid=10064&type=result",
+  "scraped_at": "2026-01-20T07:27:27.454867",
+  "results_count": 50,
+  "results": [
+    {
+      "date": "18-01-2026",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS137",
+      "rank": "65",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "16-01-2026",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS137",
+      "rank": "66",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-01-2026",
+      "location": "Zhangjiakou",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS140",
+      "rank": "29",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-01-2026",
+      "location": "Zhangjiakou",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS140",
+      "rank": "28",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "11-01-2026",
+      "location": "Sapporo Okuraymama",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS137",
+      "rank": "52",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "10-01-2026",
+      "location": "Sapporo Okuraymama",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS137",
+      "rank": "51",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "05-01-2026",
+      "location": "Bischofshofen",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS142",
+      "rank": "DSQ",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "03-01-2026",
+      "location": "Innsbruck",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS128",
+      "rank": "67",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "31-12-2025",
+      "location": "Garmisch-Partenkirchen",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS142",
+      "rank": "66",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "28-12-2025",
+      "location": "Oberstdorf",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS137",
+      "rank": "65",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "21-12-2025",
+      "location": "Engelberg",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS140",
+      "rank": "60",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "19-12-2025",
+      "location": "Engelberg",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS140",
+      "rank": "63",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-12-2025",
+      "location": "Ruka",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS142",
+      "rank": "46",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-12-2025",
+      "location": "Ruka",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS142",
+      "rank": "55",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "07-12-2025",
+      "location": "Kandersteg",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS106",
+      "rank": "59",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "06-12-2025",
+      "location": "Kandersteg",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS106",
+      "rank": "76",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "25-10-2025",
+      "location": "Klingenthal",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS140",
+      "rank": "68",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "19-10-2025",
+      "location": "Hinzenbach",
+      "nation": "",
+      "category": "Grand Prix",
+      "discipline": "Normal Hill HS90",
+      "rank": "46",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-10-2025",
+      "location": "Hinzenbach",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Normal Hill HS90",
+      "rank": "51",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "28-09-2025",
+      "location": "Hinterzarten",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Normal Hill HS109",
+      "rank": "59",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "27-09-2025",
+      "location": "Hinterzarten",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Normal Hill HS109",
+      "rank": "61",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "19-09-2025",
+      "location": "Val Di Fiemme",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS143",
+      "rank": "66",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "18-09-2025",
+      "location": "Val Di Fiemme",
+      "nation": "",
+      "category": "Grand Prix",
+      "discipline": "Normal Hill HS109",
+      "rank": "66",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-09-2025",
+      "location": "Rasnov",
+      "nation": "",
+      "category": "Grand Prix",
+      "discipline": "Normal Hill HS97",
+      "rank": "47",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "13-09-2025",
+      "location": "Rasnov",
+      "nation": "",
+      "category": "Grand Prix",
+      "discipline": "Normal Hill HS97",
+      "rank": "41",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "07-09-2025",
+      "location": "Ljubno ob Savinji",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS94",
+      "rank": "34",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "06-09-2025",
+      "location": "Ljubno ob Savinji",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS94",
+      "rank": "49",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "31-08-2025",
+      "location": "SZCZYRK-SkaliteRK",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS104",
+      "rank": "65",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "30-08-2025",
+      "location": "SZCZYRK-SkaliteRK",
+      "nation": "",
+      "category": "FIS Cup",
+      "discipline": "Normal Hill HS104",
+      "rank": "53",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "16-02-2025",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS137",
+      "rank": "56",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-02-2025",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS137",
+      "rank": "55",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "26-01-2025",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS137",
+      "rank": "30",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "26-01-2025",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS137",
+      "rank": "39",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "25-01-2025",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS137",
+      "rank": "36",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "05-01-2025",
+      "location": "Bischofshofen",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS142",
+      "rank": "62",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "03-01-2025",
+      "location": "Innsbruck",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS128",
+      "rank": "60",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "31-12-2024",
+      "location": "Garmisch-Partenkirchen",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS142",
+      "rank": "63",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "28-12-2024",
+      "location": "Oberstdorf",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS137",
+      "rank": "DSQ",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "22-12-2024",
+      "location": "Engelberg",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS140",
+      "rank": "61",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "20-12-2024",
+      "location": "Engelberg",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS140",
+      "rank": "68",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "15-12-2024",
+      "location": "Titisee-Neustadt",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS142",
+      "rank": "58",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "14-12-2024",
+      "location": "Titisee-Neustadt",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS142",
+      "rank": "58",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "08-12-2024",
+      "location": "Wisla",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS134",
+      "rank": "65",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "06-12-2024",
+      "location": "Wisla",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS134",
+      "rank": "62",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "05-10-2024",
+      "location": "Klingenthal",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS140",
+      "rank": "62",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "29-09-2024",
+      "location": "Hinzenbach",
+      "nation": "",
+      "category": "Grand Prix",
+      "discipline": "Normal Hill HS90",
+      "rank": "47",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "28-09-2024",
+      "location": "Hinzenbach",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Normal Hill HS90",
+      "rank": "52",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "22-09-2024",
+      "location": "Stams",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS115",
+      "rank": "47",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "21-09-2024",
+      "location": "Stams",
+      "nation": "",
+      "category": "Continental Cup",
+      "discipline": "Large Hill HS115",
+      "rank": "47",
+      "fis_points": "",
+      "cup_points": ""
+    },
+    {
+      "date": "22-01-2023",
+      "location": "Sapporo",
+      "nation": "",
+      "category": "Qualification",
+      "discipline": "Large Hill HS137",
+      "rank": "56",
+      "fis_points": "",
+      "cup_points": ""
+    }
+  ]
+}
