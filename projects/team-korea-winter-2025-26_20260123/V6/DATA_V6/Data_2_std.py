@@ -32,9 +32,8 @@ for path in INPUT_FILE_CANDIDATES:
         break
 
 # Determine Output Path
-# Should output to the same place as logical agent expects
-# Agent expects: V6/DATA_V6/team_korea_data.json
-OUTPUT_JSON = os.path.join(BASE_DIR, "team_korea_data.json")
+# STRICT RULE: Latest Data MUST be in DATA_V6_FIX_0205
+OUTPUT_JSON = os.path.join(BASE_DIR, "DATA_V6_FIX_0205", "team_korea_data.json")
 
 print(f"📂 Input: {INPUT_FILE}")
 print(f"📂 Output: {OUTPUT_JSON}")

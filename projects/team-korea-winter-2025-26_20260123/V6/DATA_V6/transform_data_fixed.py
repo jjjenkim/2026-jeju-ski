@@ -142,7 +142,7 @@ def get_current_rank_and_points(athlete_info: dict, fis_points_raw: List[str]) -
     if found: return best_rank, best_points, f"FIS-{best_code}"
     return 0, 0.0, "Unranked"
 
-def transform_fis_to_dashboard():
+def transform_fis_to_dashboard(output_override=None):
     # Load FIS URLs from file
     url_map = {}
     try:
@@ -225,10 +225,15 @@ def transform_fis_to_dashboard():
         }
         athletes.append(athlete_obj)
 
-    out = "V6/DATA_V6/athletes_real_fixed.json"
+    out = output_override if output_override else "V6/DATA_V6/athletes_real_fixed.json"
+    if not output_override and not os.path.exists(os.path.dirname(out)):
+        out = "athletes_real_fixed.json"
+        
     with open(out, "w", encoding="utf-8") as f:
         json.dump(athletes, f, ensure_ascii=False, indent=4)
     print(f"✅ Generated {out}")
 
 if __name__ == "__main__":
-    transform_fis_to_dashboard()
+    import sys
+    out_path = sys.argv[1] if len(sys.argv) > 1 else None
+    transform_fis_to_dashboard(out_path)
