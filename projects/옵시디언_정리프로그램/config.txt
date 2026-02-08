@@ -1,6 +1,0 @@
-# Obsidian Vault Organizer Configuration
-# Simple key=value format
-
-vault_path =/Users/jenkim/Library/Mobile Documents/iCloud~md~obsidian/Documents/Mac book 옵시디언/input
-
-output_path =/Users/jenkim/Library/Mobile Documents/iCloud~md~obsidian/Documents/Mac book 옵시디언/output

@@ -1,4 +1,0 @@
-# Python dependencies for Antigravity Engine
-google-generativeai>=0.3.0
-pandas>=2.0.0
-Pillow>=10.0.0
