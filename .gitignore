@@ -1,6 +1,8 @@
 # General
 .DS_Store
 .npm-cache/
+.npm-cache-local/
+.npm_temp_cache/
 .playwright-mcp/
 .agent/
 .git/
@@ -23,10 +25,15 @@ build/
 .env.*
 !.env.example
 
-# Projects with sub-git repos (ignore the repo status but not the files? 
-# or ignore the whole thing if it's meant to be independent)
-# For now, let's just make sure node_modules are gone everywhere.
-google-cloud-sdk/
+# Secrets & Configs
+gcp-oauth.keys.json
+gcloud_config_local/
+CLAUDE.md
+CLAUDE_KO.md
+
+# Large Binaries
+google-cloud-cli*
 google-cloud-sdk/
 *.tar.gz
-*.tar.gz
+*.zip
+*.7z
