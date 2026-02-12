@@ -56,3 +56,4 @@ google-cloud-sdk/
 
 # One-off local helper scripts
 /convert_md_to_html.py
+.vercel
